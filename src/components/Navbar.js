@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={logo} alt="Logo" />
+        <img src={logo} alt="Logo" className="logo" />
         <h1>Saeturnus</h1>
       </div>
       <div className="navbar-links">
