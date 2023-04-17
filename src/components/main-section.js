@@ -7,6 +7,7 @@ function MainSection() {
     alignItems: "flex-start",
     justifyContent: "center",
     height: "100vh",
+    paddingTop: "100px",
   };
 
   const imageStyle = {
