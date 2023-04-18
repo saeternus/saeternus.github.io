@@ -1,67 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.Topic{
-    background: url('../assets/image\ 7.png') no-repeat;
-    background-size: contain;
-    height: 90px;
-    width: 360px;
-
+.Topic {
+  background: url("../assets/image\ 7.png") no-repeat;
+  background-size: contain;
+  height: 90px;
+  width: 360px;
 }
-.TopicCard{
-    height: 90px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.TopicCard {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.Pic{
-    background: url('../assets/Frame.png') no-repeat;
-    background-size: contain;
-    height: 600px;
-    width: 600px;
-    padding-right: 10%;
+.Pic {
+  background: url("../assets/Frame.png") no-repeat;
+  background-size: contain;
+  height: 600px;
+  width: 600px;
+  padding-right: 10%;
 }
-.PicAndPoints{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    min-height: 800px;
-    width: 100%;
+.PicAndPoints {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 800px;
+  width: 100%;
 }
-.Points{
-    height: 750px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.Points {
+  height: 750px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.subTopic{
-    font-size: larger;
-    font-weight: bold;
+.subTopic {
+  font-size: larger;
+  font-weight: bold;
 }
-.Point{
-    width: 70%;
+.Point {
+  width: 70%;
 }
-.Yellow{
-    color: yellow;
+.Yellow {
+  color: #ffa523;
 }
-.Blue{
-    color: blue;
-    padding-left: 100px;
-    width: 85%;
+.Blue {
+  color: #0070c0;
+  padding-left: 100px;
+  width: 85%;
 }
-.Green{
-    color: green;
-    padding-left: 100px;
-    width: 85%;
+.Green {
+  color: #61cecb;
+  padding-left: 100px;
+  width: 85%;
 }
-.Purple{
-    color: purple;
+.Purple {
+  color: #a353ea;
 }
-.Grey{
-    color: gray;
+.Grey {
+  color: gray;
 }

@@ -31,11 +31,8 @@ function MainSection() {
     <div className="color">
       <div className="main-section" style={sectionStyle}>
         <div className="Content">
-          <p style={textheadStyle}>Main text.</p>
-          <p style={textStyle}>Lörem ipsum intrajira elektrolog och monovis inte bör.
-            Sen mytofas agnostitism autod, odenade bining.
-            Tijälig dekanibost aska då sprita tetraling
-            puling och dorar. Intrahet intraling </p>
+          <p style={textheadStyle}>Innovating for your success.</p>
+          <p style={textStyle}>Your success is our success. We are committed to delivering innovative solutions and exceptional service to help you achieve your goals. Let us help you turn your vision into a reality. </p>
         </div>
         {/* <img src={mainImage} alt="Main" style={imageStyle} /> */}
       </div>
