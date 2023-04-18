@@ -1,0 +1,35 @@
+.main-section {
+  background: url("../assets/main-img.png") no-repeat;
+  background-size: 30cm;
+  background-position-x: 700px;
+  background-position-y: 200px;
+  display: flex;
+  align-items: flex-start;
+  height: 90vh;
+  padding-top: 5%;
+}
+.Content {
+  padding: 100px;
+  width: 50%;
+}
+.color {
+  background-color: #dce6fc;
+  margin-bottom: 1%;
+}
+
+.imageStyle {
+  max-height: 80%;
+  margin-left: 2rem;
+}
+
+.textheadStyle {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.textStyle {
+  font-size: 2rem;
+  font-weight: regular;
+  margin-left: 2rem;
+}
