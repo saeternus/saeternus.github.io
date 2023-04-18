@@ -1,6 +1,7 @@
 import React from "react";
 import * as Components from './components';
 import './App.css';
+import Home from './Home'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Components.Targets/>
       <Components.Why />
       <Components.Contact/>
+      <Components.ContactInfo/>
     </div>
   );
 }

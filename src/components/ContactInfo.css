@@ -1,0 +1,63 @@
+.DetailsBox{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.DetailsCard{
+    height: 300px;
+    width: 80%;
+    background-color: #E0F8FA;
+    border-radius: 20px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: hidden;
+}
+.copyright{
+    font-size: 20px;
+    font-weight: 500;
+}
+.detaillogo{
+    width: 25% ;
+    height: 100%;
+    background-color: #88E1DB;
+}
+.logodet{
+    height: 100%;
+    width: 100%;
+    scale: 0.9;
+    background: url('../assets/logo-placeholder.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.content{
+    width: 75%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.saeturnus{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 10%;
+}
+.textdet{
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.fullwidth{
+    /* width: 100%; */
+}
