@@ -31,13 +31,11 @@ function MainSection() {
     <div className="color">
       <div className="main-section" style={sectionStyle}>
         <div className="Content">
-          <p style={textheadStyle}>Main section text.</p>
+          <p style={textheadStyle}>Main text.</p>
           <p style={textStyle}>Lörem ipsum intrajira elektrolog och monovis inte bör.
             Sen mytofas agnostitism autod, odenade bining.
             Tijälig dekanibost aska då sprita tetraling
-            puling och dorar. Intrahet intraling
-            ditevis att pretism resade ojerade.
-            Tigas bende. </p>
+            puling och dorar. Intrahet intraling </p>
         </div>
         {/* <img src={mainImage} alt="Main" style={imageStyle} /> */}
       </div>

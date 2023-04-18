@@ -15,6 +15,7 @@ function App() {
       </div>
       <Components.Targets/>
       <Components.Why />
+      <Components.Contact/>
     </div>
   );
 }

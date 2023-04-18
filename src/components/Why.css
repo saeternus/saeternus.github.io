@@ -1,17 +1,17 @@
 .WhyTopic{
     font-size: 40px;
     font-weight: bold;
-    margin-left: 10%;
 }
 .Why{
     width: 100%;
-    min-height: 800px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 .Cards{
-    height: 600px;
+    height: 400px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -39,9 +39,9 @@
 }
 .Content{
     padding: 100px;
-    width: 40%;
+    width: 50%;
 }
 .color{
-    background-color: #d9d9d9;
+    background-color: #DCE6FC;
     margin-bottom: 1%;
 }
