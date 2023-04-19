@@ -1,0 +1,46 @@
+.Workcard{
+    width: 80%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+}
+.rtl{
+    flex-direction: row;
+}
+.ltr{
+    flex-direction: row-reverse;
+}
+.imgcard{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.ContentText{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    /* background-color: #DCE6FC; */
+}
+.padd{
+    padding: 10px;
+    margin: 5px 0;
+}
+.workheading{
+    font-size: 32px;
+    font-weight: 500;
+    margin:5px 0;
+}
+.worktext{
+    font-size: 17px;
+    margin: 5px 0;
+}

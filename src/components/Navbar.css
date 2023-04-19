@@ -2,11 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #d9d9d9;
+  background-color: #DCE6FC;
   height: 80px;
-  width: 99%;
+  width: 100%;
   padding: 0% 10px;
   position: fixed;
+  z-index: 10;
 }
 
 .navbar-logo {

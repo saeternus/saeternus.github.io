@@ -1,0 +1,22 @@
+.OurWork{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: 100%;
+    padding-top: 130px;
+}
+.WorkHeading{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.workBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #DCE6FC; */
+    border-radius: 20px;
+}

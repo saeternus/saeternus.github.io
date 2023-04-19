@@ -10,14 +10,14 @@
 @media screen and (max-height: 768px) {
   .navWrapper {
     height: 60px;
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .navWrapper {
     height: 40px;
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 .cards{
