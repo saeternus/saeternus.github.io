@@ -27,3 +27,9 @@
   align-items: center;
   height: 300px;
 }
+.empty{
+  height: 100px;
+}
+html, body, #root, .App {
+  height: 100%;
+}

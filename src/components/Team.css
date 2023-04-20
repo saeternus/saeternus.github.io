@@ -1,0 +1,42 @@
+.TeamBox{
+    width: 100%;
+    min-height: 500px;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.CharContainer{
+    width: 80%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Heros{
+    font-size: 40px;
+    font-weight: 400;
+}
+.Charactercard{
+    height:400px;
+    width: 20%;
+    min-width: 300px,
+}
+.Character{
+    height: 300px;
+    width: 100%;
+    background: url('../assets/character@3x\ 1.png') no-repeat;
+    background-position: center;
+    background-size: 240px;
+}
+.AboutCharacter{
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.Charname{
+    font-size: 30px;
+}

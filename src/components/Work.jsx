@@ -1,5 +1,6 @@
 import './Work.css'
 import React, { useEffect, useState } from 'react'
+import {Link } from "react-router-dom";
 
 function Work(props) {
   const [from,setfrom] = useState('')
@@ -23,7 +24,8 @@ function Work(props) {
       <div className='ContentText' style={{alignItems: from , textAlign:aligntext}}>
         <p className='workheading'>{props.heading}</p>
         <p className='worktext'>{props.text} </p>
-        <div className='submit padd'>Have some work</div>
+        <div className='submit padd'>
+          <Link to='/Contact-Us' className='nostyle'>Have some work</Link> </div>
       </div>
     </div>
   )
