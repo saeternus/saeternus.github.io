@@ -1,9 +1,13 @@
 import React from 'react'
+import './AboutUS.css'
+import * as Components from './components'
 
 function AboutUs() {
   return (
     <div>
-      About Us
+      <Components.AboutUs/>
+      <Components.CEO/>
+      <Components.Team/>
     </div>
   )
 }

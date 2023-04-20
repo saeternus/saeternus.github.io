@@ -30,3 +30,6 @@
 .empty{
   height: 100px;
 }
+html, body, #root, .App {
+  height: 100%;
+}

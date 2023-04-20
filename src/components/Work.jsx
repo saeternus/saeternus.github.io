@@ -25,7 +25,7 @@ function Work(props) {
         <p className='workheading'>{props.heading}</p>
         <p className='worktext'>{props.text} </p>
         <div className='submit padd'>
-          <Link to='/Contact-Us'>Have some work</Link> </div>
+          <Link to='/Contact-Us' className='nostyle'>Have some work</Link> </div>
       </div>
     </div>
   )

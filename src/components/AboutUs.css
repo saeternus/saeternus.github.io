@@ -1,0 +1,28 @@
+.AboutUsbox{
+    width: 100%;
+    height: 85vh;
+    background: url('../assets/team\ @3x\ 1.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 150px;
+    text-align: center;
+}
+.AboutUsheading{
+    font-size: 50px;
+    font-weight: 400;
+    margin: 10px;
+}
+.AboutUsText{
+    font-size: 20px;
+    width: 60%;
+    margin: 10px;
+}
+.blue{
+    background-color: #F6EAFE;
+    height: 85vh;
+    margin-bottom: 40px;
+}

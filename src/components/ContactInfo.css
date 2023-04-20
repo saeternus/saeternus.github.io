@@ -9,7 +9,7 @@
 .DetailsCard{
     height: 300px;
     width: 80%;
-    background-color: #E0F8FA;
+    /* background-color: #F6EAFE; */
     border-radius: 20px;
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     display: flex;
@@ -17,6 +17,7 @@
     /* justify-content: center; */
     align-items: center;
     overflow: hidden;
+    border: 1px solid black;
 }
 .copyright{
     font-size: 20px;
@@ -25,7 +26,7 @@
 .detaillogo{
     width: 25% ;
     height: 100%;
-    background-color: #88E1DB;
+    /* background-color: #BBA4FF; */
     border-radius: 20px;
 }
 .logodet{
