@@ -1,31 +1,12 @@
 .card{
-    height: 100px;
     width: 350px;
-    box-sizing: border-box;
+    height: 350px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: inset;
     display: flex;
-    flex-direction: row;
-    overflow: hidden;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #DCE6FC;
-}
-.circle{
-    height: 100px;
-    width: 100px;
-    /* background-color: aqua; */
-    border-radius: 500px;
-    position: relative;
-    left: -120px;
-    z-index: -1;
-}
-.text{
-    position: relative;
-    left: -105px;
-    /* width: 200px; */
 }
 .heading{
     font-size:x-large;

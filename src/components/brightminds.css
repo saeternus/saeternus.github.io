@@ -1,0 +1,33 @@
+.brightbox{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 5%;
+}
+.brighttext{
+    width: 50%;
+    padding-right: 100px;
+}
+.brighthead{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+}
+.brightcontent{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 38px;
+}
+.brighttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60%;
+}

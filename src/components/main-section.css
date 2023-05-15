@@ -1,16 +1,25 @@
 .main-section {
-  background: url("../assets/main-img.png") no-repeat;
-  background-size: 30cm;
+  /* background: url("../assets/main-img.png") no-repeat; */
+  /* background-size: 30cm;
   background-position-x: 700px;
-  background-position-y: 200px;
+  background-position-y: 200px; */
   display: flex;
   align-items: flex-start;
-  height: 90vh;
+  height: 850px;
   padding-top: 5%;
+  align-items: center;
+}
+.image{
+  width: 60%;
+  height: 100%;
+  display: grid;
+  place-content: center;
 }
 .Content {
-  padding: 100px;
-  width: 50%;
+  width: 40%;
+  padding: 0 50px;
+  display: grid;
+  place-items: center;
 }
 .color {
   background-color: #F6EAFE;

@@ -9,5 +9,7 @@ import Work from './Work'
 import AboutUs from './AboutUs'
 import Team from './Team'
 import CEO from './CEO'
+import Mind from './Brightminds'
+import Solution from "./Solution";
 
-export { Navbar ,Targets,MainSection, Why, Cards, Contact, ContactInfo, Work ,AboutUs, Team, CEO};
+export { Navbar , Mind , Solution, Targets,MainSection, Why, Cards, Contact, ContactInfo, Work ,AboutUs, Team, CEO};
