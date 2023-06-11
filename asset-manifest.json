@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/saeturnus-portfolio/static/css/main.05dd0318.css",
+    "main.js": "/saeturnus-portfolio/static/js/main.0943af44.js",
+    "static/js/787.8be3ca35.chunk.js": "/saeturnus-portfolio/static/js/787.8be3ca35.chunk.js",
+    "static/media/contact@33 1.png": "/saeturnus-portfolio/static/media/contact@33 1.05186fd638306a28298e.png",
+    "static/media/main-img.png": "/saeturnus-portfolio/static/media/main-img.16a2599fc851238205a8.png",
+    "static/media/team @3x 1.png": "/saeturnus-portfolio/static/media/team @3x 1.340c0f5b7ba84d6967a1.png",
+    "static/media/Frame.png": "/saeturnus-portfolio/static/media/Frame.6e5ab29484199a6fc8b7.png",
+    "static/media/backend@3x 1.png": "/saeturnus-portfolio/static/media/backend@3x 1.a21d5e8904e2db5b1e91.png",
+    "static/media/ui ux@3x 1.png": "/saeturnus-portfolio/static/media/ui ux@3x 1.cb0e76cf4a35e45ec460.png",
+    "static/media/Frontend.png": "/saeturnus-portfolio/static/media/Frontend.8320f6d26c3037620847.png",
+    "static/media/APP dev@3x 1.png": "/saeturnus-portfolio/static/media/APP dev@3x 1.dac312d8211a00402ed3.png",
+    "static/media/character@3x 1.png": "/saeturnus-portfolio/static/media/character@3x 1.751bd0e63915a0efdfaa.png",
+    "index.html": "/saeturnus-portfolio/index.html",
+    "main.05dd0318.css.map": "/saeturnus-portfolio/static/css/main.05dd0318.css.map",
+    "main.0943af44.js.map": "/saeturnus-portfolio/static/js/main.0943af44.js.map",
+    "787.8be3ca35.chunk.js.map": "/saeturnus-portfolio/static/js/787.8be3ca35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05dd0318.css",
+    "static/js/main.0943af44.js"
+  ]
+}
