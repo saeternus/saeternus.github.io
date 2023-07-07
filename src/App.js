@@ -7,6 +7,7 @@ import Home from './Home'
 import OurWork from './Our-Work'
 import AboutUs from './AboutUs'
 import ContactUs from './ContactUs'
+import Courses from './Courses'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Our-Work" element={<OurWork />} />
         <Route path="/About-Us" element={<AboutUs />} />
         <Route path="/Contact-Us" element={<ContactUs />} />
+        <Route path="/Courses" element={<Courses />} />
       </Route>
     </Routes>
   </BrowserRouter>

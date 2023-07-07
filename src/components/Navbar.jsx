@@ -8,14 +8,14 @@ function Navbar() {
   return (
     <>
     <nav className="navbar">
-      <div className="navbar-logo">
+      <Link className="navbar-logo" to='/'>
         <img src={logo} alt="Logo" className="logo" />
         <h1>Saeturnus</h1>
-      </div>
+      </Link>
       <div className="navbar-links">
         <ul>
           <li>
-            <Link to='/'>Home</Link>
+            <Link to='/Courses'>Courses</Link>
           </li>
           <div className="navbar-divider"></div>
           <li>
