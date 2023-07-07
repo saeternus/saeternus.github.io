@@ -1,34 +1,62 @@
-import React from 'react'
-import './ContactInfo.css'
+import React from "react";
+import "./ContactInfo.css";
+import { Link } from "react-router-dom";
 
 function ContactInfo() {
   return (
-    <div className='DetailsBox'>
-        <div className='DetailsCard'>
-            <div className='Details'></div>
-            <div className='content'>
-                <p className='saeturnus'>Saeternus Innovations</p>
-                <div className='flex'>
-                <div className='fullwidth'>
-                  <p className='textdet'>Adress : - IIT bhilai Sejbhar Campus</p>
-                  <p className='textdet'>
-                    Mobile : - 1010101010
-                  </p>
-                </div>
-                <div className='fullwidth'>
-                  <p className='textdet'>Email : - abcdefgh@gmail.com</p>
-                  <p className='textdet'>Website : - www.saeternus.com</p>
-                </div>
-                </div>
-            </div>
-            <div className='detaillogo'>
-                <div className='logodet'></div>
-            </div>
-
+    <>
+      <div className="footer">
+        <div className="footerbox">
+          <div className="footerlogo"></div>
+          <div className="footeraddress">
+            <h2>Registered Office Address</h2>
+            <p className="addresscontent">
+              Head Office :- B-201, IBITF Office, IIT Bhilai GEC Campus,
+              Sejbahar, Chhattisgarh 492015
+            </p>
+            <p>Contact No. :- +91 80049 16849</p>
+            <p>Contact Email :- hello@saeternus.com</p>
+          </div>
+          <div className="footerlist">
+            <h2>Quick Links</h2>
+            <ul className="footeritems">
+              <Link to="/" className="links">
+                Home
+              </Link>
+            </ul>
+            <ul className="footeritems product">
+              <Link to="/Our-Work" className="links">
+                Our Work
+              </Link>
+            </ul>
+            <ul className="footeritems">
+              <Link to="/About-Us" className="links">
+                About Us
+              </Link>
+            </ul>
+            <ul className="footeritems">
+              <Link to="/Contact-Us" className="links">
+                Contact-Us
+              </Link>
+            </ul>
+            <ul className="footeritems login">
+              <Link to="/Courses" className="links">
+                Courses
+              </Link>
+            </ul>
+          </div>
         </div>
-      <p className='copyright'>Copyright @ 2003 Lorem Ipsum</p>
-    </div>
-  )
+        <div className="footerbottom">
+          <div className="footerbottomleft">
+            <p>© 2023 All rights reserved</p>
+          </div>
+          <div className="footerbottomright">
+            <p>Privacy Policy | Terms of Service</p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default ContactInfo
+export default ContactInfo;
