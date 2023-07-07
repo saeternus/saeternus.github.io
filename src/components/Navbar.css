@@ -43,6 +43,11 @@ h1 {
   text-decoration: none;
 }
 
+.navbar a {
+  color: #333;
+  text-decoration: none;
+}
+
 .navbar-divider {
   height: 20px;
   border-left: 1px solid black;

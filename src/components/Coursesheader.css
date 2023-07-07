@@ -1,0 +1,122 @@
+.headerbox{
+    height: fit-content;
+    max-height: 650px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 130px 0;
+}
+.darkblue{
+    background-color: #111B38;
+}
+.headerimage img{
+    width: 100%;
+    object-fit: contain;
+}
+.headertext{
+    height: fit-content;
+    width: 35%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: url('../assets/dots.png') no-repeat;
+    padding: 20px;
+}
+.courseheading{
+    color: var(--neutral-light-white, #FFF);
+font-family: Noto Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+padding: 10px;
+}
+.coursedes{
+    color: var(--grey-shade-05, #E0E0E0);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%;
+letter-spacing: 0.16px;
+padding: 10px;
+}
+.coursepublish{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFF;
+    gap: 8px;
+}
+.circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+.name{
+    font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%;
+letter-spacing: 0.14px;
+text-decoration-line: underline;
+}
+.registerbutton{
+    margin: 10px;
+    height: 50px;
+    background-color: #FF469F;
+    max-width: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0.17px;
+}
+.feturesbox{
+    height: 200px;
+    background-color: #F2EFF2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.coursefeature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+}
+.featurenumber{
+    color: var(--secondary-yellow, #FF8E1C);
+text-align: center;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+}
+.featuretext{
+    color: var(--grey-shade-01, #4B444D);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%;
+letter-spacing: 0.16px;
+}
+.eighty{
+    width: 80%;
+}

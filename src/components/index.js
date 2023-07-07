@@ -11,5 +11,8 @@ import Team from './Team'
 import CEO from './CEO'
 import Mind from './Brightminds'
 import Solution from "./Solution";
+import Coursesheader from "./Coursesheader";
+import Aboutcourse from "./Aboutcourse";
+import Courseplan from "./Courseplan";
 
-export { Navbar , Mind , Solution, Targets,MainSection, Why, Cards, Contact, ContactInfo, Work ,AboutUs, Team, CEO};
+export { Navbar , Mind,Courseplan , Aboutcourse,Coursesheader, Solution, Targets,MainSection, Why, Cards, Contact, ContactInfo, Work ,AboutUs, Team, CEO};

@@ -1,0 +1,131 @@
+.Courseplanbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.courseplanbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.courseplanboxheading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.courseplanheading {
+    font-family: Noto Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    padding: 35px 0;
+}
+
+.coursedistribution {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    color: grey;
+}
+
+.grey {
+    background-color: gray;
+}
+
+.distributionpoints {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dayplans {
+    padding: 40px 0;
+    color: grey;
+}
+
+.dayplan {
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    border: solid 1px #E0E0E0;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.dayplanbox {
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+
+.daycount {
+    width: 15%;
+    min-width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.16px;
+    color: var(--grey-shade-02, #615A63);
+}
+
+.duration {
+    width: 20%;
+    min-width: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.14px;
+}
+
+.topicname {
+    width: -webkit-fill-available;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.16px;
+    color: var(--grey-shade-02, #615A63);
+}
+
+.sign{
+    cursor: pointer;
+}
+
+.daydescription{
+    padding: 40px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.14px;
+    background-color: #F2EFF2;
+    transition: 0.5s;
+}
+
+.nonedisplay{
+    display: none;
+}

@@ -1,0 +1,119 @@
+.aboutcoursebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    padding: 20px;
+}
+
+.Aboutcoursebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.abouthead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.line {
+    height: 3px;
+    width: 60px;
+    background-color: #FF469F;
+}
+
+.aboutcoursetextarea {
+    width: 55%;
+    min-width: 400px;
+    gap: 10px;
+}
+
+.featurestable {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.abouttext {
+    color: #FF469F;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 0.16px;
+}
+
+.featureimg img{
+    height: 60px;
+    width: 60px;
+}
+
+.featuretextbox{
+}
+
+.featurepoint{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin: 20px;
+}
+
+.aboutheaing {
+    font-family: Noto Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.detailshead {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 0.2px;
+    color: #615A63;
+    padding: 20px 0;
+}
+
+.detailstext {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.16px;
+}
+
+.dark {
+    background-color: #615A63;
+    height: 8px;
+    width: 8px;
+}
+
+.detailpoint {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    gap: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.16px;
+}
