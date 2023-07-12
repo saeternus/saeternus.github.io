@@ -1,6 +1,5 @@
 import React from "react";
 import "./Coursesheader.css";
-import Course from "../assets/image.png";
 import Check from "../assets/check.png";
 
 function Coursesheader() {
@@ -30,7 +29,7 @@ function Coursesheader() {
             </div>
           </div>
           <div className="link">
-            <a href="https://forms.gle/kMVo8W5eGjoZ1q5A9">
+            <a href="https://forms.gle/kMVo8W5eGjoZ1q5A9" target="_blank">
               <div className="registerbutton">Register Now</div>
             </a>
           </div>
@@ -41,15 +40,15 @@ function Coursesheader() {
           <div className="feturesbox">
             <div className="coursefeature">
               <div className="featurenumber">6 Weeks</div>
-              <div className="featuretext">Length of Course</div>
+              <div className="featuretext">Course Duration</div>
             </div>
             <div className="coursefeature">
-              <div className="featurenumber">18+</div>
-              <div className="featuretext">Total Assignment</div>
+              <div className="featurenumber">18</div>
+              <div className="featuretext">Live Lectures</div>
             </div>
             <div className="coursefeature">
-              <div className="featurenumber">20+</div>
-              <div className="featuretext">Video Lessons</div>
+              <div className="featurenumber">6+</div>
+              <div className="featuretext">Hands-on Assignments</div>
             </div>
           </div>
         </div>
