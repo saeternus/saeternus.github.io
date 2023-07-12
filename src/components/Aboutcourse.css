@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     height: fit-content;
+    flex-wrap: wrap;
     padding: 20px;
 }
 
@@ -30,7 +31,7 @@
 
 .aboutcoursetextarea {
     width: 55%;
-    min-width: 400px;
+    min-width: 280px;
     gap: 10px;
 }
 
@@ -40,6 +41,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-width: 280px;
 }
 
 .abouttext {
@@ -64,7 +66,8 @@
     flex-direction: row;
     align-items: center;
     gap: 40px;
-    margin: 20px;
+    margin: 20px 0 ; 
+    max-width: 280px;
 }
 
 .aboutheaing {
@@ -101,6 +104,10 @@
     width: 8px;
 }
 
+.pointtext{
+    width: fit-content;
+}
+
 .detailpoint {
     display: flex;
     flex-direction: row;
@@ -113,4 +120,31 @@
     font-weight: 400;
     line-height: 160%;
     letter-spacing: 0.16px;
+}
+
+@media only screen and (max-width: 500px) {
+    .featurestable{
+        width: 100%;
+    }
+    .aboutcoursebox{
+        padding: 0;
+    }
+    .aboutheaing{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .aboutcoursebox{
+        flex-direction: column;
+    }
+    .aboutcoursetextarea{
+        width: 100%;
+    }
+    .featurestable{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 }
