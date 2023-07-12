@@ -1,30 +1,33 @@
 import React from "react";
-import "./ContactInfo.css";
+import "./Footer.css";
 import { Link } from "react-router-dom";
 
-function ContactInfo() {
+function Footer() {
   return (
     <>
       <div className="footer">
         <div className="footerbox">
-          <div className="footerlogo"></div>
           <div className="footeraddress">
-            <h2>Registered Office Address</h2>
+            <h2>Office Address</h2>
             <p className="addresscontent">
-              Head Office :- B-201, IBITF Office, IIT Bhilai GEC Campus,
-              Sejbahar, Chhattisgarh 492015
+              B-201, IBITF Office, IIT Bhilai GEC Campus, Sejbahar,
+              <br />
+              Raipur, Chhattisgarh 492015
+              <br />
+              <br />
+              Contact :- +91 80049 16849
+              <br />
+              Email :- hello@saeternus.com
             </p>
-            <p>Contact No. :- +91 80049 16849</p>
-            <p>Contact Email :- hello@saeternus.com</p>
           </div>
           <div className="footerlist">
-            <h2>Quick Links</h2>
+            <h2 className="linkshead">Quick Links</h2>
             <ul className="footeritems">
               <Link to="/" className="links">
                 Home
               </Link>
             </ul>
-            <ul className="footeritems product">
+            <ul className="footeritems">
               <Link to="/Our-Work" className="links">
                 Our Work
               </Link>
@@ -36,10 +39,10 @@ function ContactInfo() {
             </ul>
             <ul className="footeritems">
               <Link to="/Contact-Us" className="links">
-                Contact-Us
+                Contact Us
               </Link>
             </ul>
-            <ul className="footeritems login">
+            <ul className="footeritems">
               <Link to="/Courses" className="links">
                 Courses
               </Link>
@@ -59,4 +62,4 @@ function ContactInfo() {
   );
 }
 
-export default ContactInfo;
+export default Footer;

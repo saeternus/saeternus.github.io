@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../assets/logo.png";
-import ContactInfo from "./ContactInfo";
+import Footer from "./Footer";
 
 function Navbar() {
   return (
@@ -33,7 +33,7 @@ function Navbar() {
       </div>
     </nav>
     <Outlet/>
-    <ContactInfo/>
+    <Footer/>
     </>
   );
 }
