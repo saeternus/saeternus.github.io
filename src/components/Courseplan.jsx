@@ -204,6 +204,7 @@ function Courseplan() {
           <div className="duration time">{e.value.duration}</div>
         </div>
         <div className={`daydescription ${toggle ? "" : "nonedisplay"}`}>
+          <h3>{e.value.Chapter}</h3>
           {e.value.Chapterdes}
         </div>
       </div>
