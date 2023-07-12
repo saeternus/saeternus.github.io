@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../assets/logo-placeholder.png";
+import logo from "../assets/logo.png";
 import ContactInfo from "./ContactInfo";
 
 function Navbar() {
@@ -10,7 +10,7 @@ function Navbar() {
     <nav className="navbar">
       <Link className="navbar-logo" to='/'>
         <img src={logo} alt="Logo" className="logo" />
-        <h1>Saeturnus</h1>
+        <h1>Saeternus</h1>
       </Link>
       <div className="navbar-links">
         <ul>

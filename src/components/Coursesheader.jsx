@@ -12,17 +12,19 @@ function Coursesheader() {
             Certificate Course in Geographical Information System (GIS)
           </div>
           <div className="coursedes">
-            New emerging technologies like GIS and Remote Sensing helps in
-            solving complex man made world issues and touching all aspect of
-            life. The role of a Geospatial expert is becoming more and more
-            important in the decision making process. Practical knowledge is
-            very crucial in order to understand the concept deeply to explore
-            the innovative use of the technology and its application areas.
+            Emerging technologies such as GIS (Geographic Information System)
+            and RS (Remote Sensing) are instrumental in addressing intricate
+            global challenges and impacting various aspects of life. In this
+            context, the role of a Geospatial expert is gaining significance in
+            the decision-making process. Acquiring practical knowledge is
+            essential to comprehensively grasp the underlying concepts and
+            unlock the potential for innovative applications of these
+            technologies across diverse domains.
           </div>
           <div className="coursepublish">
             <div className="circle"></div>
-            <div>Published By </div>
-            <div className="name">Joe Natoli</div>
+            <div>Course starts from</div>
+            <div className="name">August 7, 2023</div>
             <div className="checkicon">
               <img src={Check} alt="" />
             </div>
