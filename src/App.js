@@ -6,6 +6,7 @@ import Home from './Home'
 import Services from './Services'
 import ContactUs from './ContactUs'
 import Courses from './Courses'
+import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
