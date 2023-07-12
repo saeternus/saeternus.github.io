@@ -9,9 +9,9 @@ function Home() {
     <>
       <Components.MainSection />
       <div className="cards">
-        <Components.Cards heading='24x7 Support' text='hello world' background={background3}/>
-        <Components.Cards heading='Daily Reports' text='hello world' background={background2} color='white'/>
-        <Components.Cards heading='Daily Reports' text='hello world' background={background1}/>
+        <Components.Cards heading='24x7 Support' background={background3}/>
+        <Components.Cards heading='Custom Solution' background={background2} color='white'/>
+        <Components.Cards heading='High Customer Engagement' background={background1}/>
       </div>
       <Components.Mind/>
       <Components.Solution/>
