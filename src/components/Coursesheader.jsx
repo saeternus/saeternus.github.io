@@ -28,13 +28,32 @@ function Coursesheader() {
               <img src={Check} alt="" />
             </div>
           </div>
-          <div className="link">
-            <a href="https://forms.gle/kMVo8W5eGjoZ1q5A9" target="_blank">
-              <div className="registerbutton">Register Now</div>
-            </a>
+          <div className="coursepublish">
+            <div className="circle"></div>
+            <div>For more info contact</div>
+            <div className="number">9450906849</div>
+            <div className="checkicon">
+              <img src={Check} alt="" />
+            </div>
+          </div>
+          <div className="courseregister">
+            <div className="link">
+              <a href="https://forms.gle/kMVo8W5eGjoZ1q5A9" target="_blank">
+                <div className="registerbutton">Register Now</div>
+              </a>
+            </div>
+            <div className="pricedetails">
+              <div className="amt">
+                <div className="price">₹2,950</div>
+                <div className="mrp">₹5,900</div>
+                <div className="discount">50% off</div>
+              </div>
+              <div className="tax">Inclusive of all GST</div>
+            </div>
           </div>
         </div>
       </div>
+      <div className="empty darkblue" style={{ height: "30px" }}></div>
       <div className="feturesbox">
         <div className="eighty">
           <div className="feturesbox">

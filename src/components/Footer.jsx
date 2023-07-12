@@ -33,17 +33,12 @@ function Footer() {
               </Link>
             </ul>
             <ul className="footeritems">
-              <Link to="/about-us" className="links">
-                About Us
-              </Link>
-            </ul>
-            <ul className="footeritems">
               <Link to="/contact-us" className="links">
                 Contact Us
               </Link>
             </ul>
             <ul className="footeritems">
-              <Link to="/courses" className="links">
+              <Link to="/courses/gis" className="links">
                 Courses
               </Link>
             </ul>
