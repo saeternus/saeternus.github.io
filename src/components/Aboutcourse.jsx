@@ -9,10 +9,11 @@ import Support from "../assets/subtitles.png";
 function Aboutcourse() {
   const data = {
     details: [
-      "Geo Informatics - science and technology: Geographic Information Systems (GIS), Earth Observation (EO), relation to ‘System Earth’ and the user",
-      "Application of Geo Informatics: This module deals with the principal, designing, acquisition, processing, analyzing of the different technologies.",
-      "GIS (Geographical Information System): Traditional technology",
-      "Project work: Hands on experiences (Latest tools, techniques, Software's) from application area you can choose from.",
+      "Digitization of maps and different themes for present day landform evaluation.",
+      "Calculation of the area, perimeter and other domains for estimation of different layers for integration and decision making capacity.",
+      "Auto Generation of hydrological parameters for water related processes.",
+      "Use of various statistical methods in GIS for spatial and vector data.",
+      "Application of GIS in various disciplines of geography, geology, social sciences, civil works, etc.",
     ],
   };
   const feature = {
@@ -83,8 +84,12 @@ function Aboutcourse() {
             </div>
             <div className="detailshead">Details:</div>
             <div className="detailstext">
-              This course will teach you everything you need to know about GIS,
-              including the following key concepts:
+              The course is uniquely designed by top technical experts to
+              ensure the meaningful skill development which enables the
+              candidates to gain insight about technology and make them ready to
+              start/accelerate their carrier immediately after completing this
+              course. The objective of the course is to develop an understanding
+              and competence in, Geo spatial technology as-
             </div>
             <div className="detailpoints">
               {data.details.map((e) => {
