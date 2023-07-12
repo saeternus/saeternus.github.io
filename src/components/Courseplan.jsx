@@ -199,9 +199,9 @@ function Courseplan() {
           </div>
           <div className="daycount">{e.value.daycount}</div>
           <div className="topicname">{e.value.Chapter} </div>
-          <div className="duration">{e.value.date}</div>
-          <div className="duration">{e.value.day}</div>
-          <div className="duration">{e.value.duration}</div>
+          <div className="duration date">{e.value.date}</div>
+          <div className="duration day">{e.value.day}</div>
+          <div className="duration time">{e.value.duration}</div>
         </div>
         <div className={`daydescription ${toggle ? "" : "nonedisplay"}`}>
           {e.value.Chapterdes}
