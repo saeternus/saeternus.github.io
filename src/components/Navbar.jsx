@@ -22,11 +22,6 @@ function Navbar() {
             <Link to='services'>Services</Link>
           {/* <a href="#">What we do</a> */}
           </li>
-          <div className="navbar-divider"></div>
-          <li>
-            <Link to = 'About-Us'>About Us</Link>
-            {/* <a href="#">Who we are</a> */}
-          </li>
         </ul>
 
         <Link to='Contact-Us' className="navbar-button">Contact</Link>
