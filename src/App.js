@@ -6,10 +6,11 @@ import Home from './Home'
 import Services from './Services'
 import ContactUs from './ContactUs'
 import Courses from './Courses'
+import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path="/" element={<Components.Navbar />}>
         <Route index element={<Home />} />
@@ -18,7 +19,7 @@ function App() {
         <Route path="/courses/gis" element={<Courses />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
   );
 }
 

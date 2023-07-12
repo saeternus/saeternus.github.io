@@ -1,0 +1,28 @@
+.timer{
+    display: flex;
+    flex-direction: row;
+}
+.timercomp{
+    display: flex;
+    flex-direction: row;
+    color: var(--secondary-yellow, #ff8e1c);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 15px;
+}
+.timelefttext{
+    font-size: 45px;
+    color: white;
+    text-align: center;color: var(--secondary-yellow, #ff8e1c);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    padding: 15px;
+}
