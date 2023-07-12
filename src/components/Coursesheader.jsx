@@ -1,6 +1,5 @@
 import React from "react";
 import "./Coursesheader.css";
-import Course from "../assets/image.png";
 import Check from "../assets/check.png";
 
 function Coursesheader() {
@@ -30,7 +29,7 @@ function Coursesheader() {
             </div>
           </div>
           <div className="link">
-            <a href="https://forms.gle/kMVo8W5eGjoZ1q5A9">
+            <a href="https://forms.gle/kMVo8W5eGjoZ1q5A9" target="_blank">
               <div className="registerbutton">Register Now</div>
             </a>
           </div>

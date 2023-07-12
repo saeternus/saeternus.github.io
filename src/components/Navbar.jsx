@@ -15,21 +15,21 @@ function Navbar() {
       <div className="navbar-links">
         <ul>
           <li>
-            <Link to='/Courses'>Courses</Link>
+            <Link to='/courses/gis'>Courses</Link>
           </li>
           <div className="navbar-divider"></div>
           <li>
-            <Link to='Our-Work'>What we do</Link>
+            <Link to='services'>Services</Link>
           {/* <a href="#">What we do</a> */}
           </li>
           <div className="navbar-divider"></div>
           <li>
-            <Link to = 'About-Us'>Who we are</Link>
+            <Link to = 'About-Us'>About Us</Link>
             {/* <a href="#">Who we are</a> */}
           </li>
         </ul>
 
-        <Link to='Contact-Us' className="navbar-button">Lets Talk</Link>
+        <Link to='Contact-Us' className="navbar-button">Contact</Link>
       </div>
     </nav>
     <Outlet/>
