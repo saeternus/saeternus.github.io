@@ -11,7 +11,7 @@ function Home() {
       <div className="cards">
         <Components.Cards heading='24x7 Support' background={background3}/>
         <Components.Cards heading='Custom Solution' background={background2} color='white'/>
-        <Components.Cards heading='High Customer Engagement' background={background1}/>
+        <Components.Cards heading='Reliability' background={background1}/>
       </div>
       <Components.Mind/>
       <Components.Solution/>
