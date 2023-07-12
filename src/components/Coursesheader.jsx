@@ -40,15 +40,15 @@ function Coursesheader() {
           <div className="feturesbox">
             <div className="coursefeature">
               <div className="featurenumber">6 Weeks</div>
-              <div className="featuretext">Length of Course</div>
+              <div className="featuretext">Course Duration</div>
             </div>
             <div className="coursefeature">
-              <div className="featurenumber">18+</div>
-              <div className="featuretext">Total Assignment</div>
+              <div className="featurenumber">18</div>
+              <div className="featuretext">Live Lectures</div>
             </div>
             <div className="coursefeature">
-              <div className="featurenumber">20+</div>
-              <div className="featuretext">Video Lessons</div>
+              <div className="featurenumber">6+</div>
+              <div className="featuretext">Hands-on Assignments</div>
             </div>
           </div>
         </div>
