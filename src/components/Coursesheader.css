@@ -133,6 +133,7 @@
 
 .courseregister {
   display: flex;
+  flex-direction: column-reverse;
 }
 
 .amt {
