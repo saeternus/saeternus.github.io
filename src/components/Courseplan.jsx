@@ -38,8 +38,7 @@ function Courseplan() {
       duration: "1 hours 30 minutes",
       date: "14/8/2023",
       day: "Monday",
-      Chapterdes:
-        "Data Types; Spatial Data; Non-Spatial Data, Data Input.",
+      Chapterdes: "Data Types; Spatial Data; Non-Spatial Data, Data Input.",
     },
     {
       daycount: "Day 5",
@@ -60,113 +59,108 @@ function Courseplan() {
         "Data Models; Vector Data Model; Raster Data Model; Integration and Comparison of Vector and Raster Data Models.",
     },
     {
-        daycount: "Day 7",
-        Chapter: "Spatial Data Editing",
-        duration: "1 hours 30 minutes",
-        date: "21/8/2023",
-        day: "Monday",
-        Chapterdes:
-          "Types of Digitizing Errors, Causes for Digitizing Errors.",
-      },
-      {
-        daycount: "Day 8",
-        Chapter: "Topological Editing and Non-topological Editing",
-        duration: "1 hours 30 minutes",
-        date: "23/8/2023",
-        day: "Wednesday",
-        Chapterdes:
-          "Topological Editing and Non-topological Editing.",
-      },
-      {
-        daycount: "Day 9",
-        Chapter: "Other Editing Operations",
-        duration: "1 hours 30 minutes",
-        date: "25/8/2023",
-        day: "Friday",
-        Chapterdes:
-          "Editing Using Topological Rules.",
-      },
-      {
-        daycount: "Day 10",
-        Chapter: "Attribute Data and Data Exploration",
-        duration: "1 hours 30 minutes",
-        date: "28/8/2023",
-        day: "Monday",
-        Chapterdes:
-          "Attribute Data in GIS, Attribute Data Entry, Manipulation of Fields and Attribute Data.",
-      },
-      {
-        daycount: "Day 11",
-        Chapter: "DataExploration",
-        duration: "1 hours 30 minutes",
-        date: "30/8/2023",
-        day: "Wednesday",
-        Chapterdes:
-          "Attribute Data Query, Raster Data Query.",
-      },
-      {
-        daycount: "Day 12",
-        Chapter: "Map- Based Data Interpretation",
-        duration: "1 hours 30 minutes",
-        date: "1/9/2023",
-        day: "Friday",
-        Chapterdes:
-          "Map- Based Data Interpretation.",
-      },
-      {
-        daycount: "Day 13",
-        Chapter: "Spatial Analysis",
-        duration: "1 hours 30 minutes",
-        date: "4/9/2023",
-        day: "Monday",
-        Chapterdes:
-          "Spatial Data: Definition, Analysis, Processes &amp; Steps, Software and Tools, Geodatabase Model, Role of Databases in GIS, Creating, Editing and Managing.",
-      },
-      {
-        daycount: "Day 14",
-        Chapter: "Classification scheme of GIS Operations",
-        duration: "1 hours 30 minutes",
-        date: "6/9/2023",
-        day: "Wednesday",
-        Chapterdes:
-          "Classification scheme of Vector-Based and Raster-Based GIS Operation Raster-Based Techniques: Methods of reclassification, overlay analysis.",
-      },
-      {
-        daycount: "Day 15",
-        Chapter: "Digital Terrain Analysis and Modelling",
-        duration: "1 hours 30 minutes",
-        date: "8/9/2023",
-        day: "Friday",
-        Chapterdes:
-          "TIN and DEM, Surface representation and analysis, Slope and Aspect, Geographic Visualization Data Classification, Map Comparison.",
-      },
-      {
-        daycount: "Day 16",
-        Chapter: "Geo Statistical Analysis Techniques",
-        duration: "1 hours 30 minutes",
-        date: "11/9/2023",
-        day: "Monday",
-        Chapterdes:
-          "Introduction to Spatial Interpolation: Control Points, Global Method- Trend surface analysis, regression model",
-      },
-      {
-        daycount: "Day 17",
-        Chapter: "Local methods using 3D Analyst",
-        duration: "1 hours 30 minutes",
-        date: "13/9/2023",
-        day: "Wednesday",
-        Chapterdes:
-          "Inverse Distance weighted Interpolation, Kriging- Ordinary Kriging and Universal Kriging, GIS and decision support system.",
-      },
-      {
-        daycount: "Day 18",
-        Chapter: "Introduction to Analytical Hierarchy Process (AHP)",
-        duration: "1 hours 30 minutes",
-        date: "15/9/2023",
-        day: "Friday",
-        Chapterdes:
-          "Introduction to Analytical Hierarchy Process (AHP), basic principal of AHP. Principal and components of multiple criteria decisionmaking.",
-      },
+      daycount: "Day 7",
+      Chapter: "Spatial Data Editing",
+      duration: "1 hours 30 minutes",
+      date: "21/8/2023",
+      day: "Monday",
+      Chapterdes: "Types of Digitizing Errors, Causes for Digitizing Errors.",
+    },
+    {
+      daycount: "Day 8",
+      Chapter: "Topological Editing and Non-topological Editing",
+      duration: "1 hours 30 minutes",
+      date: "23/8/2023",
+      day: "Wednesday",
+      Chapterdes: "Topological Editing and Non-topological Editing.",
+    },
+    {
+      daycount: "Day 9",
+      Chapter: "Other Editing Operations",
+      duration: "1 hours 30 minutes",
+      date: "25/8/2023",
+      day: "Friday",
+      Chapterdes: "Editing Using Topological Rules.",
+    },
+    {
+      daycount: "Day 10",
+      Chapter: "Attribute Data and Data Exploration",
+      duration: "1 hours 30 minutes",
+      date: "28/8/2023",
+      day: "Monday",
+      Chapterdes:
+        "Attribute Data in GIS, Attribute Data Entry, Manipulation of Fields and Attribute Data.",
+    },
+    {
+      daycount: "Day 11",
+      Chapter: "DataExploration",
+      duration: "1 hours 30 minutes",
+      date: "30/8/2023",
+      day: "Wednesday",
+      Chapterdes: "Attribute Data Query, Raster Data Query.",
+    },
+    {
+      daycount: "Day 12",
+      Chapter: "Map- Based Data Interpretation",
+      duration: "1 hours 30 minutes",
+      date: "1/9/2023",
+      day: "Friday",
+      Chapterdes: "Map- Based Data Interpretation.",
+    },
+    {
+      daycount: "Day 13",
+      Chapter: "Spatial Analysis",
+      duration: "1 hours 30 minutes",
+      date: "4/9/2023",
+      day: "Monday",
+      Chapterdes:
+        "Spatial Data: Definition, Analysis, Processes &amp; Steps, Software and Tools, Geodatabase Model, Role of Databases in GIS, Creating, Editing and Managing.",
+    },
+    {
+      daycount: "Day 14",
+      Chapter: "Classification scheme of GIS Operations",
+      duration: "1 hours 30 minutes",
+      date: "6/9/2023",
+      day: "Wednesday",
+      Chapterdes:
+        "Classification scheme of Vector-Based and Raster-Based GIS Operation Raster-Based Techniques: Methods of reclassification, overlay analysis.",
+    },
+    {
+      daycount: "Day 15",
+      Chapter: "Digital Terrain Analysis and Modelling",
+      duration: "1 hours 30 minutes",
+      date: "8/9/2023",
+      day: "Friday",
+      Chapterdes:
+        "TIN and DEM, Surface representation and analysis, Slope and Aspect, Geographic Visualization Data Classification, Map Comparison.",
+    },
+    {
+      daycount: "Day 16",
+      Chapter: "Geo Statistical Analysis Techniques",
+      duration: "1 hours 30 minutes",
+      date: "11/9/2023",
+      day: "Monday",
+      Chapterdes:
+        "Introduction to Spatial Interpolation: Control Points, Global Method- Trend surface analysis, regression model",
+    },
+    {
+      daycount: "Day 17",
+      Chapter: "Local methods using 3D Analyst",
+      duration: "1 hours 30 minutes",
+      date: "13/9/2023",
+      day: "Wednesday",
+      Chapterdes:
+        "Inverse Distance weighted Interpolation, Kriging- Ordinary Kriging and Universal Kriging, GIS and decision support system.",
+    },
+    {
+      daycount: "Day 18",
+      Chapter: "Introduction to Analytical Hierarchy Process (AHP)",
+      duration: "1 hours 30 minutes",
+      date: "15/9/2023",
+      day: "Friday",
+      Chapterdes:
+        "Introduction to Analytical Hierarchy Process (AHP), basic principal of AHP. Principal and components of multiple criteria decisionmaking.",
+    },
   ];
 
   function Dayplan(e) {
@@ -238,6 +232,26 @@ function Courseplan() {
             <div className="distributionpoints">
               <div className="grey circle"></div>
               <div className="distributionpoint">Hands-on Projects</div>
+            </div>
+            <div
+              className="distributionpoints"
+              style={{
+                backgroundColor: "silver",
+                borderRadius: "5px",
+                paddingLeft: "5px",
+                paddingRight: "5px",
+              }}
+            >
+              <div
+                className="circle"
+                style={{ backgroundColor: "dimgray" }}
+              ></div>
+              <div
+                className="distributionpoint"
+                style={{ fontWeight: "bold", color: "dimgray" }}
+              >
+                Lecture timings will be decided on mutual consensus
+              </div>
             </div>
           </div>
           <div className="dayplans">
