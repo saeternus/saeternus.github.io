@@ -26,3 +26,11 @@
     line-height: 140%;
     padding: 15px;
 }
+@media only screen and (max-width: 800px) {
+    .timercomp{
+        font-size: 30px;
+    }
+    .timelefttext{
+        font-size: 30px;
+    }
+}
