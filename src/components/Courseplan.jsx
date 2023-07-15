@@ -175,8 +175,8 @@ function Courseplan() {
     }
     return (
       <div className="dayplanbox">
-        <div className="dayplan">
-          <div className="sign" onClick={toggleswitch}>
+        <div className="dayplan" onClick={toggleswitch}>
+          <div className="sign">
             {toggle ? (
               <>
                 <div>
