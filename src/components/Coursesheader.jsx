@@ -1,7 +1,6 @@
 import React from "react";
 import "./Coursesheader.css";
 import Check from "../assets/check.png";
-import Timer from "./Timer";
 
 function Coursesheader() {
   return (
@@ -53,7 +52,6 @@ function Coursesheader() {
             </div>
           </div>
         </div>
-        <Timer/>
       </div>
       <div className="empty darkblue" style={{ height: "30px" }}></div>
       <div className="feturesbox">

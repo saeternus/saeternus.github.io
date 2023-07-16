@@ -1,24 +1,31 @@
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
-import * as Components from './components';
-import './App.css';
-import Home from './Home'
-import Services from './Services'
-import ContactUs from './ContactUs'
-import Courses from './Courses'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import * as Components from "./components";
+import "./App.css";
+import Home from "./Home";
+import Services from "./Services";
+import ContactUs from "./ContactUs";
+import Courses from "./Courses";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
-    <HashRouter>
-    <Routes>
-      <Route path="/" element={<Components.Navbar />}>
-        <Route index element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/courses/gis" element={<Courses />} />
-      </Route>
-    </Routes>
-  </HashRouter>
+    <div className="App">
+      <Helmet>
+        <title>Saeternus</title>
+        <meta name="description" content="Portfolio page for Saeternus" />
+      </Helmet>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Components.Navbar />}>
+            <Route index element={<Home />} />
+            <Route exact path="/services" element={<Services />} />
+            <Route exact path="/contact-us" element={<ContactUs />} />
+            <Route exact path="/courses/gis" element={<Courses />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

@@ -24,7 +24,7 @@ function Navbar() {
           </li>
         </ul>
 
-        <Link to='Contact-Us' className="navbar-button">Contact</Link>
+        <Link to='contact-us' className="navbar-button">Contact</Link>
       </div>
     </nav>
     <Outlet/>
