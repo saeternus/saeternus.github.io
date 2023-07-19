@@ -4,7 +4,7 @@ import "./Solution.css";
 
 function Solution() {
   return (
-    <div className="solutionbox">
+    <div className="solutionbox solutionimg">
       <div className="brain">
         <img src={Puzzle} alt="Bright Minds" />
       </div>

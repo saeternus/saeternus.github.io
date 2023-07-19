@@ -15,7 +15,6 @@ function MainSection() {
         <div className="image">
           <img src={image} alt="img" />
         </div>
-        {/* <img src={mainImage} alt="Main" style={imageStyle} /> */}
       </div>
     </div>
   );
