@@ -10,7 +10,7 @@ function Home() {
       <Components.MainSection />
       <div className="cards">
         <Components.Cards heading='24x7 Support' background={background3}/>
-        <Components.Cards heading='Custom Solution' background={background2} color='white'/>
+        <Components.Cards heading='Custom Solution' background={background2} color='orange'/>
         <Components.Cards heading='Reliability' background={background1}/>
       </div>
       <Components.Mind/>

@@ -64,3 +64,6 @@
 .Grey {
   color: gray;
 }
+.TargetCard{
+  display: none;
+}
