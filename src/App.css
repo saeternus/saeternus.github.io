@@ -4,9 +4,6 @@
   font-size: 16px;
   font-family: "Poppins";
 }
-*{
-  font-family: 'Inter';
-}
 /* Media Queries */
 
 @media screen and (max-height: 768px) {
@@ -36,7 +33,4 @@
 }
 html, body, #root, .App {
   height: 100%;
-}
-.Coursespage{
-  /* background-color: #DCE6FC; */
 }
