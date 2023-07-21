@@ -29,28 +29,28 @@ function Ourwork() {
           </p>
         </div>
         <Components.Work
-          text="Whether you need a new website, an e-commerce solution, a mobile application, digital marketing services, or technology consulting, we have the expertise and experience to help you succeed. solve complex challenges and achieve their goals."
+          text="Our frontend team excels in creating visually stunning and responsive user interfaces. We use HTML, CSS, and JS frameworks like React and Angular to deliver seamless and immersive user experiences."
           direction="rtl"
           heading="Frontend Development"
           img={`${Frontend}`}
           background={`${Frontendback}`}
         />
         <Components.Work
-          text="Whether you need a new website, an e-commerce solution, a mobile application, digital marketing services, or technology consulting, we have the expertise and experience to help you succeed. solve complex challenges and achieve their goals."
+          text="Behind every successful application lies a powerful backend infrastructure. Our skilled developers build scalable, secure, and efficient server-side applications using technologies like Node.js, Django, and Java."
           direction="ltr"
           heading="Backend Development"
           img={`${Backend}`}
           background={`${Backendback}`}
         />
         <Components.Work
-          text="Whether you need a new website, an e-commerce solution, a mobile application, digital marketing services, or technology consulting, we have the expertise and experience to help you succeed. solve complex challenges and achieve their goals."
+          text="We specialize in crafting high-performance and feature-rich mobile applications for both Android and iOS platforms. Our expert team uses native and cross-platform technologies like React Native and Flutter to create engaging user experiences."
           direction="rtl"
           heading="App Development"
           img={`${APP}`}
           background={`${APPback}`}
         />
         <Components.Work
-          text="Whether you need a new website, an e-commerce solution, a mobile application, digital marketing services, or technology consulting, we have the expertise and experience to help you succeed. solve complex challenges and achieve their goals."
+          text="User-centric design is at the core of our approach. Our talented designers conduct in-depth research, create wireframes, and perform iterative testing to ensure intuitive and visually appealing interfaces that captivate users."
           direction="ltr"
           heading="UI/UX"
           img={`${UIUX}`}
