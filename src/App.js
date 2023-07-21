@@ -6,6 +6,7 @@ import Home from "./Home";
 import Services from "./Services";
 import ContactUs from "./ContactUs";
 import Courses from "./Courses";
+import Sitemap from "./Sitemap";
 import { Helmet } from "react-helmet";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route exact path="/services" element={<Services />} />
             <Route exact path="/contact-us" element={<ContactUs />} />
             <Route exact path="/courses/gis" element={<Courses />} />
+            <Route exact path="sitemap" element={<Sitemap />} />
           </Route>
         </Routes>
       </BrowserRouter>

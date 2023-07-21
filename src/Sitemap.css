@@ -1,0 +1,15 @@
+.sitemapcontainer {
+  padding: 150px 50px 100px 100px;
+  background-color: #f6eafe;
+}
+
+.sitemapcontainer a {
+    text-decoration: none;
+    color: #632c95;
+}
+
+.sitemapcontainer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 1.5rem;
+}
