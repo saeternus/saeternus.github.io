@@ -26,7 +26,6 @@ function Home() {
       <Components.Solution />
       <Components.Why />
       <Components.Targets />
-      <Components.Contact />
     </>
   );
 }

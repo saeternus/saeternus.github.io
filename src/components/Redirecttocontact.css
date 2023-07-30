@@ -7,6 +7,8 @@
   justify-content: space-around;
   align-items: center;
   row-gap: 20px;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Segoe, "Segoe WP", Arial,
+  "Lucida Grande", sans-serif;
 }
 
 .contactusbutton {
@@ -22,8 +24,6 @@
   border: 2px solid #e5e5e5;
   letter-spacing: 0.0625rem;
   display: inline-block;
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Segoe, "Segoe WP", Arial,
-    "Lucida Grande", sans-serif;
   transition: all 150ms;
   text-decoration: none;
 }
@@ -36,4 +36,13 @@
 .contactusbutton:hover {
   background-color: transparent;
   color: #e5e5e5;
+}
+
+.redirectheadtext{
+    font-size: 2.5rem;
+    letter-spacing: 0.01rem;
+}
+
+.redirecttext {
+    font-weight: 500;
 }
