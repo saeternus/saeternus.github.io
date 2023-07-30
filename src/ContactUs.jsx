@@ -10,7 +10,6 @@ function ContactUs() {
         <title>Saeternus</title>
         <meta name="description" content="Portfolio page for Saeternus" />
       </Helmet>
-      <div className="empty"></div>
       <Components.Contact />
     </>
   );

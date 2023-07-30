@@ -1,36 +1,57 @@
-import React, { useEffect, useState } from 'react'
-import './Contact.css'
+import React, { useState } from "react";
+import "./Contact.css";
 
 function Contact() {
-  const [mail,setmail] = useState('')
-  const [text,settext] = useState('')
-  useEffect(()=>{
-    
-  },[mail,text])
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Add your logic here to handle the form submission
+    // For example, you can send the form data to a backend server using fetch or axios
+    console.log("Form submitted:", { name, email, message });
+  };
+
   return (
-    <div className='box'> 
-    <div className='contact'>
-      <div className='Info'>
-        <p className='contheading'>
-          Contact Us
-        </p>
-        <p className='conttext'>
-        If you have any questions, comments, or inquiries, please don't hesitate to contact us.
-        {/* We're available Monday to Friday, 9am - 6pm IST to answer any questions you may have. You can also fill out the contact form on our website, and one of our team members will get back to you as soon as possible.
-
-We look forward to hearing from you and helping you achieve your business goals. */}
-        </p>
-        <div className='inputs'>
-          <input type="text" placeholder='your email' onChange={e=>setmail(e.target.value)}/>
-          <input type="text" placeholder='your text' onChange={e=>settext(e.target.value)}/>
-      </div>
-
-      <div className='submit'><p>Send</p></div>
-      </div>
-      <div className='graphics'></div>
+    <div className="conatactcontainer">
+      <form onSubmit={handleSubmit} className="contactbox">
+        <div classname="heading">Contact Us</div>
+        <div className="nameemail">
+          <div>
+            <label htmlFor="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+        </div>
+        <div className="message">
+          <label htmlFor="message">Message:</label>
+          <textarea
+            id="message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            required
+          />
+        </div>
+        <button type="submit">SEND</button>
+      </form>
     </div>
-    </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
