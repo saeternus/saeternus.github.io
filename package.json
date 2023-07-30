@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build && cp CNAME build/CNAME",
+    "predeploy": "npm run build && cp CNAME build/CNAME && cp sitemap.xml build/sitemap.xml",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "postbuild": "react-snap",
