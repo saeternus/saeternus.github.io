@@ -1,13 +1,14 @@
 /* Footer Style */
 .footer {
-  background-color: #1e1e1e;
+  background-color: #080808;
   padding: 32px;
   margin: 0px;
   text-align: center;
   font-size: 14px;
-  color: #777;
+  color: #e5e5e5;
   border-top: 1px solid #e5e5e5;
   text-align: left;
+  font-family: "open sans", sans-serif;
 }
 
 .footerbottom {
@@ -29,7 +30,6 @@
   text-align: left;
   line-height: 1.4rem;
   margin-top: 0.6rem;
-  padding-left: 1rem;
 }
 
 .footerproductlist {
@@ -44,15 +44,15 @@
   list-style-type: none;
   padding: 0.2rem 0rem;
   margin: 0px;
-  padding-left: 1rem;
   text-align: left;
 }
 
 .links {
   text-decoration: none;
-  color: #777;
+  color: #bebebe;
 }
 
 .linkshead {
   margin-bottom: 0.1rem;
+  font-size: 1rem;
 }
