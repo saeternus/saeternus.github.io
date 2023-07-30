@@ -1,0 +1,39 @@
+.redirectcontainer {
+  background-color: #080808;
+  width: 100%;
+  padding: 100px;
+  color: #e5e5e5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.contactusbutton {
+  background-color: #e5e5e5;
+  color: #080808;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  text-align: center;
+  padding: 14px 16px;
+  min-width: 200px;
+  border-radius: 2px;
+  border: 2px solid #e5e5e5;
+  letter-spacing: 0.0625rem;
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Segoe, "Segoe WP", Arial,
+    "Lucida Grande", sans-serif;
+  transition: all 150ms;
+  text-decoration: none;
+}
+
+.contactuslink {
+  
+  color: #080808;
+}
+
+.contactusbutton:hover {
+  background-color: transparent;
+  color: #e5e5e5;
+}
