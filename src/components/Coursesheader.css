@@ -51,6 +51,9 @@
   color: #fff;
   gap: 8px;
 }
+.coursepublish a {
+  color: #57d335;
+}
 .circle {
   width: 8px;
   height: 8px;

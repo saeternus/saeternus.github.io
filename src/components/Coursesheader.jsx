@@ -32,6 +32,12 @@ function Coursesheader() {
             <div className="circle"></div>
             <div>For more info contact</div>
             <div className="number">9450906849</div>
+            <div>
+              or join {" "}
+              <a href="https://chat.whatsapp.com/FRmZTHwsDLACdxUAQOg3GE" target="_blank">
+                Whatsapp Group
+              </a>
+            </div>
             <div className="checkicon">
               <img src={Check} alt="" />
             </div>

@@ -42,7 +42,7 @@
   flex-direction: column;
 }
 
-.heading {
+.contactcontainer .heading {
   font-size: 0.5rem;
   font-weight: bold;
   margin-bottom: 10px;

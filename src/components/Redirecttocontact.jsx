@@ -8,7 +8,7 @@ function Redirecttocontact() {
       <div className="redirecttext">
         <div className="redirectheadtext">Have a Project for Us?</div>
         <div className="redirectsubtext">
-          We help the your business succeed in the digital age.
+          We help your business succeed in the digital age.
         </div>
       </div>
       <Link to="/contact-us" className="contactusbutton">

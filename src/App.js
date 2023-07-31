@@ -23,7 +23,7 @@ function App() {
             <Route exact path="/services" element={<Services />} />
             <Route exact path="/contact-us" element={<ContactUs />} />
             <Route exact path="/courses/gis" element={<Courses />} />
-            <Route exact path="sitemap" element={<Sitemap />} />
+            {/* <Route exact path="sitemap" element={<Sitemap />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>

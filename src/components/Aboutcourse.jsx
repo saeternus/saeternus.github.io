@@ -14,6 +14,7 @@ function Aboutcourse() {
       "Auto Generation of hydrological parameters for water related processes.",
       "Use of various statistical methods in GIS for spatial and vector data.",
       "Application of GIS in various disciplines of geography, geology, social sciences, civil works, etc.",
+      "Relevant for disciplines like Science, Social Science, Humanities, Archeology, Disaster Management, Engineering, Computer Science, Planning and Architechture, Mining, Agriculture, Population Studies, Medical Science etc."
     ],
   };
   const feature = {

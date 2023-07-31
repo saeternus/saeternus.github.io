@@ -14,14 +14,18 @@ function Footer() {
           <div className="footeraddress">
             <h2>Office Address</h2>
             <p className="addresscontent">
-              B-201, IBITF Office, IIT Bhilai GEC Campus, Sejbahar,
+              B-201, IBITF Office, IIT Bhilai, GEC Campus, Sejbahar,
               <br />
               Raipur, Chhattisgarh 492015
               <br />
+              CIN: U72900CT2022PTC013086
               <br />
-              Contact :- +91 80049 16849
+              GSTN: 22ABICS3553L1Z5
               <br />
-              Email :- hello@saeternus.com
+              <br />
+              Contact: +91 80049 16849
+              <br />
+              Email: hello@saeternus.com
             </p>
           </div>
           <div className="footerlist">
