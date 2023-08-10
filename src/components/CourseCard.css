@@ -46,7 +46,7 @@
   cursor: pointer;
 }
 
-.price {
+.cardprice {
   color: gray;
   font-weight: 400;
   font-size: 11px;

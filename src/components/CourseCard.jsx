@@ -12,7 +12,7 @@ function CourseCard({ img, category, heading, link }) {
         <div class="category"> {category} </div>
         <div class="heading">
           {heading}
-          <div class="price">
+          <div class="cardprice">
             <span class="discounted">₹2,950</span>
             <span class="cardmrp">₹5,900</span>
           </div>
