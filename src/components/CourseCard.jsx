@@ -7,7 +7,7 @@ function CourseCard({ img, category, heading }) {
   return (
     <div class="card">
       <div class="card-image">
-        <img src={img} />
+        <img src={img} /> 
       </div>
       <div class="category"> {category} </div>
       <div class="heading">

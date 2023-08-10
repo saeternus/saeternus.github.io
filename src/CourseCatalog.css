@@ -1,4 +1,8 @@
 .coursecontainer {
   padding: 150px 100px 100px 100px;
   background-color: #f6eafe;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
 }
