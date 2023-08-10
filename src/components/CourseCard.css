@@ -68,3 +68,7 @@
 .name:hover {
   cursor: pointer;
 }
+
+.cardlink {
+  text-decoration: none;
+}

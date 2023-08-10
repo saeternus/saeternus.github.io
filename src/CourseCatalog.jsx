@@ -6,11 +6,15 @@ import img from "./assets/image.png";
 function CourseCatalog() {
   return (
     <div className="coursecontainer">
-      <Components.CourseCard
-        img={img}
-        category={"Course"}
-        heading={"Geographical Information System (GIS)"}
-      />
+      <span className="catalogpageheading">Course Catalog </span>
+      <div className="courseflex">
+        <Components.CourseCard
+          img={img}
+          category={"Course"}
+          heading={"Geographical Information System (GIS)"}
+          link={"/courses/gis"}
+        />
+      </div>
     </div>
   );
 }

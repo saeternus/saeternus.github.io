@@ -1,23 +1,24 @@
 import React from "react";
 import "./CourseCard.css";
+import { Link } from "react-router-dom";
 
-function CourseCard({ img, category, heading }) {
-  
-
+function CourseCard({ img, category, heading, link }) {
   return (
-    <div class="card">
-      <div class="card-image">
-        <img src={img} /> 
-      </div>
-      <div class="category"> {category} </div>
-      <div class="heading">
-        {heading}
-        <div class="price">
-          <span class="discounted">₹2,950</span> 
-          <span class="cardmrp">₹5,900</span> 
+    <Link to={link} className="cardlink">
+      <div class="card">
+        <div class="card-image">
+          <img src={img} />
+        </div>
+        <div class="category"> {category} </div>
+        <div class="heading">
+          {heading}
+          <div class="price">
+            <span class="discounted">₹2,950</span>
+            <span class="cardmrp">₹5,900</span>
+          </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

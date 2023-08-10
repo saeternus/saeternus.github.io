@@ -19,7 +19,7 @@ function Navbar() {
             </li>
             <div className="navbar-divider"></div>
             <li>
-              <Link to="/courses/gis">Courses</Link>
+              <Link to="/courses">Courses</Link>
             </li>
             <div className="navbar-divider"></div>
             <li>
