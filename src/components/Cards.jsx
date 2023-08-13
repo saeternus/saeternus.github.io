@@ -3,9 +3,9 @@ import './Cards.css'
 
 function Cards(props) {
   return (
-    <div className='card' style={{background: `url(${props.background})`, backgroundSize: 'contain', backgroundPosition:"Center", backgroundRepeat:'no-repeat'}}>
+    <div className='frontpagecard' style={{background: `url(${props.background})`, backgroundSize: 'contain', backgroundPosition:"Center", backgroundRepeat:'no-repeat'}}>
         <div className='text' style={{color:`${props.color}`}}>
-            <p className='heading' >{props.heading}</p>
+            <p className='frontpagecardheading' >{props.heading}</p>
             <p className='content'>{props.text}</p>
         </div>
       
