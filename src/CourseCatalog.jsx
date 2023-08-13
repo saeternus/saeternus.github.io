@@ -14,6 +14,11 @@ function CourseCatalog() {
           heading={"Geographical Information System (GIS)"}
           link={"/courses/gis"}
         />
+        <Components.CourseCard
+          category={"Course"}
+          heading={"Certificate Course in Statistical Package for the Social Sciences (SPSS)"}
+          link={"/courses/ssps"}
+        />
       </div>
     </div>
   );
