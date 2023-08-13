@@ -1,4 +1,4 @@
-.card{
+.frontpagecard{
     width: 200px;
     height: 200px;
     border-radius: 10px;
@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
 }
-.heading{
+.frontpagecardheading{
     font-size:1rem;
     font-weight: bold;
 }

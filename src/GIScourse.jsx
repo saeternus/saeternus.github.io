@@ -2,9 +2,9 @@ import React from "react";
 import * as Components from "./components/index";
 import { Helmet } from "react-helmet";
 
-function Courses() {
+function GIScourse() {
   return (
-    <div className="Coursespage">
+    <div className="Coursepage">
       <Helmet>
         <title>GIS Certification</title>
         <meta name="description" content="Certificate Course in Geographical Information System (GIS)" />
@@ -17,4 +17,4 @@ function Courses() {
   );
 }
 
-export default Courses;
+export default GIScourse;

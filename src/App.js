@@ -5,7 +5,9 @@ import "./App.css";
 import Home from "./Home";
 import Services from "./Services";
 import ContactUs from "./ContactUs";
-import Courses from "./Courses";
+import GIScourse from "./GIScourse";
+import SSPScourse from "./SSPScourse";
+import CourseCatalog from "./CourseCatalog";
 import Sitemap from "./Sitemap";
 import { Helmet } from "react-helmet";
 
@@ -22,7 +24,9 @@ function App() {
             <Route index element={<Home />} />
             <Route exact path="/services" element={<Services />} />
             <Route exact path="/contact-us" element={<ContactUs />} />
-            <Route exact path="/courses/gis" element={<Courses />} />
+            <Route exact path="/courses" element={<CourseCatalog />} />
+            <Route exact path="/courses/gis" element={<GIScourse />} />
+            <Route exact path="/courses/ssps" element={<SSPScourse />} />
             {/* <Route exact path="sitemap" element={<Sitemap />} /> */}
           </Route>
         </Routes>

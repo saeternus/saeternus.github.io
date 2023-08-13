@@ -1,0 +1,18 @@
+.coursecontainer {
+  padding: 100px;
+  background-color: #f6eafe;
+}
+
+.courseflex {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.catalogpageheading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #4f4f4f;
+}

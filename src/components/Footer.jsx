@@ -46,7 +46,7 @@ function Footer() {
               </Link>
             </ul>
             <ul className="footeritems">
-              <Link to="/courses/gis" className="links">
+              <Link to="/courses" className="links">
                 Courses
               </Link>
             </ul>
