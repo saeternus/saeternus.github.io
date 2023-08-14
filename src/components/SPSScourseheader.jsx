@@ -29,7 +29,7 @@ function Coursesheader() {
           <div className="coursepublish">
             <div className="circle"></div>
             <div>Course starts from</div>
-            <div className="name">August 7, 2023</div>
+            <div className="name">September 7, 2023</div>
             <div className="checkicon">
               <img src={Check} alt="" />
             </div>
@@ -41,7 +41,7 @@ function Coursesheader() {
             <div>
               or join{" "}
               <a
-                href="https://chat.whatsapp.com/FRmZTHwsDLACdxUAQOg3GE"
+                href="https://chat.whatsapp.com/FdbSxmUWe4yJTVNQvV1zZ2"
                 target="_blank"
               >
                 Whatsapp Group
@@ -53,7 +53,7 @@ function Coursesheader() {
           </div>
           <div className="courseregister">
             <div className="link">
-              <a href="https://forms.gle/kMVo8W5eGjoZ1q5A9" target="_blank">
+              <a href="https://forms.gle/EMas47VcUmrUctK78" target="_blank">
                 <div className="registerbutton">Register Now</div>
               </a>
             </div>

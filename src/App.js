@@ -6,7 +6,7 @@ import Home from "./Home";
 import Services from "./Services";
 import ContactUs from "./ContactUs";
 import GIScourse from "./GIScourse";
-import SSPScourse from "./SSPScourse";
+import SSPScourse from "./SPSScourse";
 import CourseCatalog from "./CourseCatalog";
 import Sitemap from "./Sitemap";
 import { Helmet } from "react-helmet";
