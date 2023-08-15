@@ -17,7 +17,7 @@ function CourseCatalog() {
         <Components.CourseCard
           category={"Course"}
           heading={"Certificate Course in Statistical Package for the Social Sciences (SPSS)"}
-          link={"/courses/ssps"}
+          link={"/courses/spss"}
         />
       </div>
     </div>

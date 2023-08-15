@@ -6,7 +6,7 @@ import Home from "./Home";
 import Services from "./Services";
 import ContactUs from "./ContactUs";
 import GIScourse from "./GIScourse";
-import SSPScourse from "./SPSScourse";
+import SPSScourse from "./SPSScourse";
 import CourseCatalog from "./CourseCatalog";
 import Sitemap from "./Sitemap";
 import { Helmet } from "react-helmet";
@@ -26,7 +26,7 @@ function App() {
             <Route exact path="/contact-us" element={<ContactUs />} />
             <Route exact path="/courses" element={<CourseCatalog />} />
             <Route exact path="/courses/gis" element={<GIScourse />} />
-            <Route exact path="/courses/ssps" element={<SSPScourse />} />
+            <Route exact path="/courses/spss" element={<SPSScourse />} />
             {/* <Route exact path="sitemap" element={<Sitemap />} /> */}
           </Route>
         </Routes>
