@@ -8,7 +8,7 @@ function GIScourse() {
   return (
     <div className="Coursepage">
       <Helmet>
-        <title>GIS Certification</title>
+        <title>SPSS Certification</title>
         <meta
           name="description"
           content="Certificate Course in Statistical Package for the Social Sciences (SPSS)"

@@ -2,7 +2,7 @@ import React from "react";
 import "./CourseCard.css";
 import { Link } from "react-router-dom";
 
-function CourseCard({ img, category, heading, link }) {
+function CourseCard({ img, category, heading, link , mrp, offer}) {
   return (
     <Link to={link} className="cardlink">
       <div class="card">
@@ -13,8 +13,8 @@ function CourseCard({ img, category, heading, link }) {
         <div class="heading">
           {heading}
           <div class="cardprice">
-            <span class="discounted">₹2,950</span>
-            <span class="cardmrp">₹5,900</span>
+            <span class="discounted">{offer}</span>
+            <span class="cardmrp">{mrp}</span>
           </div>
         </div>
       </div>

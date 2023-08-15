@@ -11,13 +11,17 @@ function CourseCatalog() {
         <Components.CourseCard
           img={img}
           category={"Course"}
-          heading={"Geographical Information System (GIS)"}
+          heading={"Certificate Course in Geographical Information System (GIS)"}
           link={"/courses/gis"}
+          mrp={"₹7,080"}
+          offer={"₹3,540"}
         />
         <Components.CourseCard
           category={"Course"}
           heading={"Certificate Course in Statistical Package for the Social Sciences (SPSS)"}
           link={"/courses/spss"}
+          mrp={"₹7,375"}
+          offer={"₹2,950"}
         />
       </div>
     </div>

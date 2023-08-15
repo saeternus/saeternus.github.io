@@ -22,8 +22,8 @@ function Coursesheader() {
           </div>
           <div className="coursepublish">
             <div className="circle"></div>
-            <div>Course starts</div>
-            <div className="name">Soon</div>
+            <div>Course starts from</div>
+            <div className="name">October 2, 2023</div>
             <div className="checkicon">
               <img src={Check} alt="" />
             </div>
@@ -44,17 +44,17 @@ function Coursesheader() {
           </div>
           <div className="courseregister">
             <div className="link">
-              <a href="https://forms.gle/kMVo8W5eGjoZ1q5A9" target="_blank">
+              <a href="https://forms.gle/2KLbzK9qmT7mr59j7" target="_blank">
                 <div className="registerbutton">Register Now</div>
               </a>
             </div>
             <div className="pricedetails">
               <div className="amt">
-                <div className="price">₹2,950</div>
-                <div className="mrp">₹5,900</div>
+                <div className="price">₹3,540</div>
+                <div className="mrp">₹7,080</div>
                 <div className="discount">50% off</div>
               </div>
-              <div className="tax">Inclusive of all GST</div>
+              <div className="tax">Inclusive of GST</div>
             </div>
           </div>
         </div>

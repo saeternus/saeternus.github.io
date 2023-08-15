@@ -60,10 +60,10 @@ function Coursesheader() {
             <div className="pricedetails">
               <div className="amt">
                 <div className="price">₹2,950</div>
-                <div className="mrp">₹5,900</div>
-                <div className="discount">50% off</div>
+                <div className="mrp">₹7,375</div>
+                <div className="discount">60% off</div>
               </div>
-              <div className="tax">Inclusive of all GST</div>
+              <div className="tax">Inclusive of GST</div>
             </div>
           </div>
         </div>
