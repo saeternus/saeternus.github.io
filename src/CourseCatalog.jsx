@@ -17,6 +17,7 @@ function CourseCatalog() {
           offer={"₹3,540"}
         />
         <Components.CourseCard
+          img={img}
           category={"Course"}
           heading={"Certificate Course in Statistical Package for the Social Sciences (SPSS)"}
           link={"/courses/spss"}
