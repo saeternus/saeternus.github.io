@@ -2,7 +2,8 @@ import React from "react";
 import * as Components from "./components";
 import "./CourseCatalog.css";
 import img from "./assets/image.png";
-
+import img2 from "./assets/dav.png";
+import img3 from "./assets/crm.jpg";
 function CourseCatalog() {
   return (
     <div className="coursecontainer">
@@ -25,7 +26,7 @@ function CourseCatalog() {
           offer={"₹2,950"}
         />
         <Components.CourseCard
-          img={img}
+          img={img3}
           category={"Course"}
           heading={"Certificate Course in Complete Research Methodology"}
           link={"/courses/crm"}
@@ -33,7 +34,7 @@ function CourseCatalog() {
           offer={"₹5,900"}
         />
         <Components.CourseCard
-          img={img}
+          img={img2}
           category={"Course"}
           heading={"Python - Data Analysis and Visualisation Certification Course"}
           link={"/courses/dav"}
