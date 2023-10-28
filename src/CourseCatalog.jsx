@@ -24,6 +24,22 @@ function CourseCatalog() {
           mrp={"₹7,375"}
           offer={"₹2,950"}
         />
+        <Components.CourseCard
+          img={img}
+          category={"Course"}
+          heading={"Certificate Course in Complete Research Methodology"}
+          link={"/courses/crm"}
+          mrp={"₹12,000"}
+          offer={"₹5,900"}
+        />
+        <Components.CourseCard
+          img={img}
+          category={"Course"}
+          heading={"Python - Data Analysis and Visualisation Certification Course"}
+          link={"/courses/dav"}
+          mrp={"₹7,375"}
+          offer={"₹2,950"}
+        />        
       </div>
     </div>
   );

@@ -7,6 +7,8 @@ import Services from "./Services";
 import ContactUs from "./ContactUs";
 import GIScourse from "./GIScourse";
 import SPSScourse from "./SPSScourse";
+import CRMCourse from "./CRMcourse";
+import DAVCourse from "./DAVcourse";
 import CourseCatalog from "./CourseCatalog";
 import Sitemap from "./Sitemap";
 import { Helmet } from "react-helmet";
@@ -27,6 +29,8 @@ function App() {
             <Route exact path="/courses" element={<CourseCatalog />} />
             <Route exact path="/courses/gis" element={<GIScourse />} />
             <Route exact path="/courses/spss" element={<SPSScourse />} />
+            <Route exact path="/courses/dav" element={<DAVCourse />} />
+            <Route exact path="/courses/crm" element={<CRMCourse />} />
             {/* <Route exact path="sitemap" element={<Sitemap />} /> */}
           </Route>
         </Routes>
