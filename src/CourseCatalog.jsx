@@ -3,7 +3,7 @@ import * as Components from "./components";
 import "./CourseCatalog.css";
 import img from "./assets/image.png";
 import img2 from "./assets/dav.png";
-import img3 from "./assets/crm.jpg";
+import img3 from "./assets/CRM.jpg";
 function CourseCatalog() {
   return (
     <div className="coursecontainer">
