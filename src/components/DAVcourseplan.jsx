@@ -9,85 +9,85 @@ export default function DAVPlan() {
       daycount: "Day 1",
       Chapter: "Python - Introduction, variables, constants, strings, lists and maps.",
       duration: "1 hour 30 minutes",
-      date: "7/11/2023",
-      day: "Tuesday",
+      date: "15/12/2023", 
+      day: "Friday",
     },
     {
       daycount: "Day 2",
       Chapter: "Python - conditionals, loops and functions.",
       duration: "1 hour 30 minutes",
-      date: "8/11/2023",
-      day: "Wednesday",
+      date: "18/12/2023", 
+      day: "Sunday",
     },
     {
       daycount: "Day 3",
       Chapter: "Python - classes and packages. How to read documentation?",
       duration: "1 hour 30 minutes",
-      date: "9/11/2023",
-      day: "Thursday",
+      date: "22/12/2023",
+      day: "Friday",
     },
     {
       daycount: "Day 4",
       Chapter: "Importing/loading datasets. Data wrangling, preprocessing and cleanup. Handling excel, csv and dataframes.",
       duration: "1 hour 30 minutes",
-      date: "10/11/2023",
-      day: "Friday",
+      date: "25/12/2023",
+      day: "Sunday",
     },
     {
       daycount: "Day 5",
       Chapter: "Exploratory data analysis with pandas and numpy. Basic statistical analysis like mean, median, mode, standard deviation, percentiles etc.",
       duration: "1 hour 30 minutes",
-      date: "11/11/2023",
-      day: "Saturday",
+      date: "29/12/2023", 
+      day: "Friday",
     },
     {
       daycount: "Day 6",
       Chapter: "Plotting with matplotlib. Visually appealing visualizations for papers and presentations.",
       duration: "1 hour 30 minutes",
-      date: "12/11/2023",
+      date: "01/01/2024",
       day: "Sunday",
     },
     {
       daycount: "Day 7",
       Chapter: "Area plots, histograms, bar charts, pie charts, box plots, and scatter plots.",
       duration: "1 hour 30 minutes",
-      date: "13/11/2023",
-      day: "Monday",
+      date: "05/01/2024", 
+      day: "Friday",
     },
     {
       daycount: "Day 8",
       Chapter: "Classification and regression decision trees. Linear regression, logistic regression.",
       duration: "1 hour 30 minutes",
-      date: "14/11/2023",
-      day: "Tuesday",
+      date: "08/01/2024", 
+      day: "Sunday",
     },
     {
       daycount: "Day 9",
       Chapter: "Handling 3D data. Bubble plots, heatmaps and 3D bar charts.",
       duration: "1 hour 30 minutes",
-      date: "15/11/2023",
-      day: "Wednesday",
+      date: "12/01/2024", 
+      day: "Friday",
     },
     {
       daycount: "Day 10",
       Chapter: "Normality, Statistical tests, confidence interval estimates etc.",
       duration: "1 hour 30 minutes",
-      date: "16/11/2023",
-      day: "Thursday",
+      date: "15/01/2024", 
+      day: "Sunday",
     },
     {
       daycount: "Day 11",
       Chapter: "Visualizing geospatial data with folium.",
       duration: "1 hour 30 minutes",
-      date: "17/11/2023",
+      date: "19/01/2024", 
       day: "Friday",
     },
     {
       daycount: "Day 12",
       Chapter: "Model evaluation and refinement. Testing.",
       duration: "1 hour 30 minutes",
-      date: "18/11/2023",
-      day: "Saturday",
+      date: "22/01/2024", 
+      day: "Sunday",
     },
   ];
 
@@ -151,7 +151,7 @@ export default function DAVPlan() {
             </div>
             <div className="distributionpoints">
               <div className="grey circle"></div>
-              <div className="distributionpoint">18 Live Classes</div>
+              <div className="distributionpoint">12 Live Classes</div>
             </div>
             <div className="distributionpoints">
               <div className="grey circle"></div>

@@ -16,7 +16,7 @@ export default function DAVHeader() {
           <div className="coursepublish">
             <div className="circle"></div>
             <div>Course starts from</div>
-            <div className="name">November 7, 2023</div>
+            <div className="name">December 15, 2023</div>
             <div className="checkicon">
               <img src={Check} alt="" />
             </div>
@@ -40,7 +40,7 @@ export default function DAVHeader() {
           </div>
           <div className="courseregister">
             <div className="link">
-              <a href="https://forms.gle/EMas47VcUmrUctK78" target="_blank">
+              <a href="https://forms.gle/GnXUAxDczULkvQQF6" target="_blank">
                 <div className="registerbutton">Register Now</div>
               </a>
             </div>
