@@ -5,7 +5,7 @@
   background-color: #F6EAFE;
   height: 80px;
   width: 100%;
-  padding: 0% 10px;
+  padding: 0% 20px;
   position: fixed;
   z-index: 10;
 }
@@ -30,12 +30,12 @@ h1 {
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   align-items: center;
 }
 
 .navbar-links li {
-  margin: 5px;
+  margin: 10px;
 }
 
 .navbar-links a {
@@ -60,6 +60,7 @@ h1 {
   font-family: inherit;
   font-weight: 600;
   font-size: 1.2rem;
+  border-radius: 2%;
   background-color: rgba(0, 0, 0, 0);
   color: black;
   border: 1px solid black;
