@@ -8,7 +8,7 @@ export default function CRMHeader() {
       <div className="headerbox darkblue">
         <div className="headertext">
           <div className="courseheading">
-            Certification Course in Complete Research Methodology
+            Certification Course in Research Methodology
           </div>
           <div className="coursedes">
           Gain expertise in research fundamentals, from understanding the core concepts and research types to mastering practical skills like hypothesis formulation, data analysis, and report writing. This comprehensive course empowers you to navigate the world of research, providing the knowledge and tools to conduct impactful studies and effectively communicate your findings.
@@ -41,7 +41,7 @@ export default function CRMHeader() {
           </div>
           <div className="courseregister">
             <div className="link">
-              <a href="https://forms.gle/EMas47VcUmrUctK78" target="_blank">
+              <a href="https://www.saeternus.com/courses" target="_blank">
                 <div className="registerbutton">Register Now</div>
               </a>
             </div>

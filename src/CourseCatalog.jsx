@@ -28,7 +28,7 @@ function CourseCatalog() {
         <Components.CourseCard
           img={img3}
           category={"Course"}
-          heading={"Certificate Course in Complete Research Methodology"}
+          heading={"Certificate Course in Research Methodology"}
           link={"/courses/crm"}
           mrp={"₹12,000"}
           offer={"₹5,900"}
