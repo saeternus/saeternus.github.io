@@ -29,8 +29,8 @@ function App() {
             <Route exact path="/courses" element={<CourseCatalog />} />
             <Route exact path="/courses/gis" element={<GIScourse />} />
             <Route exact path="/courses/spss" element={<SPSScourse />} />
-            <Route exact path="/courses/dav" element={<DAVCourse />} />
-            <Route exact path="/courses/crm" element={<CRMCourse />} />
+            <Route exact path="/courses/python-data-analysis-visualisation" element={<DAVCourse />} />
+            <Route exact path="/courses/research-methodology" element={<CRMCourse />} />
             {/* <Route exact path="sitemap" element={<Sitemap />} /> */}
           </Route>
         </Routes>

@@ -29,15 +29,15 @@ function CourseCatalog() {
           img={img3}
           category={"Course"}
           heading={"Certificate Course in Research Methodology"}
-          link={"/courses/crm"}
-          mrp={"₹12,000"}
+          link={"/courses/research-methodology"}
+          mrp={"₹14,750"}
           offer={"₹5,900"}
         />
         <Components.CourseCard
           img={img2}
           category={"Course"}
-          heading={"Python - Data Analysis and Visualisation Certification Course"}
-          link={"/courses/dav"}
+          heading={"Certificate Course in Python - Data Analysis and Visualisation"}
+          link={"/courses/python-data-analysis-visualisation"}
           mrp={"₹7,375"}
           offer={"₹2,950"}
         />        

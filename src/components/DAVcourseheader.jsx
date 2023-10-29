@@ -8,7 +8,7 @@ export default function DAVHeader() {
       <div className="headerbox darkblue">
         <div className="headertext">
           <div className="courseheading">
-          Python - Data Analysis and Visualisation Certification Course
+          Certificate Course in Python - Data Analysis and Visualisation
           </div>
           <div className="coursedes">
           Master the art of data analysis and visualization with Python. From Python fundamentals and programming techniques to data handling, exploratory data analysis, machine learning, geospatial data visualization, and statistical analysis, this comprehensive course equips you with the skills needed to unlock the potential of data in today's data-driven world.
@@ -28,7 +28,7 @@ export default function DAVHeader() {
             <div>
               or join{" "}
               <a
-                href="https://chat.whatsapp.com/FdbSxmUWe4yJTVNQvV1zZ2"
+                href="https://chat.whatsapp.com/HkrLN4L6LdaGuhj1TqkYWT"
                 target="_blank"
               >
                 Whatsapp Group
