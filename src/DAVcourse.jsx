@@ -9,8 +9,8 @@ export default function DAVCourse() {
   return (
     <div className="Coursepage">
       <Helmet>
-        <title>DAV Certification</title>
-        <meta name="description" content="Certificate Course in DAV" />
+        <title>Python - Data Analysis and Visualisation Certification</title>
+        <meta name="description" content="Certificate Course in Python - Data Analysis and Visualisation" />
       </Helmet>
       <div className="empty darkblue"></div>
       <DAVHeader />

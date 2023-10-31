@@ -87,7 +87,7 @@ export default function DAVAbout() {
               <div className="abouttext">About Course</div>
             </div>
             <div className="aboutheaing">
-              Covers pretty much everything you need to know about DAV
+              Covers pretty much everything you need to know about Python
             </div>
             <div className="detailshead">Details:</div>
             <div className="detailstext">
