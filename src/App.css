@@ -27,6 +27,7 @@
   height: fit-content;
   flex-wrap: wrap;
   margin: 20px 0;
+  animation: fadeIn 0.5s forwards 0.4s;
 }
 .empty{
   height: 100px;
@@ -49,4 +50,16 @@ html, body, #root, .App {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #bc98d4;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

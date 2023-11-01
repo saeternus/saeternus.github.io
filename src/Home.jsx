@@ -14,6 +14,7 @@ function Home() {
       </Helmet>
       <Components.MainSection />
       <div className="cards">
+
         <Components.Cards heading="24x7 Support" background={background3} />
         <Components.Cards
           heading="Custom Solution"
@@ -21,6 +22,7 @@ function Home() {
           color="orange"
         />
         <Components.Cards heading="Reliability" background={background1} />
+        
       </div>
       <Components.Mind />
       <Components.Solution />
