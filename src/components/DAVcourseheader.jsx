@@ -16,7 +16,7 @@ export default function DAVHeader() {
           <div className="coursepublish">
             <div className="circle"></div>
             <div>Course starts from</div>
-            <div className="name">December 15, 2023</div>
+            <div className="name">December 14, 2023</div>
             <div className="checkicon">
               <img src={Check} alt="" />
             </div>

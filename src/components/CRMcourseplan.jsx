@@ -58,7 +58,7 @@ export default function CRMPlan() {
       daycount: "Day 8",
       Chapter: "Data Types and Sources: Primary and secondary. Application of Sampling in on various types. User Study.",
       duration: "1 hour 30 minutes",
-      date: "25/12/2023",
+      date: "26/12/2023",
       day: "Tuesday",
     },
     {
