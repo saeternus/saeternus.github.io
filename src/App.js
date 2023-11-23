@@ -9,6 +9,7 @@ import GIScourse from "./GIScourse";
 import SPSScourse from "./SPSScourse";
 import CRMCourse from "./CRMcourse";
 import DAVCourse from "./DAVcourse";
+import RemoteSensingCourse from "./RemoteSensingCourse";
 import CourseCatalog from "./CourseCatalog";
 import Sitemap from "./Sitemap";
 import { Helmet } from "react-helmet";
@@ -31,6 +32,7 @@ function App() {
             <Route exact path="/courses/spss" element={<SPSScourse />} />
             <Route exact path="/courses/python-data-analysis-visualisation" element={<DAVCourse />} />
             <Route exact path="/courses/research-methodology" element={<CRMCourse />} />
+            <Route exact path="/courses/remote-sensing-erdas" element={<RemoteSensingCourse />} />
             {/* <Route exact path="sitemap" element={<Sitemap />} /> */}
           </Route>
         </Routes>

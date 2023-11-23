@@ -185,10 +185,10 @@ export default function RemoteSensingPlan() {
               <div className="grey circle"></div>
               <div className="distributionpoint">8 Assignments</div>
             </div>
-            {/* <div className="distributionpoints">
+            <div className="distributionpoints">
               <div className="grey circle"></div>
               <div className="distributionpoint">Hands-on Projects</div>
-            </div> */}
+            </div>
             <div
               className="distributionpoints"
               style={{

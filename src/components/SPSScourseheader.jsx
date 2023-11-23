@@ -28,8 +28,8 @@ function Coursesheader() {
           </div>
           <div className="coursepublish">
             <div className="circle"></div>
-            <div>Course starts from</div>
-            <div className="name">September 7, 2023</div>
+            <div>Course starts soon!</div>
+            {/* <div className="name">September 7, 2023</div> */}
             <div className="checkicon">
               <img src={Check} alt="" />
             </div>

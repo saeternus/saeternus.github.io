@@ -40,6 +40,14 @@ function CourseCatalog() {
           link={"/courses/python-data-analysis-visualisation"}
           mrp={"₹7,375"}
           offer={"₹2,950"}
+        /> 
+        <Components.CourseCard
+          img={img2}
+          category={"Course"}
+          heading={"Certificate Course in Remote Sensing with ERDAS"}
+          link={"/courses/remote-sensing-erdas"}
+          mrp={"₹10,700"}
+          offer={"₹2,990"}
         />        
       </div>
     </div>
