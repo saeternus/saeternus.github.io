@@ -1,20 +1,26 @@
 import React from "react";
 import "./Aboutcourse.css";
-import Authentic from "../assets/certificate.png";
-import Online from "../assets/online classes.png";
-import Life from "../assets/life time.png";
-import Level from "../assets/beginner level.png";
-import Support from "../assets/subtitles.png";
+import Authentic from "../../assets/certificate.png";
+import Online from "../../assets/online classes.png";
+import Life from "../../assets/life time.png";
+import Level from "../../assets/beginner level.png";
+import Support from "../../assets/subtitles.png";
 
-function Aboutcourse() {
+export default function DAVAbout() {
   const data = {
     details: [
-      "Descriptive Statistics - It includes methodologies such as cross-tabulation, frequencies, and descriptive ratio statistics.",
-      "Bivariate Statistics - It includes methodologies such as means, nonparametric tests, correlation, and Analysis of Variance (ANOVA).",
-      "Predicting numeral outcomes such as linear regression.",
-      "Methodologies such as cluster analysis and factor analysis which is great for predicting for identifying groups.",
-      "Numerous chart and graph options for visualizing data patterns, such as histograms, bar charts, and scatter plots.",
-      "Government entities, educational institutions, survey companies, market researchers, marketing organizations, health researchers, data miners, and many others use it for analysing survey data. It is popular in academic, scientific, and applied research environments.",
+      "Python - Introduction, variables, constants, strings, lists and maps.",
+      "Python - conditionals, loops and functions.",
+      "Python - classes and packages. How to read documentation?",
+      "Importing/loading datasets. Data wrangling, preprocessing, and cleanup. Handling excel, csv, and dataframes.",
+      "Exploratory data analysis with pandas and numpy. Basic statistical analysis like mean, median, mode, standard deviation, percentiles, etc.",
+      "Plotting with matplotlib. Visually appealing visualizations for papers and presentations.",
+      "Area plots, histograms, bar charts, pie charts, box plots, and scatter plots.",
+      "Classification and regression decision trees. Linear regression, logistic regression.",
+      "Handling 3D data. Bubble plots, heatmaps, and 3D bar charts.",
+      "Normality, Statistical tests, confidence interval estimates, etc.",
+      "Visualizing geospatial data with folium.",
+      "Model evaluation and refinement. Testing.",
     ],
   };
   const feature = {
@@ -81,20 +87,11 @@ function Aboutcourse() {
               <div className="abouttext">About Course</div>
             </div>
             <div className="aboutheaing">
-              Covers pretty much everything you need to know about SPSS
+              Covers pretty much everything you need to know about Python
             </div>
             <div className="detailshead">Details:</div>
             <div className="detailstext">
-              The course is uniquely designed by top technical experts to ensure
-              the meaningful skill development which enables the candidates to
-              gain insight about technology and make them ready to
-              start/accelerate their carrier immediately after completing this
-              course. SPSS Training course aims to deliver quality training that
-              covers solid fundamental knowledge on core concepts with a
-              practical approach. Such exposure will help learners scale up
-              their skills and perform real-time projects with the best
-              practices. It is a perfect practical and interactive course that
-              gives excellent basic to intermediate knowledge. It includes-
+            Master the art of data analysis and visualization with Python in this comprehensive course. Covering a wide range of topics, from Python fundamentals and data handling to advanced visualization techniques and statistical analysis, this course is perfect for beginners and those looking to enhance their data analysis skills. Topics include:
             </div>
             <div className="detailpoints">
               {data.details.map((e) => {
@@ -114,4 +111,4 @@ function Aboutcourse() {
   );
 }
 
-export default Aboutcourse;
+

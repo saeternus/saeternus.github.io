@@ -1,9 +1,9 @@
 import React from "react";
 import * as Components from "./components/index";
 import { Helmet } from "react-helmet";
-import DAVAbout from "./components/DAVaboutcourse";
-import DAVHeader from "./components/DAVcourseheader";
-import DAVPlan from "./components/DAVcourseplan";
+import DAVAbout from "./components/courses/DAVaboutcourse";
+import DAVHeader from "./components/courses/DAVcourseheader";
+import DAVPlan from "./components/courses/DAVcourseplan";
 
 export default function DAVCourse() {
   return (

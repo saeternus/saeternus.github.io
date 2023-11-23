@@ -1,7 +1,7 @@
 import React from "react";
-import Coursesheader from "./components/SPSScourseheader";
-import Aboutcourse from "./components/SPSSaboutcourse";
-import Courseplan from "./components/SPSScourseplan";
+import Coursesheader from "./components/courses/SPSScourseheader";
+import Aboutcourse from "./components/courses/SPSSaboutcourse";
+import Courseplan from "./components/courses/SPSScourseplan";
 import { Helmet } from "react-helmet";
 
 function GIScourse() {

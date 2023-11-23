@@ -1,19 +1,20 @@
 import React from "react";
 import "./Aboutcourse.css";
-import Authentic from "../assets/certificate.png";
-import Online from "../assets/online classes.png";
-import Life from "../assets/life time.png";
-import Level from "../assets/beginner level.png";
-import Support from "../assets/subtitles.png";
+import Authentic from "../../assets/certificate.png";
+import Online from "../../assets/online classes.png";
+import Life from "../../assets/life time.png";
+import Level from "../../assets/beginner level.png";
+import Support from "../../assets/subtitles.png";
 
-function RemoteSensingAbout() {
+function Aboutcourse() {
   const data = {
     details: [
-        "Satellite Image Processing: FCC preparation, image referencing, and enhancement.",
-        "Image Classification and Analysis: Digital classification, supervised/unsupervised classification, and on-screen visual interpretation.",
-        "Advanced Technologies: Delve into LiDAR, microwave, and hyperspectral data, understanding their applications and advancements.",
-        "Real-world Use Cases: Examine practical applications through case studies, highlighting the versatility of remote sensing technologies.",
-        "Practical Hands-on Practice: Engage in extensive hands-on sessions, reinforcing skills in utilizing ERDAS Imagine for practical applications.",         
+      "Digitization of maps and different themes for present day landform evaluation.",
+      "Calculation of the area, perimeter and other domains for estimation of different layers for integration and decision making capacity.",
+      "Auto Generation of hydrological parameters for water related processes.",
+      "Use of various statistical methods in GIS for spatial and vector data.",
+      "Application of GIS in various disciplines of geography, geology, social sciences, civil works, etc.",
+      "Relevant for disciplines like Science, Social Science, Humanities, Archeology, Disaster Management, Engineering, Computer Science, Planning and Architechture, Mining, Agriculture, Population Studies, Medical Science etc."
     ],
   };
   const feature = {
@@ -80,12 +81,16 @@ function RemoteSensingAbout() {
               <div className="abouttext">About Course</div>
             </div>
             <div className="aboutheaing">
-              Covers pretty much everything you need to know about Remote Sensing and ERDAS Imagine
+              Covers pretty much everything you need to know about GIS
             </div>
             <div className="detailshead">Details:</div>
             <div className="detailstext">
-            The Remote Sensing with ERDAS Imagine Certification Course offers a comprehensive exploration of remote sensing principles and practical applications using ERDAS Imagine software. Beginning with foundational concepts, participants learn satellite image processing techniques, image classification, and analysis methodologies. Advanced technologies, including LiDAR and hyperspectral data, are covered alongside real-world use cases and applications of UAVs in remote sensing. Hands-on practice sessions reinforce theoretical knowledge, preparing participants for certification through a structured curriculum.
-            Topics include:
+              The course is uniquely designed by top technical experts to
+              ensure the meaningful skill development which enables the
+              candidates to gain insight about technology and make them ready to
+              start/accelerate their carrier immediately after completing this
+              course. The objective of the course is to develop an understanding
+              and competence in, Geo spatial technology as-
             </div>
             <div className="detailpoints">
               {data.details.map((e) => {
@@ -104,4 +109,5 @@ function RemoteSensingAbout() {
     </div>
   );
 }
-export default RemoteSensingAbout
+
+export default Aboutcourse;

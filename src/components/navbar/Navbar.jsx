@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../assets/logo.png";
-import Footer from "./Footer";
+import logo from "../../assets/logo.png";
+import Footer from "../footer/Footer";
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

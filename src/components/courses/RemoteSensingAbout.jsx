@@ -1,34 +1,19 @@
 import React from "react";
 import "./Aboutcourse.css";
-import Authentic from "../assets/certificate.png";
-import Online from "../assets/online classes.png";
-import Life from "../assets/life time.png";
-import Level from "../assets/beginner level.png";
-import Support from "../assets/subtitles.png";
+import Authentic from "../../assets/certificate.png";
+import Online from "../../assets/online classes.png";
+import Life from "../../assets/life time.png";
+import Level from "../../assets/beginner level.png";
+import Support from "../../assets/subtitles.png";
 
-function CRMAbout() {
+function RemoteSensingAbout() {
   const data = {
     details: [
-      "Fundamentals of research: its Importance & Scope.",
-      "Research: Meaning, Types, Objectives and Characteristics.",
-      "Positivism and Post Positivism in Research.",
-      "Introduction to Research in Social Sciences.",
-      "Research Process and Designs.",
-      "Various Methods and Techniques of Research.",
-      "Formulation of Research Problems and Hypotheses.",
-      "Literature Review and Referencing.",
-      "Sampling Techniques and Error.",
-      "Data Types and Sources: Primary and secondary.",
-      "Questionnaire/Interview Schedule Designing.",
-      "Data Preprocessing, Tabulation, and Graphical Representation.",
-      "Application of Remote Sensing and GIS in Research.",
-      "Use of Statistical Techniques in Research.",
-      "Data Analysis and Visualization with SPSS and Python.",
-      "Scale Techniques and Quality Measurement.",
-      "Researcher Qualities and Attitude.",
-      "Preparation of Research Reports and Papers.",
-      "Research Proposals and Presentation Skills.",
-      "Utilizing Internet for Research and Impact Analysis.",
+        "Satellite Image Processing: FCC preparation, image referencing, and enhancement.",
+        "Image Classification and Analysis: Digital classification, supervised/unsupervised classification, and on-screen visual interpretation.",
+        "Advanced Technologies: Delve into LiDAR, microwave, and hyperspectral data, understanding their applications and advancements.",
+        "Real-world Use Cases: Examine practical applications through case studies, highlighting the versatility of remote sensing technologies.",
+        "Practical Hands-on Practice: Engage in extensive hands-on sessions, reinforcing skills in utilizing ERDAS Imagine for practical applications.",         
     ],
   };
   const feature = {
@@ -95,16 +80,12 @@ function CRMAbout() {
               <div className="abouttext">About Course</div>
             </div>
             <div className="aboutheaing">
-              Covers pretty much everything you need to know about Research methodology
+              Covers pretty much everything you need to know about Remote Sensing and ERDAS Imagine
             </div>
             <div className="detailshead">Details:</div>
             <div className="detailstext">
-              Gain a comprehensive understanding of research methodology with
-              this course. Covering everything from the fundamentals and
-              research process to data analysis, statistical techniques, and
-              presentation skills, this course is designed to equip you with the
-              knowledge and practical skills needed to excel in research. Topics
-              include:
+            The Remote Sensing with ERDAS Imagine Certification Course offers a comprehensive exploration of remote sensing principles and practical applications using ERDAS Imagine software. Beginning with foundational concepts, participants learn satellite image processing techniques, image classification, and analysis methodologies. Advanced technologies, including LiDAR and hyperspectral data, are covered alongside real-world use cases and applications of UAVs in remote sensing. Hands-on practice sessions reinforce theoretical knowledge, preparing participants for certification through a structured curriculum.
+            Topics include:
             </div>
             <div className="detailpoints">
               {data.details.map((e) => {
@@ -123,4 +104,4 @@ function CRMAbout() {
     </div>
   );
 }
-export default CRMAbout
+export default RemoteSensingAbout

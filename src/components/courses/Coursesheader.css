@@ -21,7 +21,7 @@
     min-width: 300px;
     display: flex;
     flex-direction: column;
-    background: url('../assets/dots.png') no-repeat;
+    background: url('../../assets/dots.png') no-repeat;
     padding: 20px;
 }
 .courseheading {

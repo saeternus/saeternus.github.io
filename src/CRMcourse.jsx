@@ -1,9 +1,9 @@
 import React from "react";
 import * as Components from "./components/index";
 import { Helmet } from "react-helmet";
-import CRMHeader from "./components/CRMcourseheader";
-import CRMAbout from "./components/CRMaboutcourse";
-import CRMPlan from "./components/CRMcourseplan";
+import CRMHeader from "./components/courses/CRMcourseheader";
+import CRMAbout from "./components/courses/CRMaboutcourse";
+import CRMPlan from "./components/courses/CRMcourseplan";
 
 export default function CRMCourse() {
   return (

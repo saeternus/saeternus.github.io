@@ -1,7 +1,7 @@
 .AboutUsbox{
     width: 100%;
     height: 85vh;
-    background: url('../assets/team\ @3x\ 1.png') no-repeat;
+    background: url('../../assets/team\ @3x\ 1.png') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;

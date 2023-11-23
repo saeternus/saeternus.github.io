@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Courseplan.css";
-import plus from "../assets/add.png";
-import minus from "../assets/minus.png";
+import plus from "../../assets/add.png";
+import minus from "../../assets/minus.png";
 
 export default function RemoteSensingPlan() {
   const dayplan = [

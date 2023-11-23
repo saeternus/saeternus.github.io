@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import Redirecttocontact from "./Redirecttocontact";
+import Redirecttocontact from "../Redirecttocontact";
 import { useLocation } from "react-router-dom";
 
 function Footer() {

@@ -1,7 +1,7 @@
 import React from "react";
 // import mainImage from "../assets/main-img.png";
 import './main-section.css'
-import image from '../assets/mainback.png'
+import image from '../../assets/mainback.png'
 
 function MainSection() {
 

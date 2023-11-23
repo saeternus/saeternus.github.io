@@ -1,20 +1,34 @@
 import React from "react";
 import "./Aboutcourse.css";
-import Authentic from "../assets/certificate.png";
-import Online from "../assets/online classes.png";
-import Life from "../assets/life time.png";
-import Level from "../assets/beginner level.png";
-import Support from "../assets/subtitles.png";
+import Authentic from "../../assets/certificate.png";
+import Online from "../../assets/online classes.png";
+import Life from "../../assets/life time.png";
+import Level from "../../assets/beginner level.png";
+import Support from "../../assets/subtitles.png";
 
-function Aboutcourse() {
+function CRMAbout() {
   const data = {
     details: [
-      "Digitization of maps and different themes for present day landform evaluation.",
-      "Calculation of the area, perimeter and other domains for estimation of different layers for integration and decision making capacity.",
-      "Auto Generation of hydrological parameters for water related processes.",
-      "Use of various statistical methods in GIS for spatial and vector data.",
-      "Application of GIS in various disciplines of geography, geology, social sciences, civil works, etc.",
-      "Relevant for disciplines like Science, Social Science, Humanities, Archeology, Disaster Management, Engineering, Computer Science, Planning and Architechture, Mining, Agriculture, Population Studies, Medical Science etc."
+      "Fundamentals of research: its Importance & Scope.",
+      "Research: Meaning, Types, Objectives and Characteristics.",
+      "Positivism and Post Positivism in Research.",
+      "Introduction to Research in Social Sciences.",
+      "Research Process and Designs.",
+      "Various Methods and Techniques of Research.",
+      "Formulation of Research Problems and Hypotheses.",
+      "Literature Review and Referencing.",
+      "Sampling Techniques and Error.",
+      "Data Types and Sources: Primary and secondary.",
+      "Questionnaire/Interview Schedule Designing.",
+      "Data Preprocessing, Tabulation, and Graphical Representation.",
+      "Application of Remote Sensing and GIS in Research.",
+      "Use of Statistical Techniques in Research.",
+      "Data Analysis and Visualization with SPSS and Python.",
+      "Scale Techniques and Quality Measurement.",
+      "Researcher Qualities and Attitude.",
+      "Preparation of Research Reports and Papers.",
+      "Research Proposals and Presentation Skills.",
+      "Utilizing Internet for Research and Impact Analysis.",
     ],
   };
   const feature = {
@@ -81,16 +95,16 @@ function Aboutcourse() {
               <div className="abouttext">About Course</div>
             </div>
             <div className="aboutheaing">
-              Covers pretty much everything you need to know about GIS
+              Covers pretty much everything you need to know about Research methodology
             </div>
             <div className="detailshead">Details:</div>
             <div className="detailstext">
-              The course is uniquely designed by top technical experts to
-              ensure the meaningful skill development which enables the
-              candidates to gain insight about technology and make them ready to
-              start/accelerate their carrier immediately after completing this
-              course. The objective of the course is to develop an understanding
-              and competence in, Geo spatial technology as-
+              Gain a comprehensive understanding of research methodology with
+              this course. Covering everything from the fundamentals and
+              research process to data analysis, statistical techniques, and
+              presentation skills, this course is designed to equip you with the
+              knowledge and practical skills needed to excel in research. Topics
+              include:
             </div>
             <div className="detailpoints">
               {data.details.map((e) => {
@@ -109,5 +123,4 @@ function Aboutcourse() {
     </div>
   );
 }
-
-export default Aboutcourse;
+export default CRMAbout
