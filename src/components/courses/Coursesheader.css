@@ -23,6 +23,7 @@
     flex-direction: column;
     background: url('../../assets/dots.png') no-repeat;
     padding: 20px;
+    margin-top: 5%;
 }
 .courseheading {
   color: var(--neutral-light-white, #fff);

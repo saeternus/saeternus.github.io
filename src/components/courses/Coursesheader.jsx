@@ -57,7 +57,7 @@ function Coursesheader({course}) {
               <div className="amt">
                 <div className="price">{course.price}</div>
                 <div className="mrp">{course.orignalPrice}</div>
-                <div className="discount">{course.discount}</div>
+                <div className="discount">{course.discount} off</div>
               </div>
               <div className="tax">Inclusive of GST</div>
             </div>
