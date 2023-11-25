@@ -57,7 +57,7 @@ function Aboutcourse() {
   }
 
   function Featurespoint(e) {
-    console.log(e.value.img);
+    // console.log(e.value.img);
     return (
       <div className="featurepoint">
         <div className="featureimg">
@@ -85,7 +85,7 @@ function Aboutcourse() {
             </div>
             <div className="detailshead">Details:</div>
             <div className="detailstext">
-              The course is uniquely designed by top technical experts to ensure
+              {/* The course is uniquely designed by top technical experts to ensure
               the meaningful skill development which enables the candidates to
               gain insight about technology and make them ready to
               start/accelerate their carrier immediately after completing this
@@ -94,7 +94,7 @@ function Aboutcourse() {
               practical approach. Such exposure will help learners scale up
               their skills and perform real-time projects with the best
               practices. It is a perfect practical and interactive course that
-              gives excellent basic to intermediate knowledge. It includes-
+              gives excellent basic to intermediate knowledge. It includes- */}
             </div>
             <div className="detailpoints">
               {data.details.map((e) => {

@@ -6,17 +6,8 @@ import Life from "../../assets/life time.png";
 import Level from "../../assets/beginner level.png";
 import Support from "../../assets/subtitles.png";
 
-function Aboutcourse() {
-  const data = {
-    details: [
-      "Digitization of maps and different themes for present day landform evaluation.",
-      "Calculation of the area, perimeter and other domains for estimation of different layers for integration and decision making capacity.",
-      "Auto Generation of hydrological parameters for water related processes.",
-      "Use of various statistical methods in GIS for spatial and vector data.",
-      "Application of GIS in various disciplines of geography, geology, social sciences, civil works, etc.",
-      "Relevant for disciplines like Science, Social Science, Humanities, Archeology, Disaster Management, Engineering, Computer Science, Planning and Architechture, Mining, Agriculture, Population Studies, Medical Science etc."
-    ],
-  };
+function Aboutcourse({course}) {
+
   const feature = {
     features: [
       {
@@ -81,19 +72,20 @@ function Aboutcourse() {
               <div className="abouttext">About Course</div>
             </div>
             <div className="aboutheaing">
-              Covers pretty much everything you need to know about GIS
+              {course.aboutHead}
             </div>
             <div className="detailshead">Details:</div>
             <div className="detailstext">
-              The course is uniquely designed by top technical experts to
+              {course.detailsPara}
+              {/* The course is uniquely designed by top technical experts to
               ensure the meaningful skill development which enables the
               candidates to gain insight about technology and make them ready to
               start/accelerate their carrier immediately after completing this
               course. The objective of the course is to develop an understanding
-              and competence in, Geo spatial technology as-
+              and competence in, Geo spatial technology as- */}
             </div>
             <div className="detailpoints">
-              {data.details.map((e) => {
+              {course.details.map((e) => {
                 return <Detailspoint values={e} />;
               })}
             </div>
@@ -111,3 +103,4 @@ function Aboutcourse() {
 }
 
 export default Aboutcourse;
+

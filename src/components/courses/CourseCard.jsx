@@ -15,7 +15,8 @@ function CourseCard({ img, category, heading, link, mrp, offer }) {
     <Link to={link} className="cardlink">
       <div className="card">
         <div className="discount-badge">
-          {discountPercentage === "N/A" ? "N/A" : `${discountPercentage}% OFF`}
+          {offer} OFF
+          {/* {discountPercentage === "N/A" ? "N/A" : `${offer}% OFF`} */}
         </div>
         <div className="card-image">
           <img src={img} alt="Course Image" />
@@ -24,7 +25,7 @@ function CourseCard({ img, category, heading, link, mrp, offer }) {
         <div className="heading">
           {heading}
           <div className="cardprice">
-            <span className="discounted">{offer}</span>
+            <span className="discounted">{offer} off</span>
             <span className="cardmrp">{mrp}</span>
           </div>
         </div>
