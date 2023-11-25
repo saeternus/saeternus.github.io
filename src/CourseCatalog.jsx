@@ -18,6 +18,7 @@ function CourseCatalog() {
             category={"Course"}
             heading={course.header}
             link={`/courses/${course.slug}`} 
+            price={course.price}
             mrp={`₹${course.price}`}
             offer={`${course.discount}`}
           />

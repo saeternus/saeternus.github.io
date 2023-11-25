@@ -1,6 +1,6 @@
 import image1 from './assets/image.png'
-import image3 from './assets/image.png'
-import image4 from './assets/image.png'
+import dav from "./assets/dav.png";
+import crm from "./assets/CRM.jpg";
 
 const courses = [
   {
@@ -177,15 +177,15 @@ const courses = [
     numberOfAssignments: '6+',
     projectsIncluded: 'Hands-on Projects',
     additionalInfo: 'Lecture timings will be decided on mutual consensus',
-    price: '₹2,950',
-    originalPrice: '₹7,375',
-    discount: '60%',
+    price: '₹3,540',
+    originalPrice: '₹7,000',
+    discount: '50%',
     inclusiveOfGST: true,
     image: image1,
     
     // lecturesPerWeek: 2,
   }, //Next course Below:  
-  
+    //Course2
   {
       title: 'SPSS Certification',
       slug: `${'SPSS Certification'.toLowerCase().replace(/\s+/g, '-')}`,
@@ -368,9 +368,482 @@ const courses = [
       
       // lecturesPerWeek: 2,
     }, //Next course Below:
+    //Course3
+    {
+      title: 'Data Analysis Certification',
+      slug: `${'Data Analysis Certification'.toLowerCase().replace(/\s+/g, '-')}`,
+      header: 'Certificate Course in Python - Data Analysis and Visualisation',
+      description: "Master the art of data analysis and visualization with Python. From Python fundamentals and programming techniques to data handling, exploratory data analysis, machine learning, geospatial data visualization, and statistical analysis, this comprehensive course equips you with the skills needed to unlock the potential of data in today's data-driven world.",
+      whatsapp: 'https://chat.whatsapp.com/HkrLN4L6LdaGuhj1TqkYWT',
+      formLink: 'https://forms.gle/GnXUAxDczULkvQQF6',
+      aboutHead: 'Covers pretty much everything you need to know about Python',
+      detailsPara: 'Master the art of data analysis and visualization with Python in this comprehensive course. Covering a wide range of topics, from Python fundamentals and data handling to advanced visualization techniques and statistical analysis, this course is perfect for beginners and those looking to enhance their data analysis skills. Topics include:',
+      details: [
+        "Python - Introduction, variables, constants, strings, lists and maps.",
+        "Python - conditionals, loops and functions.",
+        "Python - classes and packages. How to read documentation?",
+        "Importing/loading datasets. Data wrangling, preprocessing, and cleanup. Handling excel, csv, and dataframes.",
+        "Exploratory data analysis with pandas and numpy. Basic statistical analysis like mean, median, mode, standard deviation, percentiles, etc.",
+        "Plotting with matplotlib. Visually appealing visualizations for papers and presentations.",
+        "Area plots, histograms, bar charts, pie charts, box plots, and scatter plots.",
+        "Classification and regression decision trees. Linear regression, logistic regression.",
+        "Handling 3D data. Bubble plots, heatmaps, and 3D bar charts.",
+        "Normality, Statistical tests, confidence interval estimates, etc.",
+        "Visualizing geospatial data with folium.",
+        "Model evaluation and refinement. Testing.",
+      ],
+      // features: [
+      //   { title: 'Feature 1', text: 'Description of Feature 1' },
+      //   { title: 'Feature 2', text: 'Description of Feature 2' },
+      // ],
+      
+      dayPlan : [
+        {
+          daycount: "Day 1",
+          Chapter: "Python - Introduction, variables, constants, strings, lists and maps.",
+          duration: "1 hour 30 minutes",
+          date: "14/12/2023", 
+          day: "Thursday",
+        },
+        {
+          daycount: "Day 2",
+          Chapter: "Python - conditionals, loops and functions.",
+          duration: "1 hour 30 minutes",
+          date: "17/12/2023", 
+          day: "Sunday",
+        },
+        {
+          daycount: "Day 3",
+          Chapter: "Python - classes and packages. How to read documentation?",
+          duration: "1 hour 30 minutes",
+          date: "21/12/2023",
+          day: "Thursday",
+        },
+        {
+          daycount: "Day 4",
+          Chapter: "Importing/loading datasets. Data wrangling, preprocessing and cleanup. Handling excel, csv and dataframes.",
+          duration: "1 hour 30 minutes",
+          date: "24/12/2023",
+          day: "Sunday",
+        },
+        {
+          daycount: "Day 5",
+          Chapter: "Exploratory data analysis with pandas and numpy. Basic statistical analysis like mean, median, mode, standard deviation, percentiles etc.",
+          duration: "1 hour 30 minutes",
+          date: "28/12/2023", 
+          day: "Thursday",
+        },
+        {
+          daycount: "Day 6",
+          Chapter: "Plotting with matplotlib. Visually appealing visualizations for papers and presentations.",
+          duration: "1 hour 30 minutes",
+          date: "31/12/2023",
+          day: "Sunday",
+        },
+        {
+          daycount: "Day 7",
+          Chapter: "Area plots, histograms, bar charts, pie charts, box plots, and scatter plots.",
+          duration: "1 hour 30 minutes",
+          date: "04/01/2024", 
+          day: "Thursday",
+        },
+        {
+          daycount: "Day 8",
+          Chapter: "Classification and regression decision trees. Linear regression, logistic regression.",
+          duration: "1 hour 30 minutes",
+          date: "07/01/2024", 
+          day: "Sunday",
+        },
+        {
+          daycount: "Day 9",
+          Chapter: "Handling 3D data. Bubble plots, heatmaps and 3D bar charts.",
+          duration: "1 hour 30 minutes",
+          date: "11/01/2024", 
+          day: "Thursday",
+        },
+        {
+          daycount: "Day 10",
+          Chapter: "Normality, Statistical tests, confidence interval estimates etc.",
+          duration: "1 hour 30 minutes",
+          date: "14/01/2024", 
+          day: "Sunday",
+        },
+        {
+          daycount: "Day 11",
+          Chapter: "Visualizing geospatial data with folium.",
+          duration: "1 hour 30 minutes",
+          date: "18/01/2024", 
+          day: "Thursday",
+        },
+        {
+          daycount: "Day 12",
+          Chapter: "Model evaluation and refinement. Testing.",
+          duration: "1 hour 30 minutes",
+          date: "21/01/2024", 
+          day: "Sunday",
+        },
+      ],
+    
 
+      duration: '6 Weeks',
+      numberOfLiveClasses: 12,
+      numberOfAssignments: '6+',
+      projectsIncluded: 'Hands-on Projects',
+      additionalInfo: 'Lecture timings will be decided on mutual consensus',
+      price: '₹2,950',
+      originalPrice: '₹7,375',
+      discount: '60%',
+      inclusiveOfGST: true,
+      image: dav,
+      
+      // lecturesPerWeek: 2,
+    }, //Next course Below:
+    //Course4
+    {
+      title: 'Remote Sensing Certification',
+      slug: `${'Remote Sensing Certification'.toLowerCase().replace(/\s+/g, '-')}`,
+      header: 'Certificate Course in Remote Sensing with ERDAS',
+      description: "The Certificate Course in Remote Sensing with ERDAS offers a comprehensive training program, covering essential principles of remote sensing and hands-on experience with ERDAS Imagine software. This course provides practical skills in image processing, classification, and spatial modeling, enabling participants to harness the power of remote sensing data for environmental monitoring, resource management, and GIS applications. ",
+      whatsapp: 'https://chat.whatsapp.com/C1JrWWEMrbwBp785QnFNVj',
+      formLink: 'https://forms.gle/4XCdgsjLha6iwnga8',
+      aboutHead: 'Covers pretty much everything you need to know about Remote Sensing and ERDAS Imagine',
+      detailsPara: 'The Remote Sensing with ERDAS Imagine Certification Course offers a comprehensive exploration of remote sensing principles and practical applications using ERDAS Imagine software. Beginning with foundational concepts, participants learn satellite image processing techniques, image classification, and analysis methodologies. Advanced technologies, including LiDAR and hyperspectral data, are covered alongside real-world use cases and applications of UAVs in remote sensing. Hands-on practice sessions reinforce theoretical knowledge, preparing participants for certification through a structured curriculum. Topics include:',
+      details: [
+        "Satellite Image Processing: FCC preparation, image referencing, and enhancement.",
+        "Image Classification and Analysis: Digital classification, supervised/unsupervised classification, and on-screen visual interpretation.",
+        "Advanced Technologies: Delve into LiDAR, microwave, and hyperspectral data, understanding their applications and advancements.",
+        "Real-world Use Cases: Examine practical applications through case studies, highlighting the versatility of remote sensing technologies.",
+        "Practical Hands-on Practice: Engage in extensive hands-on sessions, reinforcing skills in utilizing ERDAS Imagine for practical applications.",         
+    ],
+      dayPlan : [
+        {
+          daycount: "Day 1",
+          Chapter: "Introduction to Remote Sensing: A Short History of Remote Sensing; Introduction to Digital Data; Important Basic Concepts of Remote Sensing; Geographic Concepts",
+          duration: "1 hour 30 minutes",
+          date: "25/12/2023",
+          day: "Monday",
+        },
+        {
+          daycount: "Day 2",
+          Chapter: "Satellite Image Technology and Basics: The Electromagnetic Spectrum; Passive/Active Sensors; Remote Sensing Sensor Platforms; Analogue Aerial Photography; Digital Imagery; Imagery Types",
+          duration: "1 hour 30 minutes",
+          date: "29/12/2023",
+          day: "Friday",
+        },
+        {
+          daycount: "Day 3",
+          Chapter: "Image Processing Software Installation Demo",
+          duration: "1 hour 30 minutes",
+          date: "1/01/2024",
+          day: "Monday",
+        },
+        {
+          daycount: "Day 4",
+          Chapter: "Satellite Image Pre Processing-I: Satellite Data Downloading; FCC Preparation; Colour Matching; Hands on Practice",
+          duration: "1 hour 30 minutes",
+          date: "5/01/2024",
+          day: "Friday",
+        },
+        {
+          daycount: "Day 5",
+          Chapter: "Satellite Image Pre Processing-II: Image Pre-Processing; Hands on Practice",
+          duration: "1 hour 30 minutes",
+          date: "8/01/2024",
+          day: "Monday",
+        },
+        {
+          daycount: "Day 6",
+          Chapter: "Satellite Image Pre Processing-III: Image Referencing and Transformation; Image Mosaics; Hands on Practice",
+          duration: "1 hour 30 minutes",
+          date: "12/01/2024",
+          day: "Friday",
+        },
+        {
+          daycount: "Day 7",
+          Chapter: "Hands on Practice for Satellite Image Pre Processing",
+          duration: "1 hour 30 minutes",
+          date: "15/01/2024",
+          day: "Monday",
+        },
+        {
+          daycount: "Day 8",
+          Chapter: "Image Processing-I: Image Enhancement; Hands on Practice",
+          duration: "1 hour 30 minutes",
+          date: "19/01/2024",
+          day: "Friday",
+        },
+        {
+          daycount: "Day 9",
+          Chapter: "Image Processing-II: Image Fusion; Hands on Practice",
+          duration: "1 hour 30 minutes",
+          date: "22/01/2024",
+          day: "Monday",
+        },
+        {
+          daycount: "Day 10",
+          Chapter: "Image Classification-I: General Introduction; Vector File Creation; Raster File Creation; Hands on Practice",
+          duration: "1 hour 30 minutes",
+          date: "26/01/2024",
+          day: "Friday",
+        },
+        {
+          daycount: "Day 11",
+          Chapter: "Image Classification-II: Digital Classification; Image Classification Unsupervised; Image Classification Supervised; Hands on Practice",
+          duration: "1 hour 30 minutes",
+          date: "29/01/2024",
+          day: "Monday",
+        },
+        {
+          daycount: "Day 12",
+          Chapter: "Image Classification-III: On Screen Visual Interpretation; Change Detection; Vegetation Indices Analysis; Hands on Practice",
+          duration: "1 hour 30 minutes",
+          date: "2/02/2024",
+          day: "Friday",
+        },
+        {
+          daycount: "Day 13",
+          Chapter: "Hands on Practice for Image Classification",
+          duration: "1 hour 30 minutes",
+          date: "5/02/2024",
+          day: "Monday",
+        },
+        {
+          daycount: "Day 14",
+          Chapter: "Satellite Image Analysis-I: Attribute Formation; Colour Coding; Hands on Practice",
+          duration: "1 hour 30 minutes",
+          date: "9/02/2024",
+          day: "Friday",
+        },
+        {
+          daycount: "Day 15",
+          Chapter: "Satellite Image Analysis-II: Area Calculation; Statistics Generation",
+          duration: "1 hour 30 minutes",
+          date: "12/02/2024",
+          day: "Monday",
+        },
+        {
+          daycount: "Day 16",
+          Chapter: "Advanced Technology of Remote Sensing: Brief Description of Optical, Microwave, LiDAR & Hyperspectral Data; Advancement of Mivrowave, LiDAR and Hyperspectral on Optical Data; Use Cases of Various Aspects of Remote Sensing; UAV (Unmanned Aerial Vehicle)",
+          duration: "1 hour 30 minutes",
+          date: "16/02/2024",
+          day: "Friday",
+        },
+      ],
+    
 
+      duration: '8 Weeks',
+      numberOfLiveClasses: 16,
+      numberOfAssignments: '8',
+      projectsIncluded: 'Hands-on Projects',
+      additionalInfo: 'Lecture timings will be decided on mutual consensus',
+      price: '₹2,990',
+      originalPrice: '₹10,700',
+      discount: '72%',
+      inclusiveOfGST: true,
+      image: dav,
+      
+      // lecturesPerWeek: 2,
+    }, //Next course Below:
+    //Course5
+    {
+      title: 'Research Methodology - Concepts and Data Management',
+      slug: `${'Research Methodology - Concepts and Data Management'.toLowerCase().replace(/\s+/g, '-')}`,
+      header: 'Certificate Course in Research Methodology - Concepts and Data Management',
+      description: "The Research Methodology Certificate Course is designed to provide a comprehensive understanding of fundamental research principles and methodologies. This course equips participants with practical knowledge in various stages of research, including problem formulation, hypothesis development, literature review, data collection techniques, preprocessing methods, and exploratory data analysis. Participants will gain insights into questionnaire design, sampling methodologies, and the utilization of tools like Python for data handling and analysis. Through a structured curriculum, this course aims to enhance participants' research skills and critical thinking abilities required for effective scholarly investigations in diverse fields.",      
+      whatsapp: 'https://chat.whatsapp.com/HLFjC7Usbs12NDdY0pR1fV',
+      formLink: 'https://forms.gle/EcBkBU18eM3o96S38',
+      aboutHead: 'Covers fundamental aspects of Research Methodology and Practical Application',
+      detailsPara: "The Research Methodology Certificate Course provides a comprehensive understanding of fundamental research principles and their practical applications. Participants delve into various stages of research, from problem formulation to hypothesis development, literature review, data collection techniques, preprocessing methods, and exploratory data analysis. The course covers essential aspects such as questionnaire design, sampling methodologies, and the utilization of Python for data handling and analysis. Hands-on sessions and a structured curriculum enhance participants' research skills and critical thinking, empowering effective scholarly investigations across diverse fields.",
+      details: [
+        "Fundamentals of Research: Importance & Scope; Research: Meaning, Types, Objectives, Characteristics; Positivism and Post Positivism to Research; Introducing the Idea of Research in Social Sciences; Limitation of Research.",
+        "Research Process: Research Designs and Variables; Vectoring and Examples.",
+        "Various Methods and Techniques of Research.",
+        "Formulation of Research Problem; Articulating your Synopsis; How to map the thesis to a claim?",
+        "Formulation of Hypothesis: Concepts, Types, Sources; Characteristics of a Good Hypothesis; Hypothesis testing and Evaluation Design.",
+        "How to read a research paper?; Review of Literature; Referencing System.",
+        "Sampling Design Techniques: Concepts and Types; Selection of Suitable Sampling Techniques; Sampling Size Decision; Sampling Error.",
+        "Data Types and Sources: Primary and Secondary; Application of Sampling in various types; User Study.",
+        "Designing Questionnaire/Interview Schedule.",
+        "Data Preprocessing: Data Preparation, Tabulation, Coding and Editing; Graphical Representation and Mapping.",
+        "Introduction to Python; Exploratory Data Analysis with Python; Handling Large Excel and CSV files Using Open Street Maps.",
+        "More Python concepts; Data Analysis and Visualisation with Python."
+      ],
+        dayPlan: [
+          {
+            daycount: "Day 1",
+            Chapter: "Fundamentals of Research: Importance & Scope; Research: Meaning, Types, Objectives, Characteristics; Positivism and Post Positivism to Research; Introducing the Idea of Research in Social Sciences; Limitation of Research",
+            duration: "1 hour 30 minutes",
+          },
+          {
+            daycount: "Day 2",
+            Chapter: "Research Process; Research Designs and Variables; Vectoring and Examples",
+            duration: "1 hour 30 minutes",
+          },
+          {
+            daycount: "Day 3",
+            Chapter: "Various Methods and Techniques of Research",
+            duration: "1 hour 30 minutes",
+          },
+          {
+            daycount: "Day 4",
+            Chapter: "Formulation of Research Problem; Articulating your Synopsis; How to map the thesis to a claim?",
+            duration: "1 hour 30 minutes",
+          },
+          {
+            daycount: "Day 5",
+            Chapter: "Formulation of Hypothesis: Concepts, Types, Sources; Characteristics of a Good Hypothesis; Hypothesis testing and Evaluation Design",
+            duration: "1 hour 30 minutes",
+          },
+          {
+            daycount: "Day 6",
+            Chapter: "How to read a research paper?; Review of Literature; Referencing System",
+            duration: "1 hour 30 minutes",
+          },
+          {
+            daycount: "Day 7",
+            Chapter: "Sampling Design Techniques: Concepts and Types; Selection of Suitable Sampling Techniques; Sampling Size Decision; Sampling Error",
+            duration: "1 hour 30 minutes",
+          },
+          {
+            daycount: "Day 8",
+            Chapter: "Data Types and Sources: Primary and Secondary; Application of Sampling in various types; User Study",
+            duration: "1 hour 30 minutes",
+          },
+          {
+            daycount: "Day 9",
+            Chapter: "Designing Questionnaire/Interview Schedule",
+            duration: "1 hour 30 minutes",
+          },
+          {
+            daycount: "Day 10",
+            Chapter: "Data Preprocessing: Data Preparation, Tabulation, Coding and Editing; Graphical Representation and Mapping",
+            duration: "1 hour 30 minutes",
+          },
+          {
+            daycount: "Day 11",
+            Chapter: "Introduction to Python; Exploratory Data Analysis with Python; Handling Large Excel and CSV files Using Open Street Maps",
+            duration: "1 hour 30 minutes",
+          },
+          {
+            daycount: "Day 12",
+            Chapter: "More Python concepts; Data Analysis and Visualisation with Python",
+            duration: "1 hour 30 minutes",
+          },
+        ],
 
+      duration: '6 Weeks',
+      numberOfLiveClasses: 12,
+      numberOfAssignments: '6+',
+      projectsIncluded: 'Hands-on Projects',
+      additionalInfo: 'Lecture timings will be decided on mutual consensus',
+      price: '₹2,950',
+      originalPrice: '₹7,375',
+      discount: '60%',
+      inclusiveOfGST: true,
+      image: crm,
+
+    }, //Next course Below:
+    //Course6
+
+    {
+     title: 'Research Methodology Analysis and Writing',
+     slug: `${'Research Methodology Analysis and Writing'.toLowerCase().replace(/\s+/g, '-')}`,
+     header: 'Certificate Course in Research Methodology - Analysis and Writing',
+     description: "The Research Methodology Certificate Course is designed to provide a comprehensive understanding of fundamental research principles and methodologies. This course equips participants with practical knowledge in various stages of research, including problem formulation, hypothesis development, literature review, data collection techniques, preprocessing methods, and exploratory data analysis. Participants will gain insights into questionnaire design, sampling methodologies, and the utilization of tools like Python for data handling and analysis. Through a structured curriculum, this course aims to enhance participants' research skills and critical thinking abilities required for effective scholarly investigations in diverse fields.",      
+      whatsapp: 'https://chat.whatsapp.com/HLFjC7Usbs12NDdY0pR1fV',
+      formLink: 'https://forms.gle/EcBkBU18eM3o96S38',
+      aboutHead: 'Covers fundamental aspects of Research Methodology and Practical Application',
+      detailsPara: "The Research Methodology Certificate Course provides a comprehensive understanding of fundamental research principles and their practical applications. Participants delve into various stages of research, from problem formulation to hypothesis development, literature review, data collection techniques, preprocessing methods, and exploratory data analysis. The course covers essential aspects such as questionnaire design, sampling methodologies, and the utilization of Python for data handling and analysis. Hands-on sessions and a structured curriculum enhance participants' research skills and critical thinking, empowering effective scholarly investigations across diverse fields.",
+      details: [
+        "Fundamentals of Research: Importance & Scope; Research: Meaning, Types, Objectives, Characteristics; Positivism and Post Positivism to Research; Introducing the Idea of Research in Social Sciences; Limitation of Research.",
+        "Research Process: Research Designs and Variables; Vectoring and Examples.",
+        "Various Methods and Techniques of Research.",
+        "Formulation of Research Problem; Articulating your Synopsis; How to map the thesis to a claim?",
+        "Formulation of Hypothesis: Concepts, Types, Sources; Characteristics of a Good Hypothesis; Hypothesis testing and Evaluation Design.",
+        "How to read a research paper?; Review of Literature; Referencing System.",
+        "Sampling Design Techniques: Concepts and Types; Selection of Suitable Sampling Techniques; Sampling Size Decision; Sampling Error.",
+        "Data Types and Sources: Primary and Secondary; Application of Sampling in various types; User Study.",
+        "Designing Questionnaire/Interview Schedule.",
+        "Data Preprocessing: Data Preparation, Tabulation, Coding and Editing; Graphical Representation and Mapping.",
+        "Introduction to Python; Exploratory Data Analysis with Python; Handling Large Excel and CSV files Using Open Street Maps.",
+        "More Python concepts; Data Analysis and Visualisation with Python."
+      ],
+      dayPlan: [
+        {
+          daycount: "Day 1",
+          Chapter: "Application of Remote Sensing in Research",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 2",
+          Chapter: "Application of GIS in Research",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 3",
+          Chapter: "Use of Statistical Techniques in Research",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 4",
+          Chapter: "Data Analysis and Visualisation with SPSS",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 5",
+          Chapter: "Scale Techniques: Concepts, Types, Rating and Ranking Scale; Scale Construction Techniques, Multidimensional Scaling",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 6",
+          Chapter: "Qualities of Researcher; Attitude Measuring and Observation; Importance of Velocity; Preparing your Elevator Pitch",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 7",
+          Chapter: "Precaution in Preparing the Research Report; The Mechanics of Writing: Report, Dissertation, Thesis; Index/Content, Appendix, Footnotes, Endnotes, Use of Diacritical Marks",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 8",
+          Chapter: "Quotation, Citation, Bibliographical References; Drawing Conclusion, Giving Suggestions and Recommendations; Claims and Implied Evaluation",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 9",
+          Chapter: "Writing Abstract, Book Review, Content Writing; Writing and Editing Research Papers; How to Avoid Plagiarism",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 10",
+          Chapter: "Formulation of Research Proposal; How to Ask for Funding/Collaboration?; How to Give a Presentation",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 11",
+          Chapter: "Writing Well-Formatted Papers: LATEX and Overleaf",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 12",
+          Chapter: "Use of Internet in Research: Email, Google Scholar, Interaction through Social Networking and Other Channels; How to Showcase your Work on the Web?; Understanding Impact Factor, Citations, H-index etc.",
+          duration: "1 hour 30 minutes",
+        },
+      ],
+
+          duration: '6 Weeks',
+          numberOfLiveClasses: 12,
+          numberOfAssignments: '6+',
+          projectsIncluded: 'Hands-on Projects',
+          additionalInfo: 'Lecture timings will be decided on mutual consensus',
+          price: '₹2,950',
+          originalPrice: '₹7,375',
+          discount: '60%',
+          inclusiveOfGST: true,
+          image: crm,
+
+    }, //Next course Below:
+    //Course7
   ];
   
   export default courses;

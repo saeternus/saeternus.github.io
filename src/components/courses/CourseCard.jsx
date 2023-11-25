@@ -2,7 +2,7 @@ import React from "react";
 import "./CourseCard.css";
 import { Link } from "react-router-dom";
 
-function CourseCard({ img, category, heading, link, mrp, offer }) {
+function CourseCard({ img, category, heading, link, price,mrp, offer }) {
 
   const mrpValue = parseFloat(mrp.replace("₹", "").replace(/,/g, ""));
   const offerValue = parseFloat(offer.replace("₹", "").replace(/,/g, ""));
@@ -25,7 +25,7 @@ function CourseCard({ img, category, heading, link, mrp, offer }) {
         <div className="heading">
           {heading}
           <div className="cardprice">
-            <span className="discounted">{offer} off</span>
+            <span className="discounted">{price}</span>
             <span className="cardmrp">{mrp}</span>
           </div>
         </div>

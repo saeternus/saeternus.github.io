@@ -5,10 +5,6 @@ import "./App.css";
 import Home from "./Home";
 import Services from "./Services";
 import ContactUs from "./ContactUs";
-import GIScourse from "./GIScourse";
-import SPSScourse from "./SPSScourse";
-import CRMCourse from "./CRMcourse";
-import DAVCourse from "./DAVcourse";
 import CourseCatalog from "./CourseCatalog";
 import Sitemap from "./Sitemap";
 import courses from './CourseData';
@@ -37,11 +33,6 @@ function App() {
               element={<CoursePage course={course} />}
             />
           ))}
-            {/* <Route exact path="/courses/gis" element={<GIScourse />} />
-            <Route exact path="/courses/spss" element={<SPSScourse />} />
-            <Route exact path="/courses/python-data-analysis-visualisation" element={<DAVCourse />} />
-            <Route exact path="/courses/research-methodology" element={<CRMCourse />} /> */}
-            {/* <Route exact path="sitemap" element={<Sitemap />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>
