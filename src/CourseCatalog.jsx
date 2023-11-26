@@ -2,9 +2,6 @@ import React from "react";
 import * as Components from "./components";
 import "./CourseCatalog.css";
 import CourseData from './CourseData' 
-import img from "./assets/image.png";
-import img2 from "./assets/dav.png";
-import img3 from "./assets/CRM.jpg";
 
 function CourseCatalog() {
   return (
@@ -19,7 +16,7 @@ function CourseCatalog() {
             heading={course.header}
             link={`/courses/${course.slug}`} 
             price={course.price}
-            mrp={`₹${course.price}`}
+            mrp={`${course.price}`}
             offer={`${course.discount}`}
           />
         ))}

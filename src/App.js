@@ -29,7 +29,7 @@ function App() {
               
             <Route
               key={index}
-              exact path={`/courses/${course.title.toLowerCase().replace(/\s+/g, '-')}`}
+              exact path={`/courses/${course.slug}`}
               element={<CoursePage course={course} />}
             />
           ))}

@@ -5,7 +5,7 @@ import crm from "./assets/CRM.jpg";
 const courses = [
   {
     title: 'GIS Certification',
-    slug: `${'GIS Certification'.toLowerCase().replace(/\s+/g, '-')}`,
+    slug: 'gis',
     header: 'Certificate Course in Geographical Information System (GIS)',
     description: 'Emerging technologies such as GIS (Geographic Information System) and RS (Remote Sensing) are instrumental in addressing intricate global challenges and impacting various aspects of life. In this context, the role of a Geospatial expert is gaining significance in the decision-making process. Acquiring practical knowledge is essential to comprehensively grasp the underlying concepts and unlock the potential for innovative applications of these technologies across diverse domains.',
     whatsapp: 'https://chat.whatsapp.com/FRmZTHwsDLACdxUAQOg3GE',
@@ -188,7 +188,7 @@ const courses = [
     //Course2
   {
       title: 'SPSS Certification',
-      slug: `${'SPSS Certification'.toLowerCase().replace(/\s+/g, '-')}`,
+      slug: 'spss',
       header: 'Certificate Course in Statistical Package for the Social Sciences (SPSS)',
       description: 'Data analysis is one of the most flourishing fields right now as businesses around the world are trying to make sense of their data. However, there are several data analysis tools available in the market, but SPSS is a suite of software programs that analyses scientific data related to the social sciences. It offers a fast-visual modelling environment that ranges from the smallest to the most complex models. SPSS is designed to accommodate a wide variety of variable data formats, including Excel, CSV, SAS, and Stata data files. The data obtained from SPSS is used for surveys, data mining, market research, etc. SPSS training enables you to master all the essential concepts of SPSS for performing data analysis and statistics through hands-on exposure to industry use cases.',
       whatsapp: 'https://chat.whatsapp.com/FdbSxmUWe4yJTVNQvV1zZ2',
@@ -371,7 +371,7 @@ const courses = [
     //Course3
     {
       title: 'Data Analysis Certification',
-      slug: `${'Data Analysis Certification'.toLowerCase().replace(/\s+/g, '-')}`,
+      slug: 'python-data-analysis-visualisation',
       header: 'Certificate Course in Python - Data Analysis and Visualisation',
       description: "Master the art of data analysis and visualization with Python. From Python fundamentals and programming techniques to data handling, exploratory data analysis, machine learning, geospatial data visualization, and statistical analysis, this comprehensive course equips you with the skills needed to unlock the potential of data in today's data-driven world.",
       whatsapp: 'https://chat.whatsapp.com/HkrLN4L6LdaGuhj1TqkYWT',
@@ -501,7 +501,7 @@ const courses = [
     //Course4
     {
       title: 'Remote Sensing Certification',
-      slug: `${'Remote Sensing Certification'.toLowerCase().replace(/\s+/g, '-')}`,
+      slug: 'remote-sensing-erdas',
       header: 'Certificate Course in Remote Sensing with ERDAS',
       description: "The Certificate Course in Remote Sensing with ERDAS offers a comprehensive training program, covering essential principles of remote sensing and hands-on experience with ERDAS Imagine software. This course provides practical skills in image processing, classification, and spatial modeling, enabling participants to harness the power of remote sensing data for environmental monitoring, resource management, and GIS applications. ",
       whatsapp: 'https://chat.whatsapp.com/C1JrWWEMrbwBp785QnFNVj',
@@ -647,7 +647,7 @@ const courses = [
     //Course5
     {
       title: 'Research Methodology - Concepts and Data Management',
-      slug: `${'Research Methodology - Concepts and Data Management'.toLowerCase().replace(/\s+/g, '-')}`,
+      slug: 'research-methodology-concepts-and-data-management',
       header: 'Certificate Course in Research Methodology - Concepts and Data Management',
       description: "The Research Methodology Certificate Course is designed to provide a comprehensive understanding of fundamental research principles and methodologies. This course equips participants with practical knowledge in various stages of research, including problem formulation, hypothesis development, literature review, data collection techniques, preprocessing methods, and exploratory data analysis. Participants will gain insights into questionnaire design, sampling methodologies, and the utilization of tools like Python for data handling and analysis. Through a structured curriculum, this course aims to enhance participants' research skills and critical thinking abilities required for effective scholarly investigations in diverse fields.",      
       whatsapp: 'https://chat.whatsapp.com/HLFjC7Usbs12NDdY0pR1fV',
@@ -747,7 +747,7 @@ const courses = [
 
     {
      title: 'Research Methodology Analysis and Writing',
-     slug: `${'Research Methodology Analysis and Writing'.toLowerCase().replace(/\s+/g, '-')}`,
+     slug: 'research-methodology-analysis-and-writing',
      header: 'Certificate Course in Research Methodology - Analysis and Writing',
      description: "The Research Methodology Certificate Course is designed to provide a comprehensive understanding of fundamental research principles and methodologies. This course equips participants with practical knowledge in various stages of research, including problem formulation, hypothesis development, literature review, data collection techniques, preprocessing methods, and exploratory data analysis. Participants will gain insights into questionnaire design, sampling methodologies, and the utilization of tools like Python for data handling and analysis. Through a structured curriculum, this course aims to enhance participants' research skills and critical thinking abilities required for effective scholarly investigations in diverse fields.",      
       whatsapp: 'https://chat.whatsapp.com/HLFjC7Usbs12NDdY0pR1fV',
