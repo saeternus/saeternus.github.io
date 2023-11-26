@@ -6,6 +6,7 @@ const courses = [
   {
     title: 'GIS Certification',
     slug: 'gis',
+    startdate: 'soon!',
     header: 'Certificate Course in Geographical Information System (GIS)',
     description: 'Emerging technologies such as GIS (Geographic Information System) and RS (Remote Sensing) are instrumental in addressing intricate global challenges and impacting various aspects of life. In this context, the role of a Geospatial expert is gaining significance in the decision-making process. Acquiring practical knowledge is essential to comprehensively grasp the underlying concepts and unlock the potential for innovative applications of these technologies across diverse domains.',
     whatsapp: 'https://chat.whatsapp.com/FRmZTHwsDLACdxUAQOg3GE',
@@ -176,7 +177,7 @@ const courses = [
     numberOfLiveClasses: 18,
     numberOfAssignments: '6+',
     projectsIncluded: 'Hands-on Projects',
-    additionalInfo: 'Lecture timings will be decided on mutual consensus',
+    additionalInfo: 'Lecture timings will be decided as per your availability',
     price: '₹3,540',
     originalPrice: '₹7,000',
     discount: '50%',
@@ -189,6 +190,7 @@ const courses = [
   {
       title: 'SPSS Certification',
       slug: 'spss',
+      startdate: 'soon!',
       header: 'Certificate Course in Statistical Package for the Social Sciences (SPSS)',
       description: 'Data analysis is one of the most flourishing fields right now as businesses around the world are trying to make sense of their data. However, there are several data analysis tools available in the market, but SPSS is a suite of software programs that analyses scientific data related to the social sciences. It offers a fast-visual modelling environment that ranges from the smallest to the most complex models. SPSS is designed to accommodate a wide variety of variable data formats, including Excel, CSV, SAS, and Stata data files. The data obtained from SPSS is used for surveys, data mining, market research, etc. SPSS training enables you to master all the essential concepts of SPSS for performing data analysis and statistics through hands-on exposure to industry use cases.',
       whatsapp: 'https://chat.whatsapp.com/FdbSxmUWe4yJTVNQvV1zZ2',
@@ -359,7 +361,7 @@ const courses = [
       numberOfLiveClasses: 18,
       numberOfAssignments: '6+',
       projectsIncluded: 'Hands-on Projects',
-      additionalInfo: 'Lecture timings will be decided on mutual consensus',
+      additionalInfo: 'Lecture timings will be decided as per your availability',
       price: '₹2,950',
       originalPrice: '₹7,375',
       discount: '60%',
@@ -372,6 +374,7 @@ const courses = [
     {
       title: 'Data Analysis Certification',
       slug: 'python-data-analysis-visualisation',
+      startdate: 'December 16, 2023',
       header: 'Certificate Course in Python - Data Analysis and Visualisation',
       description: "Master the art of data analysis and visualization with Python. From Python fundamentals and programming techniques to data handling, exploratory data analysis, machine learning, geospatial data visualization, and statistical analysis, this comprehensive course equips you with the skills needed to unlock the potential of data in today's data-driven world.",
       whatsapp: 'https://chat.whatsapp.com/HkrLN4L6LdaGuhj1TqkYWT',
@@ -489,7 +492,7 @@ const courses = [
       numberOfLiveClasses: 12,
       numberOfAssignments: '6+',
       projectsIncluded: 'Hands-on Projects',
-      additionalInfo: 'Lecture timings will be decided on mutual consensus',
+      additionalInfo: 'Lecture timings will be decided as per your availability',
       price: '₹2,950',
       originalPrice: '₹7,375',
       discount: '60%',
@@ -502,6 +505,7 @@ const courses = [
     {
       title: 'Remote Sensing Certification',
       slug: 'remote-sensing-erdas',
+      startdate: 'December 25, 2023',
       header: 'Certificate Course in Remote Sensing with ERDAS',
       description: "The Certificate Course in Remote Sensing with ERDAS offers a comprehensive training program, covering essential principles of remote sensing and hands-on experience with ERDAS Imagine software. This course provides practical skills in image processing, classification, and spatial modeling, enabling participants to harness the power of remote sensing data for environmental monitoring, resource management, and GIS applications. ",
       whatsapp: 'https://chat.whatsapp.com/C1JrWWEMrbwBp785QnFNVj',
@@ -635,7 +639,7 @@ const courses = [
       numberOfLiveClasses: 16,
       numberOfAssignments: '8',
       projectsIncluded: 'Hands-on Projects',
-      additionalInfo: 'Lecture timings will be decided on mutual consensus',
+      additionalInfo: 'Lecture timings will be decided as per your availability',
       price: '₹2,990',
       originalPrice: '₹10,700',
       discount: '72%',
@@ -646,8 +650,9 @@ const courses = [
     }, //Next course Below:
     //Course5
     {
-      title: 'Research Methodology - Concepts and Data Management',
-      slug: 'research-methodology-concepts-and-data-management',
+      title: 'Research Methodology - Research Design and Writing',
+      slug: 'research-methodology-research-design-and-writing',
+      startdate: 'soon!',
       header: 'Certificate Course in Research Methodology - Concepts and Data Management',
       description: "The Research Methodology Certificate Course is designed to provide a comprehensive understanding of fundamental research principles and methodologies. This course equips participants with practical knowledge in various stages of research, including problem formulation, hypothesis development, literature review, data collection techniques, preprocessing methods, and exploratory data analysis. Participants will gain insights into questionnaire design, sampling methodologies, and the utilization of tools like Python for data handling and analysis. Through a structured curriculum, this course aims to enhance participants' research skills and critical thinking abilities required for effective scholarly investigations in diverse fields.",      
       whatsapp: 'https://chat.whatsapp.com/HLFjC7Usbs12NDdY0pR1fV',
@@ -701,32 +706,32 @@ const courses = [
           },
           {
             daycount: "Day 7",
-            Chapter: "Sampling Design Techniques: Concepts and Types; Selection of Suitable Sampling Techniques; Sampling Size Decision; Sampling Error",
+            Chapter: "Precaution in Preparing the Research Report; The Mechanics of Writing: Report, Dissertation, Thesis; Index/Content, Appendix, Footnotes, Endnotes, Use of Diacritical Marks",
             duration: "1 hour 30 minutes",
           },
           {
             daycount: "Day 8",
-            Chapter: "Data Types and Sources: Primary and Secondary; Application of Sampling in various types; User Study",
+            Chapter: "Quotation, Citation, Bibliographical References; Drawing Conclusion, Giving Suggestions and Recommendations; Claims and Implied Evaluation",
             duration: "1 hour 30 minutes",
           },
           {
             daycount: "Day 9",
-            Chapter: "Designing Questionnaire/Interview Schedule",
+            Chapter: "Writing Abstract, Book Review, Content Writing; Writing and Editing Research Papers; How to Avoid Plagiarism",
             duration: "1 hour 30 minutes",
           },
           {
             daycount: "Day 10",
-            Chapter: "Data Preprocessing: Data Preparation, Tabulation, Coding and Editing; Graphical Representation and Mapping",
+            Chapter: "Formulation of Research Proposal; How to Ask for Funding/Collaboration?; How to Give a Presentation",
             duration: "1 hour 30 minutes",
           },
           {
             daycount: "Day 11",
-            Chapter: "Introduction to Python; Exploratory Data Analysis with Python; Handling Large Excel and CSV files Using Open Street Maps",
+            Chapter: "Writing Well-Formatted Papers: LATEX and Overleaf",
             duration: "1 hour 30 minutes",
           },
           {
             daycount: "Day 12",
-            Chapter: "More Python concepts; Data Analysis and Visualisation with Python",
+            Chapter: "Use of Internet in Research: Email, Google Scholar, Interaction through Social Networking and Other Channels; How to Showcase your Work on the Web?; Understanding Impact Factor, Citations, H-index etc.",
             duration: "1 hour 30 minutes",
           },
         ],
@@ -735,7 +740,7 @@ const courses = [
       numberOfLiveClasses: 12,
       numberOfAssignments: '6+',
       projectsIncluded: 'Hands-on Projects',
-      additionalInfo: 'Lecture timings will be decided on mutual consensus',
+      additionalInfo: 'Lecture timings will be decided as per your availability',
       price: '₹2,950',
       originalPrice: '₹7,375',
       discount: '60%',
@@ -746,8 +751,9 @@ const courses = [
     //Course6
 
     {
-     title: 'Research Methodology Analysis and Writing',
-     slug: 'research-methodology-analysis-and-writing',
+     title: 'Research Methodology Data Collection and Analysis',
+     slug: 'research-methodology-data-collection-and-analysis',
+     startdate: 'soon!',
      header: 'Certificate Course in Research Methodology - Analysis and Writing',
      description: "The Research Methodology Certificate Course is designed to provide a comprehensive understanding of fundamental research principles and methodologies. This course equips participants with practical knowledge in various stages of research, including problem formulation, hypothesis development, literature review, data collection techniques, preprocessing methods, and exploratory data analysis. Participants will gain insights into questionnaire design, sampling methodologies, and the utilization of tools like Python for data handling and analysis. Through a structured curriculum, this course aims to enhance participants' research skills and critical thinking abilities required for effective scholarly investigations in diverse fields.",      
       whatsapp: 'https://chat.whatsapp.com/HLFjC7Usbs12NDdY0pR1fV',
@@ -769,6 +775,41 @@ const courses = [
         "More Python concepts; Data Analysis and Visualisation with Python."
       ],
       dayPlan: [
+        {
+          daycount: "Day 6",
+          Chapter: "Qualities of Researcher; Attitude Measuring and Observation; Importance of Velocity; Preparing your Elevator Pitch",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 7",
+          Chapter: "Sampling Design Techniques: Concepts and Types; Selection of Suitable Sampling Techniques; Sampling Size Decision; Sampling Error",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 8",
+          Chapter: "Data Types and Sources: Primary and Secondary; Application of Sampling in various types; User Study",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 9",
+          Chapter: "Designing Questionnaire/Interview Schedule",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 10",
+          Chapter: "Data Preprocessing: Data Preparation, Tabulation, Coding and Editing; Graphical Representation and Mapping",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 11",
+          Chapter: "Introduction to Python; Exploratory Data Analysis with Python; Handling Large Excel and CSV files Using Open Street Maps",
+          duration: "1 hour 30 minutes",
+        },
+        {
+          daycount: "Day 12",
+          Chapter: "More Python concepts; Data Analysis and Visualisation with Python",
+          duration: "1 hour 30 minutes",
+        },
         {
           daycount: "Day 1",
           Chapter: "Application of Remote Sensing in Research",
@@ -794,48 +835,13 @@ const courses = [
           Chapter: "Scale Techniques: Concepts, Types, Rating and Ranking Scale; Scale Construction Techniques, Multidimensional Scaling",
           duration: "1 hour 30 minutes",
         },
-        {
-          daycount: "Day 6",
-          Chapter: "Qualities of Researcher; Attitude Measuring and Observation; Importance of Velocity; Preparing your Elevator Pitch",
-          duration: "1 hour 30 minutes",
-        },
-        {
-          daycount: "Day 7",
-          Chapter: "Precaution in Preparing the Research Report; The Mechanics of Writing: Report, Dissertation, Thesis; Index/Content, Appendix, Footnotes, Endnotes, Use of Diacritical Marks",
-          duration: "1 hour 30 minutes",
-        },
-        {
-          daycount: "Day 8",
-          Chapter: "Quotation, Citation, Bibliographical References; Drawing Conclusion, Giving Suggestions and Recommendations; Claims and Implied Evaluation",
-          duration: "1 hour 30 minutes",
-        },
-        {
-          daycount: "Day 9",
-          Chapter: "Writing Abstract, Book Review, Content Writing; Writing and Editing Research Papers; How to Avoid Plagiarism",
-          duration: "1 hour 30 minutes",
-        },
-        {
-          daycount: "Day 10",
-          Chapter: "Formulation of Research Proposal; How to Ask for Funding/Collaboration?; How to Give a Presentation",
-          duration: "1 hour 30 minutes",
-        },
-        {
-          daycount: "Day 11",
-          Chapter: "Writing Well-Formatted Papers: LATEX and Overleaf",
-          duration: "1 hour 30 minutes",
-        },
-        {
-          daycount: "Day 12",
-          Chapter: "Use of Internet in Research: Email, Google Scholar, Interaction through Social Networking and Other Channels; How to Showcase your Work on the Web?; Understanding Impact Factor, Citations, H-index etc.",
-          duration: "1 hour 30 minutes",
-        },
       ],
 
           duration: '6 Weeks',
           numberOfLiveClasses: 12,
           numberOfAssignments: '6+',
           projectsIncluded: 'Hands-on Projects',
-          additionalInfo: 'Lecture timings will be decided on mutual consensus',
+          additionalInfo: 'Lecture timings will be decided as per your availability',
           price: '₹2,950',
           originalPrice: '₹7,375',
           discount: '60%',

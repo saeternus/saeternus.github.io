@@ -16,7 +16,7 @@ function CourseCatalog() {
             heading={course.header}
             link={`/courses/${course.slug}`} 
             price={course.price}
-            mrp={`${course.price}`}
+            mrp={`${course.originalPrice}`}
             offer={`${course.discount}`}
           />
         ))}
