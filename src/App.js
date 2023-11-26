@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import * as Components from "./components";
 import "./App.css";
 import Home from "./Home";
@@ -25,6 +25,7 @@ function App() {
             <Route exact path="/services" element={<Services />} />
             <Route exact path="/contact-us" element={<ContactUs />} />
             <Route exact path="/courses" element={<CourseCatalog />} />
+            <Route exact path="/courses/research-methodology" element={<Navigate to="/courses/research-methodology-research-design-and-writing" />} />
             {courses.map((course, index) => (
               
             <Route
@@ -33,6 +34,7 @@ function App() {
               element={<CoursePage course={course} />}
             />
           ))}
+          <Route path="/*" element={<Navigate to="/" />} />
           </Route>
         </Routes>
       </BrowserRouter>
