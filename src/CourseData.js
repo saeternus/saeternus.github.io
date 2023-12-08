@@ -1,12 +1,16 @@
-import image1 from './assets/image.png'
 import dav from "./assets/dav.png";
 import crm from "./assets/CRM.jpg";
+import globe from "./assets/globe.jpg";
+import stats from "./assets/stats.avif";
+import satellite from "./assets/satellite.avif";
+import data from "./assets/data.jpeg";
+import project from "./assets/project.jpeg";
 
 const courses = [
   {
     title: 'GIS Certification',
     slug: 'gis',
-    startdate: 'soon!',
+    startdate: 'January 7, 2024',
     header: 'Certificate Course in Geographical Information System (GIS)',
     description: 'Emerging technologies such as GIS (Geographic Information System) and RS (Remote Sensing) are instrumental in addressing intricate global challenges and impacting various aspects of life. In this context, the role of a Geospatial expert is gaining significance in the decision-making process. Acquiring practical knowledge is essential to comprehensively grasp the underlying concepts and unlock the potential for innovative applications of these technologies across diverse domains.',
     whatsapp: 'https://chat.whatsapp.com/FRmZTHwsDLACdxUAQOg3GE',
@@ -182,7 +186,7 @@ const courses = [
     originalPrice: '₹7,000',
     discount: '50%',
     inclusiveOfGST: true,
-    image: image1,
+    image: globe,
     
     // lecturesPerWeek: 2,
   }, //Next course Below:  
@@ -366,7 +370,7 @@ const courses = [
       originalPrice: '₹7,375',
       discount: '60%',
       inclusiveOfGST: true,
-      image: image1,
+      image: stats,
       
       // lecturesPerWeek: 2,
     }, //Next course Below:
@@ -469,20 +473,20 @@ const courses = [
     //Course4
     {
       title: 'Remote Sensing Certification',
-      slug: 'remote-sensing-erdas',
+      slug: 'remote-sensing',
       startdate: 'December 25, 2023',
-      header: 'Certificate Course in Remote Sensing with ERDAS Imagine',
-      description: "The Certificate Course in Remote Sensing with ERDAS Imagine offers a comprehensive training program, covering essential principles of remote sensing and hands-on experience with ERDAS Imagine software. This course provides practical skills in image processing, classification, and spatial modeling, enabling participants to harness the power of remote sensing data for environmental monitoring, resource management, and GIS applications. ",
+      header: 'Certificate Course in Remote Sensing',
+      description: "The Certificate Course in Remote Sensing offers a comprehensive training program, covering essential principles of remote sensing and hands-on experience with relevant software. This course provides practical skills in image processing, classification, and spatial modeling, enabling participants to harness the power of remote sensing data for environmental monitoring, resource management, and GIS applications. ",
       whatsapp: 'https://chat.whatsapp.com/C1JrWWEMrbwBp785QnFNVj',
       formLink: 'https://forms.gle/4XCdgsjLha6iwnga8',
-      aboutHead: 'Covers pretty much everything you need to know about Remote Sensing and ERDAS Imagine',
-      detailsPara: 'The Remote Sensing with ERDAS Imagine Certification Course offers a comprehensive exploration of remote sensing principles and practical applications using ERDAS Imagine software. Beginning with foundational concepts, participants learn satellite image processing techniques, image classification, and analysis methodologies. Advanced technologies, including LiDAR and hyperspectral data, are covered alongside real-world use cases and applications of UAVs in remote sensing. Hands-on practice sessions reinforce theoretical knowledge, preparing participants for certification through a structured curriculum. Topics include:',
+      aboutHead: 'Covers pretty much everything you need to know about Remote Sensing',
+      detailsPara: 'The Remote Sensing Certification Course offers a comprehensive exploration of remote sensing principles and practical applications using relevant software. Beginning with foundational concepts, participants learn satellite image processing techniques, image classification, and analysis methodologies. Advanced technologies, including LiDAR and hyperspectral data, are covered alongside real-world use cases and applications of UAVs in remote sensing. Hands-on practice sessions reinforce theoretical knowledge, preparing participants for certification through a structured curriculum. Topics include:',
       details: [
         "Satellite Image Processing: FCC preparation, image referencing, and enhancement.",
         "Image Classification and Analysis: Digital classification, supervised/unsupervised classification, and on-screen visual interpretation.",
         "Advanced Technologies: Delve into LiDAR, microwave, and hyperspectral data, understanding their applications and advancements.",
         "Real-world Use Cases: Examine practical applications through case studies, highlighting the versatility of remote sensing technologies.",
-        "Practical Hands-on Practice: Engage in extensive hands-on sessions, reinforcing skills in utilizing ERDAS Imagine for practical applications.",         
+        "Practical Hands-on Practice: Engage in extensive hands-on sessions, reinforcing skills in utilizing software for practical applications.",         
     ],
       dayPlan : [
         {
@@ -609,7 +613,7 @@ const courses = [
       originalPrice: '₹10,700',
       discount: '72%',
       inclusiveOfGST: true,
-      image: dav,
+      image: satellite,
       
       // lecturesPerWeek: 2,
     }, //Next course Below:
@@ -617,7 +621,7 @@ const courses = [
     {
       title: 'Research Methodology - Research Design and Writing',
       slug: 'research-methodology-research-design-and-writing',
-      startdate: 'soon!',
+      startdate: 'January 16, 2024',
       header: 'Certificate Course in Research Methodology - Research Design and Writing',
       description: "Embark on a transformative journey into the realm of research methodology. From laying the groundwork with fundamentals and diverse methodologies to navigating the intricacies of formulating hypotheses and writing impactful papers, each class unfolds a new chapter. Delve into practical insights, enhance your writing skills, and master the art of effective presentations. Join us to foster your passion for research and equip yourself with the tools needed for scholarly success.",      
       whatsapp: 'https://chat.whatsapp.com/HLFjC7Usbs12NDdY0pR1fV',
@@ -712,11 +716,11 @@ const courses = [
     {
      title: 'Research Methodology Data Collection and Analysis',
      slug: 'research-methodology-data-collection-and-analysis',
-     startdate: 'soon!',
+     startdate: 'March 16, 2024',
      header: 'Certificate Course in Research Methodology - Data Collection and Analysis',
      description: "Join us to master the intricacies of data collection and analysis in research. Explore the qualities of a researcher, delve into sampling techniques, and design effective questionnaires. Get hands-on with data preprocessing, Python-based exploratory data analysis, and visualization. This course is tailored for students eager to enhance their skills in collecting, processing, and analyzing data for impactful research.",      
       whatsapp: 'https://chat.whatsapp.com/HLFjC7Usbs12NDdY0pR1fV',
-      formLink: 'https://forms.gle/EcBkBU18eM3o96S38',
+      formLink: 'https://forms.gle/waNVN81LwwTR5Mwh8',
       aboutHead: 'Covers fundamental aspects of Research Methodology pertaining to Data Collection and Analysis',
       detailsPara: "Embark on a profound journey of research exploration with our course on Research Methodology: Data Collection and Analysis. Designed for aspiring researchers and data enthusiasts, this course offers a holistic understanding of essential research processes, from sampling techniques to advanced data analysis using Python. Here are a few key highlights:",
       details: [
@@ -798,10 +802,74 @@ const courses = [
           originalPrice: '₹8,200',
           discount: '64%',
           inclusiveOfGST: true,
-          image: crm,
+          image: data,
 
     }, //Next course Below:
     //Course7
+    {
+      title: 'Remote Sensing & GIS Project',
+      slug: 'remote-sensing-gis-project',
+      startdate: 'next week!',
+      header: 'Research Project in Remote Sensing & GIS',
+      description: "Join us to work on your very own research project or pick from one of our ideas that aligns with your interests. This will involve working with our experts to apply your Remote Sensing and GIS skills to real world case studies. In the end, you get an opportunity to publish a research paper!",      
+       whatsapp: 'https://chat.whatsapp.com/CxMeIeJcX5v4NDtE0Inld2',
+       formLink: 'https://forms.gle/jCB9H6QSXfTuEzSj7',
+       aboutHead: 'Use your Remote Sensing and GIS skills in the real world!',
+       detailsPara: "This program shall take you through a step by step journey through a research project of your choice involving Remote Sensing and GIS. You will be mentored by out expert team with meetings every week with continuous guidance and feedback. Here are a few key highlights:",
+       details: [
+         "Make a full scale project for your resume to showcase your skills.",
+         "One-on one mentorship with guidance and feedback at each stage.",
+         "No time limit. Work flexibly!",
+         "Apply your Remote Sensing and GIS skills to practical case studies.",
+         "Publish a paper at the end!",
+       ],
+       dayPlan: [
+         {
+           Chapter: "Topic Discussion",
+           duration: "30+ minutes",
+         },
+         {
+           Chapter: "Synopsis Draft",
+           duration: "30+ minutes",
+         },
+         {
+           Chapter: "Data Collection and Cleanup",
+           duration: "30+ minutes",
+         },
+         {
+           Chapter: "Data Analysis",
+           duration: "30+ minutes",
+         },
+         {
+           Chapter: "Mapping",
+           duration: "30+ minutes",
+         },
+         {
+           Chapter: "Discussion",
+           duration: "30+ minutes",
+         },
+         {
+           Chapter: "Report Writing",
+           duration: "30+ minutes",
+         },
+         {
+           Chapter: "Presentation",
+           duration: "30+ minutes",
+         },
+       ],
+           duration: '8 Weeks',
+           numberOfLiveClasses: 8,
+           numberOfAssignments: '4+',
+           projectsIncluded: 'Hands-on Projects',
+           additionalInfo: 'Lecture timings will be decided as per your availability',
+           price: '₹2,596',
+           originalPrice: '₹9,600',
+           discount: '73%',
+           inclusiveOfGST: true,
+           image: project,
+ 
+     }, //Next course Below:
+     //Course8
   ];
   
   export default courses;

@@ -26,6 +26,7 @@ function App() {
             <Route exact path="/contact-us" element={<ContactUs />} />
             <Route exact path="/courses" element={<CourseCatalog />} />
             <Route exact path="/courses/research-methodology" element={<Navigate to="/courses/research-methodology-research-design-and-writing" />} />
+            <Route exact path="/courses/remote-sensing-erdas" element={<Navigate to="/courses/remote-sensing" />} />
             {courses.map((course, index) => (
               
             <Route
