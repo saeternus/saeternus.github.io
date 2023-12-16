@@ -1,6 +1,6 @@
 const dav = {
-    title: 'Python - Data Analysis and Visualisation Certification',
-    pageTitle: 'Python - Data Analysis and Visualisation Certificate Program',
+    title: 'Python Data Analysis Certification',
+    pageTitle:  'Python Data Analysis Certification',
     slug: 'python-data-analysis-visualisation',
     startdate: 'February 25, 2024',
     header: 'Certificate Course in Python - Data Analysis and Visualisation',
