@@ -1,18 +1,45 @@
 .coursecontainer {
-  padding: 100px;
+  padding: 100px 0;
   background-color: #f6eafe;
 }
 
 .courseflex {
-  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill); 
+  grid-gap: 10px; 
+  grid-row-gap: 40px;
+}
+.courseflex > * {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 50px;
+  justify-content: center;
+}
+.catalogpageheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 2% 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #4f4f4f;
 }
 
-.catalogpageheading {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #4f4f4f;
+
+@media (min-width: 768px) {
+  .courseflex {
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+  }
+}
+
+@media (min-width: 1224px) {
+  .courseflex {
+    grid-template-columns: repeat(4, minmax(250px, 1fr)); 
+  }
+}
+
+
+@media (min-width: 1524px) {
+  .courseflex {
+    grid-template-columns: repeat(5, minmax(250px, 1fr)); 
+  }
 }

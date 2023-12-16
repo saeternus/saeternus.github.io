@@ -6,6 +6,7 @@ import Courseplan from './components/courses/Courseplan';
 function CoursePage({ course }) {
   return (
     <div className="Coursepage">
+      {console.log(course)}
       <Coursesheader course={course} />
       <Aboutcourse course={course} />
       <Courseplan course={course} />

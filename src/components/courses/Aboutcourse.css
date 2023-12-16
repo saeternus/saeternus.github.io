@@ -148,3 +148,414 @@
         justify-content: flex-start;
     }
 }
+.Courseplanbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .courseplanbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .courseplanboxheading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .courseplanheading {
+    font-family: Noto Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    padding: 35px 0;
+  }
+  
+  .coursedistribution {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    color: grey;
+    flex-wrap: wrap;
+  }
+  
+  .grey {
+    background-color: gray;
+  }
+  
+  .distributionpoints {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dayplans {
+    padding: 40px 0;
+    color: grey;
+  }
+  
+  .dayplan {
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    border: solid 1px #e0e0e0;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+  }
+  
+  .dayplanbox {
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .daycount {
+    width: 15%;
+    min-width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.16px;
+    color: var(--grey-shade-02, #615a63);
+  }
+  
+  .duration {
+    width: 20%;
+    min-width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.14px;
+  }
+  
+  .topicname {
+    width: -webkit-fill-available;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.16px;
+    color: var(--grey-shade-02, #615a63);
+    /* max-width: 20%;
+    width: 20%; */
+    min-width: 50px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .sign {
+    cursor: pointer;
+  }
+  
+  .daydescription {
+    padding: 40px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.14px;
+    background-color: #f2eff2;
+    transition: 0.5s;
+  }
+  
+  .nonedisplay {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 1400px) {
+      .day{
+          display: none;
+      }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+      .time{
+          display: none;
+      }
+  }
+  @media only screen and (max-width: 500px) {
+      .date{
+          display: none;
+      }
+      .courseplanheading{
+          font-size: 26px;
+      }
+      .dayplan{
+          padding: 0 15px;
+          height: 55px;
+      }
+      .courseplanbox{
+          padding: 0;
+      }
+  }
+
+  .headerbox{
+    height: fit-content;
+    /* max-height: 650px; */
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 130px 0;
+}
+.darkblue {
+  background-color: #111b38;
+}
+.headerimage img {
+  width: 100%;
+  object-fit: contain;
+}
+.headertext{
+    height: fit-content;
+    width: 60%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: url('../../assets/dots.png') no-repeat;
+    padding: 20px;
+    margin-top: 5%;
+}
+.courseheading {
+  color: var(--neutral-light-white, #fff);
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 10px;
+}
+.coursedes {
+  color: var(--grey-shade-05, #e0e0e0);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0.16px;
+  padding: 10px;
+}
+.coursepublish {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  gap: 8px;
+}
+.coursepublish a {
+  color: #57d335;
+}
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.name {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0.14px;
+  text-decoration-line: underline;
+}
+.number {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0.14px;
+}
+.registerbutton {
+  margin: 10px;
+  height: 50px;
+  background-color: #ff469f;
+  max-width: 200px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0.17px;
+  min-width: 150px;
+}
+.feturesbox {
+  height: 200px;
+  background-color: #f2eff2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.coursefeature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+}
+.featurenumber {
+  color: var(--secondary-yellow, #ff8e1c);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+.featuretext {
+  color: var(--grey-shade-01, #4b444d);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0.16px;
+}
+.eighty {
+  width: 80%;
+}
+
+.courseregister {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.amt {
+  display: flex;
+  font-family: Poppins;
+  color: white;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  color: #ff8e1c;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.mrp {
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
+  font-weight: 800;
+  text-decoration: line-through;
+}
+
+.discount {
+  margin-left: 0.3rem;
+  font-size: 1.5rem;
+  background-color: gray;
+  border-radius: 5px;
+  min-width: 100px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.tax {
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 600;
+}
+
+.pricedetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+}
+.featurenumber{
+    color: var(--secondary-yellow, #FF8E1C);
+text-align: center;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+}
+.featuretext{
+    color: var(--grey-shade-01, #4B444D);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%;
+letter-spacing: 0.16px;
+}
+.eighty{
+    width: 80%;
+}
+@media only screen and (max-width: 575px) {
+    .feturesbox{
+        height: 150px;
+    }
+    .featurenumber{
+        font-size: 25px;
+    }
+    .featuretext{
+        font-size: 14px;
+    }
+    .headerbox{
+        padding: 20px 0;
+    }
+    .courseheading{
+        font-size: 26px;
+    }
+    .coursedes{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .featurenumber{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .headerbox{
+      flex-direction: column;
+      padding: 50px 0;
+    }
+    .headertext{
+      width: 90%;
+      text-align: center;
+      align-items: center;
+    }
+}

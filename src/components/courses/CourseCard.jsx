@@ -3,7 +3,7 @@ import "./CourseCard.css";
 import { Link } from "react-router-dom";
 
 function CourseCard({ img, category, heading, link, price,mrp, offer }) {
-
+  const imagePath = `../../assets/${img}`;
   const mrpValue = parseFloat(mrp.replace("₹", "").replace(/,/g, ""));
   const offerValue = parseFloat(offer.replace("₹", "").replace(/,/g, ""));
 
@@ -19,7 +19,7 @@ function CourseCard({ img, category, heading, link, price,mrp, offer }) {
           {/* {discountPercentage === "N/A" ? "N/A" : `${offer}% OFF`} */}
         </div>
         <div className="card-image">
-          <img src={img} alt="Course Image" />
+          <img src={require(`../../assets/${img}`)} alt="Course" />
         </div>
         <div className="category">{category}</div>
         <div className="heading">

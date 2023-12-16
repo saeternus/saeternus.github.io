@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import { Outlet, Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Outlet, Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
 import Footer from "../footer/Footer";
+
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -10,7 +11,28 @@ function Navbar() {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
+  const location = useLocation();
 
+  useEffect(() => {
+    const pathname = location.pathname;
+    switch (pathname) {
+      case "/":
+        document.title = "Saeternus";
+        break;
+      case "/services":
+        document.title = "Services - Saeternus";
+        break;
+      case "/courses":
+        document.title = "Courses - Saeternus";
+        break;
+      case "/contact-us":
+        document.title = "Contact - Saeternus";
+        break;
+      default:
+        document.title = "Saeternus"; 
+        break;
+    }
+  }, [location]);
   return (
     <>
       <nav className={`navbar ${isMobileMenuOpen ? "mobile-menu-open" : ""}`}>
@@ -27,13 +49,13 @@ function Navbar() {
               <div className="navbar-divider"></div>
             </li>
             <li>
-              <Link to="/courses">Courses</Link>
+              <Link to="/services">Services</Link>
             </li>
             <li>
               <div className="navbar-divider"></div>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <Link to="/courses">Courses</Link>
             </li>
           </ul>
           <Link to="/contact-us" className="navbar-button">
