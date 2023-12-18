@@ -1,5 +1,6 @@
 const rmda = {
     title: 'Research Methodology Data Collection and Analysis',
+    pageTitle: 'Research Methodology Course',
     slug: 'research-methodology-data-collection-and-analysis',
     startdate: 'March 16, 2024',
     header: 'Certificate Course in Research Methodology - Data Collection and Analysis',

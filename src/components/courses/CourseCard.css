@@ -16,9 +16,8 @@
   padding: 7px;
   overflow: hidden;
   text-overflow: ellipsis;
-  /* white-space: nowrap; */
-  max-height: 120px; /* Set a maximum height for the heading */
-  font-size: inherit; /* Let JavaScript calculate and set the font size */
+  max-height: 120px; 
+  font-size: inherit; 
 }
 
 .discount-badge {
