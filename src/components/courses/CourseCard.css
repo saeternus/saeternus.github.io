@@ -10,6 +10,16 @@
 .cardlink{
   /* margin: 1%; */
 }
+.dynamic-heading {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  max-height: 120px; /* Set a maximum height for the heading */
+  font-size: inherit; /* Let JavaScript calculate and set the font size */
+}
 
 .discount-badge {
   position: absolute;
