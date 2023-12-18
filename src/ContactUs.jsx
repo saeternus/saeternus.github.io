@@ -7,7 +7,7 @@ function ContactUs() {
   return (
     <>
       <Helmet>
-        <title>Saeternus</title>
+        <title>Contact Us</title>
         <meta name="description" content="Portfolio page for Saeternus" />
       </Helmet>
       <Components.Contact />

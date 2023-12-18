@@ -1,4 +1,5 @@
 .frontpagecard{
+    margin: 90px 0;
     width: 200px;
     height: 200px;
     border-radius: 10px;
@@ -6,6 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    scale: 1.2;
 }
 .frontpagecardheading{
     font-size:1rem;

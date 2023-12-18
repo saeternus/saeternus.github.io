@@ -1,14 +1,16 @@
 import React from "react";
 import * as Components from "./components";
 import "./CourseCatalog.css";
-import CourseData from './CourseData' 
+
+const courseFiles = require.context("./AllCourses", false, /\.js$/);
+const courses = courseFiles.keys().map((fileName) => courseFiles(fileName).default);
 
 function CourseCatalog() {
   return (
     <div className="coursecontainer">
       <span className="catalogpageheading">Course Catalog</span>
       <div className="courseflex">
-        {CourseData.map((course, index) => (
+        {courses.map((course, index) => (
           <Components.CourseCard
             key={index}
             img={course.image}

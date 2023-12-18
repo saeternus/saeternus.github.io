@@ -14,32 +14,30 @@ function Contact() {
   };
 
   return (
-    <div className="conatactcontainer">
+    <div className="contactcontainer">
       <form onSubmit={handleSubmit} className="contactbox">
-        <div classname="heading">Contact Us</div>
-        <div className="nameemail">
-          <div>
-            <label htmlFor="name">Name:</label>
-            <input
-              type="text"
-              id="name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
-          </div>
+        <div className="heading">Contact Us</div>
+        <div className="form-group">
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
         </div>
-        <div className="message">
+        <div className="form-group">
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+        </div>
+        <div className="form-group">
           <label htmlFor="message">Message:</label>
           <textarea
             id="message"
@@ -48,7 +46,9 @@ function Contact() {
             required
           />
         </div>
-        <button type="submit">SEND</button>
+        <button type="submit" className="submit-btn">
+          SEND
+        </button>
       </form>
     </div>
   );
