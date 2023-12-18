@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 function CourseCard({ img, category, heading, link, price,mrp, offer, order }) {
   const mrpValue = parseFloat(mrp.replace("₹", "").replace(/,/g, ""));
   const offerValue = parseFloat(offer.replace("₹", "").replace(/,/g, ""));
-  const headingRef = useRef(null);
   useEffect(() => {
     const adjustHeadingFontSize = () => {
       const headingElement = headingRef.current;
@@ -51,7 +50,7 @@ function CourseCard({ img, category, heading, link, price,mrp, offer, order }) {
 
         while (
           headingElement.scrollHeight > headingElement.offsetHeight &&
-          fontSize > 10 // Minimum font size
+          fontSize > 10
         ) {
           fontSize -= 1;
           headingElement.style.fontSize = `${fontSize}px`;
@@ -61,7 +60,7 @@ function CourseCard({ img, category, heading, link, price,mrp, offer, order }) {
 
     adjustHeadingFontSize();
 
-    // Re-adjust font size when window resizes
+
     window.addEventListener("resize", adjustHeadingFontSize);
     return () => {
       window.removeEventListener("resize", adjustHeadingFontSize);
