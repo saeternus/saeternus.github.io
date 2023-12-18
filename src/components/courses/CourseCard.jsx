@@ -37,6 +37,36 @@ function CourseCard({ img, category, heading, link, price,mrp, offer, order }) {
       window.removeEventListener("resize", adjustHeadingFontSize);
     };
   }, []);
+  const headingRef = useRef(null);
+  useEffect(() => {
+    const adjustHeadingFontSize = () => {
+      const headingElement = headingRef.current;
+      if (headingElement) {
+        const card = headingElement.closest(".card");
+        const cardStyles = window.getComputedStyle(card);
+        const cardWidth = parseInt(cardStyles.width);
+
+        let fontSize = 16; // Initial font size in pixels
+        headingElement.style.fontSize = `${fontSize}px`;
+
+        while (
+          headingElement.scrollHeight > headingElement.offsetHeight &&
+          fontSize > 10 // Minimum font size
+        ) {
+          fontSize -= 1;
+          headingElement.style.fontSize = `${fontSize}px`;
+        }
+      }
+    };
+
+    adjustHeadingFontSize();
+
+    // Re-adjust font size when window resizes
+    window.addEventListener("resize", adjustHeadingFontSize);
+    return () => {
+      window.removeEventListener("resize", adjustHeadingFontSize);
+    };
+  }, []);
 
   const discountPercentage = isNaN(mrpValue) || isNaN(offerValue)
     ? "N/A"
