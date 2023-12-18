@@ -1,6 +1,6 @@
 const rmdw = {
     title: 'Research Methodology - Research Design and Writing',
-    pageTitle: 'Research Methodology Certificate Program',
+    pageTitle: 'Research Methodology',
     slug: 'research-methodology-research-design-and-writing',
     startdate: 'soon!',
     header: 'Certificate Course in Research Methodology - Research Design and Writing',
