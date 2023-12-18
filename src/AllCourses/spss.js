@@ -1,6 +1,6 @@
 const spss = {
     title: 'SPSS Certification',
-    pageTitle: 'SPSS Certificate Program',
+    pageTitle: 'SPSS Course',
     slug: 'spss',
     startdate: 'soon!',
     header: 'Certificate Course in Statistical Package for the Social Sciences (SPSS)',
