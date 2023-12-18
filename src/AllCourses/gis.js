@@ -1,6 +1,6 @@
 const gis = {
     title: 'GIS Certification',
-    pageTitle: 'GIS Course',
+    pageTitle: 'GIS Certificate Program',
     slug: 'gis',
     startdate: 'January 7, 2024',
     header: 'Certificate Course in Geographical Information System (GIS)',

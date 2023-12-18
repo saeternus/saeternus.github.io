@@ -1,6 +1,6 @@
 const remote = {
     title: 'Remote Sensing Certification',
-    pageTitle: 'Remote Sensing Course',
+    pageTitle: 'Remote Sensing Certificate Program',
     slug: 'remote-sensing',
     startdate: 'December 25, 2023',
     header: 'Certificate Course in Remote Sensing',
