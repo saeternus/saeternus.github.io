@@ -110,6 +110,7 @@ const dav = {
 export defaulconst dav = {
     title: 'Python Data Analysis Certification',
     slug: 'python-data-analysis-visualisation',
+    order: 1,
     startdate: 'December 16, 2023',
     header: 'Certificate Course in Python - Data Analysis and Visualisation',
     description: "Unlock the power of Python for data analysis and visualization in this comprehensive course. From mastering fundamental Python concepts to handling datasets and conducting exploratory data analysis, you'll gain the skills to visualize data effectively. Explore a variety of plots, charts, and statistical techniques, and even delve into geospatial data visualization. Elevate your proficiency in Python and transform raw data into meaningful insights. Join us on this engaging journey of learning and acquire the expertise needed for impactful data-driven decision-making.",
