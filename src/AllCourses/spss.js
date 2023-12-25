@@ -2,6 +2,7 @@ const spss = {
     title: 'SPSS Certification',
     pageTitle: 'SPSS Course',
     slug: 'spss',
+    order: 7,
     startdate: 'February 25, 2024',
     header: 'Certificate Course in Statistical Package for the Social Sciences (SPSS)',
     description: 'Data analysis is one of the most flourishing fields right now as businesses around the world are trying to make sense of their data. However, there are several data analysis tools available in the market, but SPSS is a suite of software programs that analyses scientific data related to the social sciences. It offers a fast-visual modelling environment that ranges from the smallest to the most complex models. SPSS is designed to accommodate a wide variety of variable data formats, including Excel, CSV, SAS, and Stata data files. The data obtained from SPSS is used for surveys, data mining, market research, etc. SPSS training enables you to master all the essential concepts of SPSS for performing data analysis and statistics through hands-on exposure to industry use cases.',
@@ -153,30 +154,30 @@ const spss = {
       },
     ],
 
-    duration: '8 Weeks',
-    numberOfLiveClasses: 16,
-    numberOfAssignments: '8+',
-    projectsIncluded: 'Hands-on Projects',
-    additionalInfo: 'Lecture timings will be decided as per your availability',
-    price: '₹2,950',
-    originalPrice: '₹7,375',
-    discount: '60%',
-    inclusiveOfGST: true,
-    image: "stats.avif",
-    
-    // lecturesPerWeek: 2,
-    begining: "Course starts",
-    contact: 9450906849,
-    durationLine:"Course Duration",
-    liveLine:"Live Lectures",
-    assignmentsLine: "Hands-on Assignments",
-    registerBtn: "Register Now",
-    courseLine: "This course is a balance of lectures & practicals",
-
-    infoPoints: [
-      "8 Weeks","16 Live Classes","2 Lectuers Per Week","8+ Assignments","Hands-on Projects", 
-    ],
-
-  };
+  duration: '8 Weeks',
+  numberOfLiveClasses: 16,
+  numberOfAssignments: '8+',
+  projectsIncluded: 'Hands-on Projects',
+  additionalInfo: 'Lecture timings will be decided as per your availability',
+  price: '₹2,950',
+  originalPrice: '₹7,375',
+  discount: '60%',
+  inclusiveOfGST: true,
+  image: "stats.avif",
   
-  export default spss;
+  // lecturesPerWeek: 2,
+  begining: "Course starts",
+  contact: 9450906849,
+  durationLine:"Course Duration",
+  liveLine:"Live Lectures",
+  assignmentsLine: "Hands-on Assignments",
+  registerBtn: "Register Now",
+  courseLine: "This course is a balance of lectures & practicals",
+
+  infoPoints: [
+    "8 Weeks","16 Live Classes","2 Lectuers Per Week","8+ Assignments","Hands-on Projects", 
+  ],
+
+};
+
+export default spss;

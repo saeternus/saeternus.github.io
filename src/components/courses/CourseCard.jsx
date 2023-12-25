@@ -4,8 +4,7 @@ import { useRef } from "react";
 import "./CourseCard.css";
 import { Link } from "react-router-dom";
 
-function CourseCard({ img, category, heading, link, price,mrp, offer }) {
-  const imagePath = `../../assets/${img}`;
+function CourseCard({ img, category, heading, link, price,mrp, offer, order }) {
   const mrpValue = parseFloat(mrp.replace("₹", "").replace(/,/g, ""));
   const offerValue = parseFloat(offer.replace("₹", "").replace(/,/g, ""));
   const headingRef = useRef(null);
