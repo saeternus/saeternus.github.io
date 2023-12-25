@@ -2,6 +2,7 @@ const gis = {
     title: 'GIS Certification',
     pageTitle: 'GIS Certificate Program',
     slug: 'gis',
+    order: 2,
     startdate: 'January 7, 2024',
     header: 'Certificate Course in Geographical Information System (GIS)',
     description: 'Emerging technologies such as GIS (Geographic Information System) and RS (Remote Sensing) are instrumental in addressing intricate global challenges and impacting various aspects of life. In this context, the role of a Geospatial expert is gaining significance in the decision-making process. Acquiring practical knowledge is essential to comprehensively grasp the underlying concepts and unlock the potential for innovative applications of these technologies across diverse domains.',

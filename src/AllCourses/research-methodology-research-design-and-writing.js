@@ -2,6 +2,7 @@ const rmdw = {
     title: 'Research Methodology - Research Design and Writing',
     pageTitle: 'Research Methodology',
     slug: 'research-methodology-research-design-and-writing',
+    order: 6,
     startdate: 'January 16, 2024',
     header: 'Certificate Course in Research Methodology - Research Design and Writing',
     description: "Embark on a transformative journey into the realm of research methodology. From laying the groundwork with fundamentals and diverse methodologies to navigating the intricacies of formulating hypotheses and writing impactful papers, each class unfolds a new chapter. Delve into practical insights, enhance your writing skills, and master the art of effective presentations. Join us to foster your passion for research and equip yourself with the tools needed for scholarly success.",      
