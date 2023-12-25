@@ -2,6 +2,7 @@ const rmda = {
     title: 'Research Methodology Data Collection and Analysis',
     pageTitle: 'Research Methodology Course',
     slug: 'research-methodology-data-collection-and-analysis',
+    order: 5,
     startdate: 'March 16, 2024',
     header: 'Certificate Course in Research Methodology - Data Collection and Analysis',
     description: "Join us to master the intricacies of data collection and analysis in research. Explore the qualities of a researcher, delve into sampling techniques, and design effective questionnaires. Get hands-on with data preprocessing, Python-based exploratory data analysis, and visualization. This course is tailored for students eager to enhance their skills in collecting, processing, and analyzing data for impactful research.",      

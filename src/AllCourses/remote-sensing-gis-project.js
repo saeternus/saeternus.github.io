@@ -2,6 +2,7 @@ const remoteGis = {
     title: 'Remote Sensing & GIS Project',
     pageTitle: 'Remote Sensing Course',
     slug: 'remote-sensing-gis-project',
+    order: 4,
     startdate: 'next week!',
     header: 'Research Project in Remote Sensing & GIS',
     description: "Join us to work on your very own research project or pick from one of our ideas that aligns with your interests. This will involve working with our experts to apply your Remote Sensing and GIS skills to real world case studies. In the end, you get an opportunity to publish a research paper!",      
