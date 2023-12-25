@@ -1,6 +1,6 @@
 const remoteGis = {
     title: 'Remote Sensing & GIS Project',
-    pageTitle: 'Remote Sensing and GIS Research Project',
+    pageTitle: 'Remote Sensing Course',
     slug: 'remote-sensing-gis-project',
     order: 4,
     startdate: 'next week!',
