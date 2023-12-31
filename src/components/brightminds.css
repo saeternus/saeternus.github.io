@@ -4,10 +4,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0 5%;
-    margin: 30px 0;
-    gap: 40px;
-    
+    padding: 1% 0;
+    margin: auto;
+    gap: 10px;
+    background-color: #f6eafe60;
+    width: 80%;
+    border-radius: 20px;
 }
 .brain{
     width: 40%;
@@ -17,6 +19,7 @@
 .brain img{
     width: 100%;
     object-fit: contain;
+    padding: 5%;
 }
 .brighthead{
     font-family: 'Inter';
@@ -26,15 +29,16 @@
 }
 .brightcontent{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
 }
 .brighttext{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 50%;
+    padding: 5%;
+    /* width: 50%; */
 }
 @media only screen and (max-width: 1100px) {
     .brighthead{
@@ -54,6 +58,7 @@ font-size: 25px;
         text-align: center;
         /* margin: 40px 0; */
         background:  rgba(256, 256, 256, 0.7);
+        
         padding: 25px;
     }
     .brainimg{
