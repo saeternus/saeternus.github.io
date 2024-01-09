@@ -2,7 +2,7 @@ const spss = {
     title: 'SPSS Certification',
     pageTitle: 'SPSS Certificate Program',
     slug: 'spss',
-    startdate: 'soon!',
+    startdate: 'February 25, 2024',
     header: 'Certificate Course in Statistical Package for the Social Sciences (SPSS)',
     description: 'Data analysis is one of the most flourishing fields right now as businesses around the world are trying to make sense of their data. However, there are several data analysis tools available in the market, but SPSS is a suite of software programs that analyses scientific data related to the social sciences. It offers a fast-visual modelling environment that ranges from the smallest to the most complex models. SPSS is designed to accommodate a wide variety of variable data formats, including Excel, CSV, SAS, and Stata data files. The data obtained from SPSS is used for surveys, data mining, market research, etc. SPSS training enables you to master all the essential concepts of SPSS for performing data analysis and statistics through hands-on exposure to industry use cases.',
     whatsapp: 'https://chat.whatsapp.com/FdbSxmUWe4yJTVNQvV1zZ2',
@@ -153,9 +153,9 @@ const spss = {
       },
     ],
 
-    duration: '6 Weeks',
-    numberOfLiveClasses: 18,
-    numberOfAssignments: '6+',
+    duration: '8 Weeks',
+    numberOfLiveClasses: 16,
+    numberOfAssignments: '8+',
     projectsIncluded: 'Hands-on Projects',
     additionalInfo: 'Lecture timings will be decided as per your availability',
     price: '₹2,950',
@@ -174,7 +174,7 @@ const spss = {
     courseLine: "This course is a balance of lectures & practicals",
 
     infoPoints: [
-      "6 Weeks","18 Live Classes","3 Lectuers Per Week","6+ Assignments","Hands-on Projects", 
+      "8 Weeks","16 Live Classes","2 Lectuers Per Week","8+ Assignments","Hands-on Projects", 
     ],
 
   };

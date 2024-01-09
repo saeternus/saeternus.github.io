@@ -2,7 +2,7 @@ const dav = {
     title: 'Python - Data Analysis and Visualisation Certification',
     pageTitle: 'Python - Data Analysis and Visualisation Certificate Program',
     slug: 'python-data-analysis-visualisation',
-    startdate: 'December 16, 2023',
+    startdate: 'February 25, 2024',
     header: 'Certificate Course in Python - Data Analysis and Visualisation',
     description: "Unlock the power of Python for data analysis and visualization in this comprehensive course. From mastering fundamental Python concepts to handling datasets and conducting exploratory data analysis, you'll gain the skills to visualize data effectively. Explore a variety of plots, charts, and statistical techniques, and even delve into geospatial data visualization. Elevate your proficiency in Python and transform raw data into meaningful insights. Join us on this engaging journey of learning and acquire the expertise needed for impactful data-driven decision-making.",
     whatsapp: 'https://chat.whatsapp.com/HkrLN4L6LdaGuhj1TqkYWT',
@@ -102,7 +102,7 @@ const dav = {
     courseLine: "This course is a balance of lectures & practicals",
 
     infoPoints: [
-      "6 Weeks","18 Live Classes","3 Lectuers Per Week","6+ Assignments","Hands-on Projects", 
+      "6 Weeks","12 Live Classes","2 Lectuers Per Week","6+ Assignments","Hands-on Projects", 
     ],
   };
 

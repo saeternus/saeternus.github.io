@@ -2,7 +2,7 @@ const remoteGis = {
     title: 'Remote Sensing & GIS Project',
     pageTitle: 'Remote Sensing and GIS Research Project',
     slug: 'remote-sensing-gis-project',
-    startdate: 'next week!',
+    startdate: 'whenever you\'re ready!',
     header: 'Research Project in Remote Sensing & GIS',
     description: "Join us to work on your very own research project or pick from one of our ideas that aligns with your interests. This will involve working with our experts to apply your Remote Sensing and GIS skills to real world case studies. In the end, you get an opportunity to publish a research paper!",      
      whatsapp: 'https://chat.whatsapp.com/CxMeIeJcX5v4NDtE0Inld2',
@@ -52,7 +52,7 @@ const remoteGis = {
      ],
          duration: '8 Weeks',
          numberOfLiveClasses: 8,
-         numberOfAssignments: '4+',
+         numberOfAssignments: '1',
          projectsIncluded: 'Hands-on Projects',
          additionalInfo: 'Lecture timings will be decided as per your availability',
          price: '₹2,596',
@@ -65,12 +65,12 @@ const remoteGis = {
         contact: 9450906849,
         durationLine:"Course Duration",
         liveLine:"Live Lectures",
-        assignmentsLine: "Hands-on Assignments",
+        assignmentsLine: "Publish a Research Paper",
         registerBtn: "Register Now",
         courseLine: "This course is a balance of lectures & practicals",
 
         infoPoints: [
-        "8 Weeks","18 Live Classes","3 Lectuers Per Week","6+ Assignments","Hands-on Projects", 
+        "8 Weeks","8 Live Classes","1 Lectuers Per Week","8+ Assignments","Publish a Research Paper", 
         ],
 
    };

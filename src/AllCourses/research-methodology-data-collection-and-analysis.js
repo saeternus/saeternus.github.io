@@ -99,7 +99,7 @@ const rmda = {
         courseLine: "This course is a balance of lectures & practicals",
 
         infoPoints: [
-        "6 Weeks","18 Live Classes","3 Lectuers Per Week","6+ Assignments","Hands-on Projects", 
+        "6 Weeks","12 Live Classes","2 Lectuers Per Week","6+ Assignments","Hands-on Projects", 
         ],
 
    };

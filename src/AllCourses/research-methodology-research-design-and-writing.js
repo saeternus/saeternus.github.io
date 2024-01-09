@@ -2,7 +2,7 @@ const rmdw = {
     title: 'Research Methodology - Research Design and Writing',
     pageTitle: 'Research Methodology Certificate Program',
     slug: 'research-methodology-research-design-and-writing',
-    startdate: 'January 16, 2024',
+    startdate: 'soon!',
     header: 'Certificate Course in Research Methodology - Research Design and Writing',
     description: "Embark on a transformative journey into the realm of research methodology. From laying the groundwork with fundamentals and diverse methodologies to navigating the intricacies of formulating hypotheses and writing impactful papers, each class unfolds a new chapter. Delve into practical insights, enhance your writing skills, and master the art of effective presentations. Join us to foster your passion for research and equip yourself with the tools needed for scholarly success.",      
     whatsapp: 'https://chat.whatsapp.com/HLFjC7Usbs12NDdY0pR1fV',
@@ -100,7 +100,7 @@ const rmdw = {
     courseLine: "This course is a balance of lectures & practicals",
 
     infoPoints: [
-      "6 Weeks","18 Live Classes","3 Lectuers Per Week","6+ Assignments","Hands-on Projects", 
+      "6 Weeks","12 Live Classes","2 Lectuers Per Week","6+ Assignments","Hands-on Projects", 
     ],
 
   };

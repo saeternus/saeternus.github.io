@@ -148,13 +148,13 @@ const gis = {
       },
     ],
 
-    duration: '6 Weeks',
-    numberOfLiveClasses: 18,
-    numberOfAssignments: '6+',
+    duration: '8 Weeks',
+    numberOfLiveClasses: 16,
+    numberOfAssignments: '8+',
     projectsIncluded: 'Hands-on Projects',
     additionalInfo: 'Lecture timings will be decided as per your availability',
     price: '₹3,540',
-    originalPrice: '₹7,000',
+    originalPrice: '₹7,080',
     discount: '50%',
     inclusiveOfGST: true,
     image: "globe.jpg",
@@ -169,7 +169,7 @@ const gis = {
     courseLine: "This course is a balance of lectures & practicals",
 
     infoPoints: [
-      "6 Weeks","18 Live Classes","3 Lectuers Per Week","6+ Assignments","Hands-on Projects", 
+      "8 Weeks","16 Live Classes","2 Lectuers Per Week","8+ Assignments","Hands-on Projects", 
     ],
 
   };
