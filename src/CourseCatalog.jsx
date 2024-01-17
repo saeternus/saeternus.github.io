@@ -5,6 +5,8 @@ import "./CourseCatalog.css";
 const courseFiles = require.context("./AllCourses", false, /\.js$/);
 
 
+
+
 // Assuming each course object has an 'order' property
 const courses = courseFiles.keys().map((fileName) => {
   const courseModule = courseFiles(fileName).default;
