@@ -41,7 +41,7 @@ function Aboutcourse({course}) {
   function Detailspoint(e) {
     return (
       <div className="detailpoint">
-        <div className="dark circle"></div>
+        <div className="grey circle"></div>
         <div className="pointtext">{e.values}</div>
       </div>
     );
