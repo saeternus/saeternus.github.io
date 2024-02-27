@@ -4,11 +4,9 @@ import { useRef } from "react";
 import "./CourseCard.css";
 import { Link } from "react-router-dom";
 
-function CourseCard({ img, category, heading, link, price,mrp, offer }) {
-  const imagePath = `../../assets/${img}`;
+function CourseCard({ img, category, heading, link, price,mrp, offer, order }) {
   const mrpValue = parseFloat(mrp.replace("₹", "").replace(/,/g, ""));
   const offerValue = parseFloat(offer.replace("₹", "").replace(/,/g, ""));
-  const headingRef = useRef(null);
   useEffect(() => {
     const adjustHeadingFontSize = () => {
       const headingElement = headingRef.current;
@@ -18,6 +16,36 @@ function CourseCard({ img, category, heading, link, price,mrp, offer }) {
         const cardWidth = parseInt(cardStyles.width);
 
         let fontSize = 16; 
+        headingElement.style.fontSize = `${fontSize}px`;
+
+        while (
+          headingElement.scrollHeight > headingElement.offsetHeight &&
+          fontSize > 10
+        ) {
+          fontSize -= 1;
+          headingElement.style.fontSize = `${fontSize}px`;
+        }
+      }
+    };
+
+    adjustHeadingFontSize();
+
+
+    window.addEventListener("resize", adjustHeadingFontSize);
+    return () => {
+      window.removeEventListener("resize", adjustHeadingFontSize);
+    };
+  }, []);
+  const headingRef = useRef(null);
+  useEffect(() => {
+    const adjustHeadingFontSize = () => {
+      const headingElement = headingRef.current;
+      if (headingElement) {
+        const card = headingElement.closest(".card");
+        const cardStyles = window.getComputedStyle(card);
+        const cardWidth = parseInt(cardStyles.width);
+
+        let fontSize = 16; // Initial font size in pixels
         headingElement.style.fontSize = `${fontSize}px`;
 
         while (

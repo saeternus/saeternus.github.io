@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { BrowserRouter, Routes, Route, Navigate, useParams } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, useParams} from "react-router-dom";
 import * as Components from "./components";
 import "./App.css";
 import Home from "./Home";
