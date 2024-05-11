@@ -3,7 +3,7 @@ const spss = {
   pageTitle: 'SPSS Certificate Program',
   slug: 'spss',
   order: 7,
-  startdate: 'May 8, 2024 (Summer Special!)',
+  startdate: 'June 5, 2024 (Summer Special!)',
   header: 'Certificate Course in Statistical Package for the Social Sciences (SPSS)',
   description: 'Data analysis is one of the most flourishing fields right now as businesses around the world are trying to make sense of their data. However, there are several data analysis tools available in the market, but SPSS is a suite of software programs that analyses scientific data related to the social sciences. It offers a fast-visual modelling environment that ranges from the smallest to the most complex models. SPSS is designed to accommodate a wide variety of variable data formats, including Excel, CSV, SAS, and Stata data files. The data obtained from SPSS is used for surveys, data mining, market research, etc. SPSS training enables you to master all the essential concepts of SPSS for performing data analysis and statistics through hands-on exposure to industry use cases.',
   whatsapp: 'https://chat.whatsapp.com/FdbSxmUWe4yJTVNQvV1zZ2',

@@ -3,7 +3,7 @@ const dav = {
   pageTitle: 'Python - Data Analysis and Visualisation Certificate Program',
   slug: 'python-data-analysis-visualisation',
   order: 1,
-  startdate: 'April 3, 2024',
+  startdate: 'June 19, 2024 (Summer Special!)',
   header: 'Certificate Course in Python - Data Analysis and Visualisation',
   description: "Unlock the power of Python for data analysis and visualization in this comprehensive course. From mastering fundamental Python concepts to handling datasets and conducting exploratory data analysis, you'll gain the skills to visualize data effectively. Explore a variety of plots, charts, and statistical techniques, and even delve into geospatial data visualization. Elevate your proficiency in Python and transform raw data into meaningful insights. Join us on this engaging journey of learning and acquire the expertise needed for impactful data-driven decision-making.",
   whatsapp: 'https://chat.whatsapp.com/HkrLN4L6LdaGuhj1TqkYWT',
