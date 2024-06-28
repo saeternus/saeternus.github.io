@@ -3,7 +3,7 @@ const remote = {
   pageTitle: 'Remote Sensing Certificate Program',
   slug: 'remote-sensing',
   order: 3,
-  startdate: 'June 27, 2024 (Summer Special!)',
+  startdate: 'July 4, 2024 (Summer Special!)',
   header: 'Certificate Course in Remote Sensing',
   description: "The Certificate Course in Remote Sensing offers a comprehensive training program, covering essential principles of remote sensing and hands-on experience with relevant software. This course provides practical skills in image processing, classification, and spatial modeling, enabling participants to harness the power of remote sensing data for environmental monitoring, resource management, and GIS applications. ",
   whatsapp: 'https://chat.whatsapp.com/C1JrWWEMrbwBp785QnFNVj',
